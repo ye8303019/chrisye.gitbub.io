@@ -1,5 +1,6 @@
 # Chris Ye personal blog
-  - Technical article (Write or translate)
+  - Technical articles
+  - Management articles
   - Good video games, films, articles
  
  -------
