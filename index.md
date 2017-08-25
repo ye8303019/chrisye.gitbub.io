@@ -1,5 +1,5 @@
 # Chris Ye personal blog
-  - ![The CMS & G1](java/GC/The_CMS_G1.mdown, "The CMS & G1")
+  - [The CMS & G1](java/GC/The_CMS_G1.mdown, "The CMS & G1")
  
  -------
  [LinkedIn][1]
