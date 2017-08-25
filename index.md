@@ -1,7 +1,5 @@
 # Chris Ye personal blog
-  - Technical articles
-  - Management articles
-  - Good video games, films, articles
+  - ![The CMS & G1](java/GC/The_CMS_G1.mdown, "The CMS & G1")
  
  -------
  [LinkedIn][1]
