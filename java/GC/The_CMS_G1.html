@@ -31,6 +31,12 @@
                 <li>Old Generation(Tenured Generation)</li>
                 <li>Pergen(Permanent Generation, Metaspace)</li>
             </ul>
+            <h3>Garbage Collection way</h3>
+            <ul>
+                <li>Mark- Copy</li>
+                <li>Mark - Sweep</li>
+                <li>Mark - Reorganize</li>
+            </ul>
             <h3>GC Type</h3>
             <ul>
                 <li>
@@ -185,6 +191,7 @@
                         </li>
                         <li>-XX:InitiatingHeapOccupancyPercent=N</li>
                         <li>-XX:G1MixedGCLiveThresholdPercent=N</li>
+                        <li>--XX:G1ReservePercent=n</li>
                     </ul>
                 </li>
             </ul>
@@ -221,8 +228,12 @@
                 <li>Conncurrent model failture?</li>
                 <li>Upgrade failture?</li>
             </ul>
-            <p><em>Reference:</em><br>
-                [1]:<em>Java Performance: The Definitive Guide</em></p>
+            <p>
+                <em>Reference:</em><br>
+                [1]:<em>Java Performance: The Definitive Guide</em><br>
+                [2]:<em>http://blog.jobbole.com/109170</em><br>
+            </p>
+
         </article>
     </div>
 </div>
@@ -237,6 +248,9 @@
       ajax_polling_interval: 500,
       mathjax_enabled: false
     };
+
+
+
 
 
 
