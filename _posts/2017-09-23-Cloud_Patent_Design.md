@@ -48,7 +48,7 @@ The `version` means the version of the resource. If no version on the accept, it
 
 The `Accept` header Example:
 ```js
-    Accept: application/json; profile="http://cloud-soi.patsnap.com/cloud-patent/patent/patent_id-schema.json"; version=1.0.0
+    Accept: application/json; profile="http://cloud-soi.patsnap.com/cloud-patent/patent_id-schema.json"; version=1.0.0
 ```
 
 The response could use the [Json Schema](http://json-schema.org/documentation.html) for validating.
@@ -92,7 +92,7 @@ _**Get related patent id by a comapny name or a organization number or a registr
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/patent_id.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/patent_id-schema.json", 
   "properties": {
     "limit": {
       "default": 10, 
@@ -213,7 +213,7 @@ _**Get patent basic information by a batch of patent id**_
       "type": "array"
     },
   }, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/patent.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/patent-schema.json", 
   "items":{
     "properties": {
       "abstract": {
@@ -340,7 +340,7 @@ _**Get patent basic information by a batch of patent id**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/patent_valuation.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/patent_valuation-schema.json", 
   "items": {
     "properties": {
       "assignee": {
@@ -431,7 +431,7 @@ _**Get patent basic information by a batch of patent id**_
 ```json
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/classification.json",
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/classification-schema.json",
     "definitions": {
         "lang_array": {
             "items": {
@@ -533,7 +533,7 @@ _**Get related trademark id by a company name or a organization number or a regi
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/trademark_id.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/trademark_id-schema.json", 
   "properties": {
     "limit": {
       "default": 10, 
@@ -659,7 +659,7 @@ _**Get trademark basic information by a batch of trademark id**_
         "type": "array"
     }
   }, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/trademark.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/trademark-schema.json", 
   "items": {
     "properties": {
       "apdt": {
@@ -813,7 +813,7 @@ _**Get related company id by a company name or organization number**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_id.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_id-schema.json", 
   "properties": {
     "company_id": {
       "default": "000000000", 
@@ -895,7 +895,7 @@ _**Get company basic information by a batch of company id**_
         "type": "array"
     }
   }, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/company.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/company-schema.json", 
   "properties": {
     "business_scope": {
       "description": "The business scope of the company.", 
@@ -1030,7 +1030,7 @@ _**Get company staff information by a batch of company id**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_staff.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_staff-schema.json", 
   "properties": {
     "company_id": {
       "default": "000000000", 
@@ -1095,7 +1095,7 @@ _**Get company change information by a batch of company id**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_change.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_change-schema.json", 
   "properties": {
     "change": {
       "items": {
@@ -1169,7 +1169,7 @@ _**Get company branch information by a batch of company id**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_tree.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_tree-schema.json", 
   "properties": {
     "change": {
       "items": {
@@ -1240,7 +1240,7 @@ _**Get company shareholder information by a batch of company id**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_shareholder.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_shareholder-schema.json", 
   "properties": {
     "company_id": {
       "description": "The unique id of the company.", 
@@ -1296,7 +1296,7 @@ _**Get company investment information by a batch of company id**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_id.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/company_id-schema.json", 
   "properties": {
     "company_id": {
       "description": "The unique id of the company.", 
@@ -1350,7 +1350,7 @@ _**Get agency id by a agency number**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/angency_id.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/angency_id-schema.json", 
   "properties": {
     "agency_id": {
       "description": "The unique id of the agency.", 
@@ -1396,7 +1396,7 @@ _**Get agency information by a batch of agency number**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/angency.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/angency-schema.json", 
   "properties": {
     "agency_address": {
       "description": "An explanation about the purpose of this instance.", 
@@ -1476,7 +1476,7 @@ _**Get agent information by a batch of agent id**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/agent.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/agent-schema.json", 
   "items": {
     "properties": {
       "agent_name": {
@@ -1543,7 +1543,7 @@ _**Get agent related patent number and patent id by a agency id**_
 {
   "$schema": "http://json-schema.org/draft-04/schema#", 
   "definitions": {}, 
-  "id": "http://cloud-soi.patsnap.com/cloud_patent/agency/patent.json", 
+  "id": "http://cloud-soi.patsnap.com/cloud_patent/agency/patent-schema.json", 
   "properties": {
     "limit": {
       "default": 10, 
@@ -1587,7 +1587,5 @@ Error Codes
 |100010|400|Bad request|
 |100011|404|Empty result, data not found|
 |100012|415|The json schema is unsupported|
-
-
 
 
