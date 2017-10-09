@@ -10,7 +10,7 @@ The Base64 algorithm in action
 
 First we have a base64 mapping table, like below:
 
-[Maping  table]({{site.url}}/images/base64/Base64_table.png)
+![Maping  table]({{ site.url }}/images/base64/Base64_table.png)
 
 
 This is used to get the character for the base64 encrytion.
@@ -53,7 +53,7 @@ So we get the code below:
 ```
 
 ### Then we turn the Decimal System to Binary system
-[Decimal2Binary]({{site.url}}/images/base64/Decimal2Binary.png)
+![Decimal2Binary]({{ site.url }}/images/base64/Decimal2Binary.png)
 
 Caculate step by step, then we get:
 
@@ -61,7 +61,7 @@ Caculate step by step, then we get:
 01001010 01100001 01110110 01100001
 ```
 ### Turn the Binary system to Base64 code
-[Binary2Base64]({{site.url}}/images/base64/Binary2Base64.png)
+![Binary2Base64]({{ site.url }}/images/base64/Binary2Base64.png)
 
 PS: 
 1. 6 bit for one base64 code  
