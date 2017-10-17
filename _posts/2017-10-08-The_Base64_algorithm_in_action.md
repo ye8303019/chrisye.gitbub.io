@@ -55,7 +55,7 @@ So we get the code below:
 ### Then we turn the Decimal System to Binary system
 ![Decimal2Binary]({{ site.url }}/images/base64/Decimal2Binary.png)
 
-Caculate step by step, then we get:
+Calculate step by step, then we get:
 
 ```java
 01001010 01100001 01110110 01100001
