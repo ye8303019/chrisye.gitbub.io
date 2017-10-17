@@ -8,8 +8,6 @@ categories: aws development dax
 AWS DAX (DynamoDB Accelerator)
 =====================
 
-[TOC]
-
 When we using DynamoDB, we will meet some throughput exceeded or bad performance issue. In order to optimize these cases, we usually cache the data by ourself by using some in memory cache service or gate way to do the http cache. But that''s means we must care about the performance of these services and also make sure they are high available and scalable. 
 
 In year 2017, DynamoDB release the DAX service to let user easy to manage the cache of DynamoDB.  
