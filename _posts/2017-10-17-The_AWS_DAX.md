@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "The AWS DAX"
-date:   2017-10-17 13:05:11 +0800
-categories: aws development dax
+date:   2017-09-18 11:42:11 +0800
+categories: aws development sqs
 ---
 
 AWS DAX (DynamoDB Accelerator)
@@ -37,7 +37,7 @@ Dax is not idea for:
 
 ## The design
 
-![Dax Design]({{ site.url }}/image/aws_dax/dax_design.png)
+![Dax Design]({{ site.url }}/images/aws_dax/dax_design.png)
 
 When application send request to Dax, Dax attempt to read the data from cache, if hit,  Dax return it immediately, otherwise will sent the request to DynamoDB and return it to the client side and store it in the cache.
 
@@ -389,83 +389,83 @@ Make it into a executive jar named  `executable_jar-jar-with-dependencies.jar` L
 
 * Query for a hash key `id`, check the hits
 
-![hash_key_query1]({{ site.url }}/aws_dax/hash_key_query1.png)
-![hash_key_result1]({{ site.url }}/aws_dax/hash_key_result1.png)
+![hash_key_query1]({{ site.url }}/images/aws_dax/hash_key_query1.png)
+![hash_key_result1]({{ site.url }}/images/aws_dax/hash_key_result1.png)
 
 * Query for a hash key `id` again, check the hits
 
-![hash_key_result2]({{ site.url }}/aws_dax/hash_key_result2.png)
+![hash_key_result2]({{ site.url }}/images/aws_dax/hash_key_result2.png)
 
 #### Index Query
 
 * Query for `index_user_name`, check the hits
 
-![index_query1]({{ site.url }}/aws_dax/index_query_result1.png)
-![index_query_result1]({{ site.url }}/aws_dax/hash_key_result1.png)
+![index_query1]({{ site.url }}/images/aws_dax/index_query_result1.png)
+![index_query_result1]({{ site.url }}/images/aws_dax/hash_key_result1.png)
 
 * Query for `index_user_name` again, check the hits
 
-![index_query_result2]({{ site.url }}/aws_dax/hash_key_result2.png)
+![index_query_result2]({{ site.url }}/images/aws_dax/hash_key_result2.png)
 
 * Query for `index_user_age`, check the hits
 
-![index_query2]({{ site.url }}/aws_dax/index_query_result2.png)
-![index_query_result2]({{ site.url }}/aws_dax/hash_key_result2.png)
+![index_query2]({{ site.url }}/images/aws_dax/index_query_result2.png)
+![index_query_result2]({{ site.url }}/images/aws_dax/hash_key_result2.png)
 
 * Query for `index_user_age` again, check the hits
 
-![index_query_result3]({{ site.url }}/aws_dax/hash_key_result3.png)
+![index_query_result3]({{ site.url }}/images/aws_dax/hash_key_result3.png)
 
 #### Scan
 
 * Scan for `100` per time, repeat for `10` times, check for hits
 
-![scan1]({{ site.url }}/aws_dax/scant1.png)
-![scan_result1]({{ site.url }}/aws_dax/scan_result1.png)
+![scan1]({{ site.url }}/images/aws_dax/scant1.png)
+![scan_result1]({{ site.url }}/images/aws_dax/scan_result1.png)
 
 * Scan for `100` per time, repeat for `10` times again, check for hits
 
-![scan_result2]({{ site.url }}/aws_dax/scan_result2.png)
+![scan_result2]({{ site.url }}/images/aws_dax/scan_result2.png)
 
 * Scan for `25` per time, repeat for `4` times
 
-![scan2]({{ site.url }}/aws_dax/scant2.png)
-![scan_result3]({{ site.url }}/aws_dax/scan_result3.png)
+![scan2]({{ site.url }}/images/aws_dax/scant2.png)
+![scan_result3]({{ site.url }}/images/aws_dax/scan_result3.png)
 
 #### Get Item
 
 * Get `100` items, check the hits
 
-![get_item1]({{ site.url }}/aws_dax/get_item1.png)
-![get_item_result1]({{ site.url }}/aws_dax/get_item_result1.png)
+![get_item1]({{ site.url }}/images/aws_dax/get_item1.png)
+![get_item_result1]({{ site.url }}/images/aws_dax/get_item_result1.png)
 
 * Get `10` items, check the hits
 
-![get_item_result2]({{ site.url }}/aws_dax/get_item_result2.png)
+![get_item_result2]({{ site.url }}/images/aws_dax/get_item_result2.png)
 
 #### Batch Get Item
 
 * Batch get `100` same items as Get item, check the hits
 
-![batch_get_item1]({{ site.url }}/aws_dax/batch_get_item1.png)
-![batch_get_item_result1]({{ site.url }}/aws_dax/batch_get_item_result1.png)
+![batch_get_item1]({{ site.url }}/images/aws_dax/batch_get_item1.png)
+![batch_get_item_result1]({{ site.url }}/images/aws_dax/batch_get_item_result1.png)
 
 * Batch get `100` same items as Get item again, check the hits
 
-![batch_get_item2]({{ site.url }}/aws_dax/batch_get_item2.png)
-![batch_get_item_result2]({{ site.url }}/aws_dax/batch_get_item_result2.png)
+![batch_get_item2]({{ site.url }}/images/aws_dax/batch_get_item2.png)
+![batch_get_item_result2]({{ site.url }}/images/aws_dax/batch_get_item_result2.png)
 
 * Batch get `25` item which included by the result above, check the hits
 
-![batch_get_item_result3]({{ site.url }}/aws_dax/batch_get_item_result3.png)
+![batch_get_item_result3]({{ site.url }}/images/aws_dax/batch_get_item_result3.png)
 
 * Batch get `10000`, check the time
 
-![batch_get_item3]({{ site.url }}/aws_dax/batch_get_item3.png)
+![batch_get_item3]({{ site.url }}/images/aws_dax/batch_get_item3.png)
 
 * Batch get `10000` again, check the time
 
-![batch_get_item4]({{ site.url }}/aws_dax/batch_get_item4.png)
+![batch_get_item4]({{ site.url }}/images/aws_dax/batch_get_item4.png)
 
 
 ***From the test result, we can get:***
