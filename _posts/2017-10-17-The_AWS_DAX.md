@@ -388,31 +388,31 @@ Make it into a executive jar named  `executable_jar-jar-with-dependencies.jar` L
 * Query for a hash key `id`, check the hits
 
 ![hash_key_query1]({{ site.url }}/images/aws_dax/hash_key_query1.png)
-![hash_key_result1]({{ site.url }}/images/aws_dax/hash_key_result1.png)
+![hash_key_query_result1]({{ site.url }}/images/aws_dax/hash_key_query_result1.png)
 
 * Query for a hash key `id` again, check the hits
 
-![hash_key_result2]({{ site.url }}/images/aws_dax/hash_key_result2.png)
+![hash_key_query_result2]({{ site.url }}/images/aws_dax/hash_key_query_result2.png)
 
 #### Index Query
 
 * Query for `index_user_name`, check the hits
 
-![index_query1]({{ site.url }}/images/aws_dax/index_query_result1.png)
-![index_query_result1]({{ site.url }}/images/aws_dax/hash_key_result1.png)
+![index_query1]({{ site.url }}/images/aws_dax/index_query1.png)
+![index_query_result1]({{ site.url }}/images/aws_dax/index_query_result1.png)
 
 * Query for `index_user_name` again, check the hits
 
-![index_query_result2]({{ site.url }}/images/aws_dax/hash_key_result2.png)
+![index_query_result2]({{ site.url }}/images/aws_dax/index_query_result2.png)
 
 * Query for `index_user_age`, check the hits
 
-![index_query2]({{ site.url }}/images/aws_dax/index_query_result2.png)
-![index_query_result2]({{ site.url }}/images/aws_dax/hash_key_result2.png)
+![index_query2]({{ site.url }}/images/aws_dax/index_query2.png)
+![index_query_result2]({{ site.url }}/images/aws_dax/index_query_result2.png)
 
 * Query for `index_user_age` again, check the hits
 
-![index_query_result3]({{ site.url }}/images/aws_dax/hash_key_result3.png)
+![index_query_result3]({{ site.url }}/images/aws_dax/index_query_result3.png)
 
 #### Scan
 
