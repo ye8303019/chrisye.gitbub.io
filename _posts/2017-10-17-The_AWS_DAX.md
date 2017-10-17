@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The AWSS DAX"
+title:  "The AWS DAX"
 date:   2017-10-17 13:05:11 +0800
 categories: aws development dax
 ---
