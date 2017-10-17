@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "The AWS DAX"
-date:   2017-09-18 11:42:11 +0800
-categories: aws development sqs
+date:   2017-10-17 11:42:11 +0800
+categories: aws development dax
 ---
 
 AWS DAX (DynamoDB Accelerator)
