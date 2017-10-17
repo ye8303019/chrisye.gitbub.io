@@ -418,7 +418,7 @@ Make it into a executive jar named  `executable_jar-jar-with-dependencies.jar` L
 
 * Scan for `100` per time, repeat for `10` times, check for hits
 
-![scan1]({{ site.url }}/images/aws_dax/scant1.png)
+![scan1]({{ site.url }}/images/aws_dax/scan1.png)
 ![scan_result1]({{ site.url }}/images/aws_dax/scan_result1.png)
 
 * Scan for `100` per time, repeat for `10` times again, check for hits
