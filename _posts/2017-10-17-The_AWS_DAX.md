@@ -427,7 +427,7 @@ Make it into a executive jar named  `executable_jar-jar-with-dependencies.jar` L
 
 * Scan for `25` per time, repeat for `4` times
 
-![scan2]({{ site.url }}/images/aws_dax/scant2.png)
+![scan2]({{ site.url }}/images/aws_dax/scan2.png)
 ![scan_result3]({{ site.url }}/images/aws_dax/scan_result3.png)
 
 #### Get Item
