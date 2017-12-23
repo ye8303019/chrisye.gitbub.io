@@ -761,5 +761,5 @@ _[1]:http://facebook.github.io/graphql/October2016/_
 _[2]:http://graphql.org/_    
 _[3]:https://developer.github.com/v4/_    
 _[4]:https://githubengineering.com/the-github-graphql-api/_
-_[5]:http://graphql.org/graphql-js/mutations-and-input-types/_
+_[5]:http://graphql.org/graphql-js/mutations-and-input-types/_  
 _[6]:http://www.baeldung.com/graphql_
