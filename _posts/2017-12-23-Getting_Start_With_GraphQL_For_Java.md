@@ -756,6 +756,8 @@ Then let's run the code, then we will get
 {"data":{"patent_biblio":{"id":"1111111","pn":"IL168994A","apno":"IL168994","ans":{"name":"ChrisYe","lang":"EN"},"familyType":"INPADOC"}}}
 ```
 
+TO be continued~
+
 _Reference:_  
 _[1]:http://facebook.github.io/graphql/October2016/_  
 _[2]:http://graphql.org/_    
