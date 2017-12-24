@@ -4,7 +4,6 @@ title:  "Getting Start With GraphQL for Java"
 date:   2017-12-22 11:42:11 +0800
 categories: GraphQL java
 ---
-[TOC]
 
 # Preface
 By the evolving of the API design, more and more developer are focus on the RESTFUL API style. But also more and more questions comes. How to do the versioning? How to design the response body to meet different requirement? especially when client wants different fields by one request. How to validating the parameter type and logic? How to fetching and caching the data?
