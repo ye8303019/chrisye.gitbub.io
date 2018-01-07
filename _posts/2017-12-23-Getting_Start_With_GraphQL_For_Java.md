@@ -1617,10 +1617,92 @@ then the total time cost could increase to nearly 5 seconds.
 Total Cost: 49478 ms
 ```
 
+## Using annotation to define the schema
+Imagine that we need to define a large graphql schema which so many types need to be included. So we also need to add a lot of beans map to the schema, so may be we can put these two together. Let's use `graphql-java-annotation` to make this happen.
+
+Maven dependency
+```xml
+<dependency>
+    <groupId>com.graphql-java</groupId>
+    <artifactId>graphql-java-annotations</artifactId>
+    <version>3.0.3</version>
+</dependency>
+```
+Value Object
+```java
+package com.chris.graphql.entity;
+
+import com.chris.graphql.datafetcher.TeamNameDataFetcher;
+
+import graphql.annotations.GraphQLDataFetcher;
+import graphql.annotations.GraphQLField;
+import graphql.annotations.GraphQLName;
+
+/**
+ * Created by ye830 on 12/22/2017.
+ */
+@GraphQLName("team")
+public class Team {
+    @GraphQLName("team_name")
+    @GraphQLField
+    @GraphQLDataFetcher(TeamNameDataFetcher.class)
+    public
+    String name;
+
+    @GraphQLName("team_total_members")
+    @GraphQLField
+    public String total;
+}
+
+```
+
+Test class
+```java
+package com.chris.graphql;
+
+import com.chris.graphql.entity.Team;
+
+import graphql.ExecutionInput;
+import graphql.ExecutionResult;
+import graphql.GraphQL;
+import graphql.annotations.GraphQLAnnotations;
+import graphql.schema.GraphQLObjectType;
+import graphql.schema.GraphQLSchema;
+
+/**
+ * Created by ye830 on 12/22/2017.
+ */
+public class AnnotationTest {
+    public static void main(String... args) {
+        //  Programmatically
+        GraphQLObjectType queryType = GraphQLAnnotations.object(Team.class);
+
+        //Query by
+        GraphQLSchema graphQLSchema = GraphQLSchema.newSchema()
+                .query(queryType)
+                .build();
+        GraphQL build = GraphQL.newGraphQL(graphQLSchema).build();
+        ExecutionInput executionInput = ExecutionInput.newExecutionInput()
+                .operationName("team")
+                .query("query team{team_name}")
+                .context(new Team())
+                .root(new Team())
+                .build();
+        ExecutionResult executionResult = build.execute(executionInput);
+
+        //ExecutionResult executionResult = build.execute("query team{team_name}", new Team());
+
+        System.out.println(executionResult.getData().toString());
+    }
+}
+
+```
+All these example are on Github, please check [https://github.com/ye8303019/project-graphql-java-demo/tree/master](https://github.com/ye8303019/project-graphql-java-demo/tree/master) to get the complete source code.
+
 OK, that's all the regular test for GraphQL, next step, let's integrate GraphQL with Spring.
 Imagine that we want to provide the GraphQL service vai HTTP/HTTPS. and also we may think if we could find some useful starter to help us make the code more elegant.
-### Integration with spring boot & GraphQL Annotation
-In this example, we build a microservice vai spring boot and define a request mapping
+### Integration with spring boot
+In this example, let's using the `spring-boot-starter` & `spring-boot-starter-web` to build a microservice.
 
 pom.xml
 ```xml
@@ -1655,11 +1737,6 @@ pom.xml
             <groupId>com.graphql-java</groupId>
             <artifactId>graphql-java</artifactId>
             <version>6.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.graphql-java</groupId>
-            <artifactId>graphql-java-annotations</artifactId>
-            <version>3.0.3</version>
         </dependency>
         <dependency>
             <groupId>com.github.ben-manes.caffeine</groupId>
