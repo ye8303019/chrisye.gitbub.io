@@ -295,7 +295,7 @@ User could export all their data in a readable format.
 European Union citizen user information only can store in European Union region. SaaS application company should consider to change their data synchronization strategy and service deployment architecture.
 
 
-Reference:
+Reference:  
 [https://www.enterpriseready.io/](https://www.enterpriseready.io/)
 [http://www.woshipm.com/operate/892776.html](http://www.woshipm.com/operate/892776.html)
 [https://status.twilio.com/#month](https://status.twilio.com/#month)
