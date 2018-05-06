@@ -295,15 +295,14 @@ User could export all their data in a readable format.
 European Union citizen user information only can store in European Union region. SaaS application company should consider to change their data synchronization strategy and service deployment architecture.
 
 
-
-https://strace.co/cn/post/top-10-growth-hacking-stories/
-https://www.enterpriseready.io/
-http://www.woshipm.com/operate/892776.html
-https://status.twilio.com/#month
-https://www.enterpriseready.io/hubspot/reporting/
-https://www.harrisonmetal.com/library/pricing-3-assortments-are-for-winners
-https://www.zhihu.com/question/20313385
-http://www.chanpin100.com/article/105917
+Reference:
+[https://www.enterpriseready.io/](https://www.enterpriseready.io/)
+[http://www.woshipm.com/operate/892776.html](http://www.woshipm.com/operate/892776.html)
+[https://status.twilio.com/#month](https://status.twilio.com/#month)
+[https://www.enterpriseready.io/hubspot/reporting/](https://www.enterpriseready.io/hubspot/reporting/)
+[https://www.harrisonmetal.com/library/pricing-3-assortments-are-for-winners](https://www.harrisonmetal.com/library/pricing-3-assortments-are-for-winners)
+[https://www.zhihu.com/question/20313385](https://www.zhihu.com/question/20313385)
+[http://www.chanpin100.com/article/105917](http://www.chanpin100.com/article/105917)
 
 
 
