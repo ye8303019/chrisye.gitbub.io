@@ -229,7 +229,7 @@ Additionally, they could create their own workspace and add private resource, an
 There are two parts of "Integration". One is for basic API and data export function, use could use the api or export function to get the data they want and integrate with their other application.
 ie. JIRA RESTful API
  [https://developer.atlassian.com/server/jira/platform/rest-apis/](https://developer.atlassian.com/server/jira/platform/rest-apis/)
-One is for "Admin control integration", this need SaaS application have a ease to use console for enterprise administrator to do the configurations. Usually, SaaS application will support integrate with some popular applications. ie. Teams allow
+One is for "Admin control integration", this need SaaS application have a ease to use console for enterprise administrator to do the configurations. Usually, SaaS application will support integrate with some popular applications. 
 
 ### Reporting & Analytics
 Security and Analytics think to be the most two important functions in Enterprise SaaS products. It's let your application differentiate from others.
@@ -260,9 +260,67 @@ Below content copies from [https://www.enterpriseready.io/features/advanced-repo
 
 As the content mentioned above, every department of the enterprise have their own goal and requirement, it's hard to provide all charts they want.
 Hence, data export, RESTful API and especially self-Authoring and analytics is needed besides the canned interactive reporting and dashboards.
-EnterpriseReady.io give us three excellent examples
-[https://www.enterpriseready.io/github/reporting/](https://www.enterpriseready.io/github/reporting/)
-[https://www.enterpriseready.io/hubspot/reporting/](https://www.enterpriseready.io/hubspot/reporting/)
+  ![reporting_analytics]({{ site.url }}/images/enterprise_ready/reporting_analytics/reporting_analytics1.png)
+In book "[Embedding Analytics in Modern Applications](https://www.oreilly.com/data/free/embedding-analytics-in-modern-applications.csp)", it shows how to provide distraction-free insights to end users.It's mentioned that end users don’t want to use a “BI tool” — another interface to learn, 
+another login—they want easily accessible answers. Instead of offering a standalone dashboard, the new trend is to embed analytics into applications that are already used every day.
+Embedding analytics in a familiar application allows for a streamlined UI, leading to wider adoption and product use (“stickiness”).
+This increases the value of your product through customer retention and a competitive differentiation that leads to more new customer growth.  
+If you’ve already invested resources in analytics, these drivers could indicate that you’d benefit from an embedded solution:  
+
++ Your focus groups report that users value the analytics in your application  
++ You have an opportunity to monetize the data captured by your application  
++ You want to offer more sophisticated analytics, or your customers are reporting some dissatisfaction with the current analytics reporting your product provides
++ You lack sufficient ad hoc or self-service capabilities, resulting in too much development time providing custom reports or queries  
++ Your competitors’ reporting is superior (and you are losing customers as a result)  
++ You are planning a migration to SaaS and are not sure your current analytics solution will meet your needs for a multitenant environment  
+
+A recent survey by the Aberdeen Group reported that 73% of independent software vendors (ISVs) have product differentiation as  their primary objective for embedding analytics within their application
+ ![reporting_analytics]({{ site.url }}/images/enterprise_ready/reporting_analytics/reporting_analytics2.png)
+
+There are several interfaces and methods for embedded analytics:
+
++ Static Data  
+  This interface provides your users with a simple snapshot in time. The report can be downloaded (typically as a Microsoft Excel worksheet or a print-ready PDF) and can be designed for high-volume use. The end user is typically only allowed to make changes to date ranges and select a downloadable format. Any changes to the report (or new report requests) must be built by your developers.
+  + Method: REST APIs or reporting libraries  
+  
++ Interactive Data
+  An interactive data experience allows users more flexibility in modifying reports to suit their needs; they can apply filters or select different report types. This allows them to identify trends and easily flag outliers (features that are not possible with a static interface). This dashboard approach is a common way to provide a more customized user experience inside structured reports.  
+  + Method: BI tools offering iFrames (analytics hosted in a separate tab or page) or custom development
+  
++ Self-Service Exploration
+  A self-service tool allows users more flexibility to manipulate data in an easy-to-understand format. Instead of a raw data dump, users can select clearly named data sets to create their own graphics. A truly exploratory experience allows users to aggregate data across multiple dimensions and analyze using drill down, slice and dice, or pivot capabilities.
+  + Method: Use an API-based BI tool, use a BI scripting framework, or custom development
+
+Build or Buy?  
+Once you’ve painstakingly designed, built, and optimized your custom application, it can be hard to imagine an out-of-the-box analytics product meeting all your needs.
+![reporting_analytics]({{ site.url }}/images/enterprise_ready/reporting_analytics/reporting_analytics3.png)
+![reporting_analytics]({{ site.url }}/images/enterprise_ready/reporting_analytics/reporting_analytics4.png)
+The obvious concern with buying a solution is whether the product will meet your business needs, including any custom reporting. Additional challenges are whether you can customize the design to match the look and feel of your application, and whether the overhead of an analytics tool will negatively affect product performance.  
+
+Choosing the Right Tool: Seven Challenges and their Best-Practice Solutions:
+
++ *Customization* 
+    + Will it look like the rest of my application? 
+    + Can I easily customize it?
++ *Usability*  
+    + Will it please my customers? 
+    + Will it provide a seamless experience between the BI and my application?
++ *Capabilities*  
+    + Can it meet my business needs?
++ *Multitenancy*  
+    + Can it support the security and access permissions my product needs?  
+        If a vendor only offers REST APIs or iFrames, you should consider whether these methods are flexible enough to meet your needs as your product (and your users’ expectations) evolve.
++ *Scalability*  
+    Can it scale with my application?
++ *Data Structure*  
+    + Will it work for my data structure/support my data streams?  
+    You may have entirely SaaS data sources or only use open source SQL databases. You may have an existing data warehouse or use OLAP cubes, or you may only utilize next-gen MPP databases like Redshift or Vertica.
++ *Performance*  
+    + Will it slow down my application?
+
+EnterpriseReady.io give us three excellent examples  
+[https://www.enterpriseready.io/github/reporting/](https://www.enterpriseready.io/github/reporting/)  
+[https://www.enterpriseready.io/hubspot/reporting/](https://www.enterpriseready.io/hubspot/reporting/)  
 [https://www.enterpriseready.io/fbworkplace/reporting/](https://www.enterpriseready.io/fbworkplace/reporting/)
 
 ### SLA Support
@@ -303,6 +361,7 @@ Reference:
 [https://www.harrisonmetal.com/library/pricing-3-assortments-are-for-winners](https://www.harrisonmetal.com/library/pricing-3-assortments-are-for-winners)
 [https://www.zhihu.com/question/20313385](https://www.zhihu.com/question/20313385)
 [http://www.chanpin100.com/article/105917](http://www.chanpin100.com/article/105917)
+[https://www.oreilly.com/data/free/embedding-analytics-in-modern-applications.csp](https://www.oreilly.com/data/free/embedding-analytics-in-modern-applications.csp)
 
 
 
