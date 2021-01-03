@@ -1,0 +1,2691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01ca0e05-2d64-4eb4-84c8-91082c65edcf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2021-01-03-Thougt_In_Drug_Discovery.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-12-Git Introduction.md" afterPath="$PROJECT_DIR$/_posts/2018-05-12-Git Introduction.md" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.19.0" />
+      </map>
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="2018-05-12-Git Introduction.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-12-Git Introduction.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="161" lean-forward="false" selection-start-line="8" selection-start-column="161" selection-end-line="8" selection-end-column="161" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2021-01-03-Thougt_In_Drug_Discovery.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-01-03-Thougt_In_Drug_Discovery.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="323">
+                <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-17-The_AWS_DAX.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-17-The_AWS_DAX.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="326">
+                <caret line="130" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
+                <folding>
+                  <marker date="1508220056195" expanded="true" signature="2374:3402" ph="..." />
+                  <marker date="1508220056195" expanded="true" signature="3404:3484" ph="/**...*/" />
+                  <marker date="1508220056195" expanded="true" signature="3945:6444" ph="{...}" />
+                  <marker date="1508220056195" expanded="true" signature="6475:6971" ph="{...}" />
+                  <marker date="1508220056195" expanded="true" signature="6485:6586" ph="//..." />
+                  <marker date="1508220056195" expanded="true" signature="7016:7110" ph="{...}" />
+                  <marker date="1508220056195" expanded="true" signature="7184:8374" ph="{...}" />
+                  <marker date="1508220056195" expanded="true" signature="7238:7313" ph="{...}" />
+                  <marker date="1508220056195" expanded="true" signature="7383:7494" ph="{...}" />
+                  <marker date="1508220056195" expanded="true" signature="7905:7920" ph=" { " />
+                  <marker date="1508220056195" expanded="true" signature="7930:7940" ph=" }" />
+                  <marker date="1508220056195" expanded="true" signature="7978:7993" ph=" { " />
+                  <marker date="1508220056195" expanded="true" signature="8006:8016" ph=" }" />
+                  <marker date="1508220056195" expanded="true" signature="8053:8068" ph=" { " />
+                  <marker date="1508220056195" expanded="true" signature="8084:8094" ph=" }" />
+                  <marker date="1508220056195" expanded="true" signature="8144:8159" ph=" { " />
+                  <marker date="1508220056195" expanded="true" signature="8184:8194" ph=" }" />
+                  <marker date="1508220056195" expanded="true" signature="8231:8246" ph=" { " />
+                  <marker date="1508220056195" expanded="true" signature="8261:8271" ph=" }" />
+                  <marker date="1508220056195" expanded="true" signature="8320:8335" ph=" { " />
+                  <marker date="1508220056195" expanded="true" signature="8358:8368" ph=" }" />
+                  <marker date="1508220056195" expanded="true" signature="9510:10615" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thought_In_Deep_Work.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/work/productive/2017/12/15/Thought_In_Deep_Work.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="The_CMS_G1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/java/jvm/gc/2017/09/10/The_CMS_G1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="The_AWS_DAX.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/aws/development/dax/2017/10/17/The_AWS_DAX.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-23-Cloud_Patent_Design.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-09-23-Cloud_Patent_Design.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-5624">
+                <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+                <folding>
+                  <marker date="1506143762290" expanded="true" signature="3481:3634" ph="{&quot;offset&quot;: 0...}" />
+                  <marker date="1506143762290" expanded="true" signature="3497:3589" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="3675:4581" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/patent_id-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="3848:4558" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="3863:4044" ph="{&quot;default&quot;: 10...}" />
+                  <marker date="1506143762290" expanded="true" signature="4061:4221" ph="{&quot;default&quot;: 0...}" />
+                  <marker date="1506143762290" expanded="true" signature="4241:4411" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="4258:4381" ph="{&quot;description&quot;: &quot;A patent unique id.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="4427:4554" ph="{&quot;description&quot;: &quot;The total count of current requst.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="5112:6130" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="5118:6128" ph="{&quot;patent_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="5291:5389" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="5305:5379" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="5405:5503" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="5419:5493" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="5519:5617" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="5533:5607" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="5878:6122" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="5892:6112" ph="{&quot;l007ep&quot;: 20000101...}" />
+                  <marker date="1506143762290" expanded="true" signature="5960:6098" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="5982:6080" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="6171:9492" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/patent-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="6247:6712" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="6266:6707" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="6283:6677" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="6307:6642" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="6327:6467" ph="{&quot;description&quot;: &quot;The language of the text.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="6488:6632" ph="{&quot;description&quot;: &quot;The text of current language.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="6798:9490" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="6818:9463" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="6838:6961" ph="{&quot;description&quot;: &quot;The patent abstract.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="6975:7073" ph="{&quot;description&quot;: &quot;The assignee name.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="7089:7193" ph="{&quot;description&quot;: &quot;The standard assignee name&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="7210:7339" ph="{&quot;description&quot;: &quot;An apply date of the patent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="7356:7485" ph="{&quot;description&quot;: &quot;An apply number of the patent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="7510:7647" ph="{&quot;description&quot;: &quot;The source of current patent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="7662:7766" ph="{&quot;description&quot;: &quot;The inventor of the patent&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="7782:7907" ph="{&quot;description&quot;: &quot;The ipc code of the patent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="7924:8053" ph="{&quot;description&quot;: &quot;The issue date of the patent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="8071:8657" ph="{&quot;description&quot;: &quot;The description of the legal status.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="8153:8623" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="8179:8584" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="8203:8417" ph="{&quot;id&quot;: &quot;/properties/legal/items/properties/l007ep&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="8446:8572" ph="{&quot;description&quot;: &quot;The legal status description.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="8679:8811" ph="{&quot;description&quot;: &quot;The unique id of the patent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="8835:9009" ph="{&quot;description&quot;: &quot;The type of the patent, enum: Applications,Patents,Design, Utilites.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="9026:9156" ph="{&quot;description&quot;: &quot;The public date of the patent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="9171:9300" ph="{&quot;description&quot;: &quot;The public number of the patent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="9322:9457" ph="{&quot;description&quot;: &quot;The thumbnail download address.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="10032:10213" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="10036:10211" ph="{&quot;patent_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="10254:11650" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/patent_valuation-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="10429:11628" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="10449:11601" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="10469:10602" ph="{&quot;default&quot;: 0.0...}" />
+                  <marker date="1506143762290" expanded="true" signature="10620:10768" ph="{&quot;default&quot;: 0.0...}" />
+                  <marker date="1506143762290" expanded="true" signature="10802:10982" ph="{&quot;default&quot;: 0.0...}" />
+                  <marker date="1506143762290" expanded="true" signature="11010:11178" ph="{&quot;default&quot;: 0.0...}" />
+                  <marker date="1506143762290" expanded="true" signature="11200:11414" ph="{&quot;default&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="11437:11595" ph="{&quot;default&quot;: 0.0...}" />
+                  <marker date="1506143762290" expanded="true" signature="12269:12819" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="12275:12817" ph="{&quot;ipc&quot;: &quot;A01&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="12345:12508" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="12359:12498" ph="{&quot;text&quot;: &quot;AGRICULTURE; FORESTRY; ANIMAL HUSBANDRY; HUNTING; TRAPPING; FISHING&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="12528:12811" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="12542:12801" ph="{&quot;ipc&quot;: &quot;A&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="12634:12787" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="12656:12769" ph="{&quot;text&quot;: &quot;HUMAN NECESSITIES&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="12860:14705" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/classification-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="13018:13638" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="13042:13634" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="13065:13595" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="13097:13547" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="13127:13311" ph="{&quot;description&quot;: &quot;The language of the text.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="13341:13529" ph="{&quot;description&quot;: &quot;The text of current language.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="13725:14683" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="13745:14656" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="13761:13812" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="13828:13939" ph="{&quot;description&quot;: &quot;The ipc code.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="13958:14505" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="13977:14471" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="14003:14432" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="14025:14088" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="14110:14245" ph="{&quot;description&quot;: &quot;The ipc code.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="14271:14420" ph="{&quot;description&quot;: &quot;The version of the ipc.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="14525:14650" ph="{&quot;description&quot;: &quot;The version of the ipc.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="15515:15671" ph="{&quot;offset&quot;: 0...}" />
+                  <marker date="1506143762290" expanded="true" signature="15534:15626" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="15712:16630" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/trademark_id-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="15888:16607" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="15903:16084" ph="{&quot;default&quot;: 10...}" />
+                  <marker date="1506143762290" expanded="true" signature="16101:16261" ph="{&quot;default&quot;: 0...}" />
+                  <marker date="1506143762290" expanded="true" signature="16284:16460" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="16301:16430" ph="{&quot;description&quot;: &quot;A trademark unique id.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="16476:16603" ph="{&quot;description&quot;: &quot;The total count of current requst.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="17187:18431" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="17193:18429" ph="{&quot;trademark_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="17465:17735" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="17479:17725" ph="{&quot;code&quot;: &quot;0403&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="17536:17680" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="17558:17662" ph="{&quot;lang&quot;: &quot;EN&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="17753:17860" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="17767:17850" ph="{&quot;lang&quot;: &quot;EN&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="17885:17987" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="17899:17977" ph="{&quot;lang&quot;: &quot;EN&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="18062:18209" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="18076:18199" ph="{&quot;category_code&quot;: &quot;690&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="18294:18423" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="18308:18413" ph="{&quot;content&quot;: &quot;皮衣&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="18472:22636" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/trademark-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="18548:19096" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="18568:19092" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="18587:19061" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="18615:19021" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="18641:18809" ph="{&quot;description&quot;: &quot;The language of the text.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="18835:19007" ph="{&quot;description&quot;: &quot;The text of current language.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="19186:22614" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="19206:22587" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="19222:19353" ph="{&quot;description&quot;: &quot;The apply date of the trademark.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="19370:19503" ph="{&quot;description&quot;: &quot;The apply number of the trademark.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="19528:19652" ph="{&quot;description&quot;: &quot;The company name.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="19676:19813" ph="{&quot;description&quot;: &quot;The credit code of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="19840:19981" ph="{&quot;description&quot;: &quot;Current status of the trademark.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="20007:20645" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="20026:20611" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="20052:20572" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="20077:20228" ph="{&quot;description&quot;: &quot;The content of the goods.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="20251:20402" ph="{&quot;description&quot;: &quot;The language of the content.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="20424:20560" ph="{&quot;description&quot;: &quot;The nice code.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="20670:21198" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="20689:21164" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="20715:21125" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="20746:20909" ph="{&quot;description&quot;: &quot;The legal status category code.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="20944:21113" ph="{&quot;description&quot;: &quot;The legal status category content.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="21214:21779" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="21233:21745" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="21259:21706" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="21281:21435" ph="{&quot;description&quot;: &quot;The nice code of the trademark.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="21458:21607" ph="{&quot;description&quot;: &quot;The note of the trademark.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="21631:21694" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="21802:21946" ph="{&quot;description&quot;: &quot;The organization number of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="21971:22022" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="22039:22179" ph="{&quot;description&quot;: &quot;The registration number of the trademark.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="22201:22349" ph="{&quot;description&quot;: &quot;The thumbnail download url of the trademark.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="22367:22418" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="22443:22581" ph="{&quot;description&quot;: &quot;The unique id of the trademark.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="23270:23300" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="23341:23712" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_id-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="23515:23689" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="23535:23685" ph="{&quot;default&quot;: &quot;000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="24198:24831" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="24381:24447" ph="{&quot;code&quot;: &quot;703&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="24609:24688" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="24619:24682" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="24872:28433" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="24948:25496" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="24968:25492" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="24987:25461" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="25015:25421" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="25041:25209" ph="{&quot;description&quot;: &quot;The language of the text.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="25235:25407" ph="{&quot;description&quot;: &quot;The text of current language.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="25589:28410" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="25613:25748" ph="{&quot;description&quot;: &quot;The business scope of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="25769:25895" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="25918:26041" ph="{&quot;description&quot;: &quot;The name of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="26064:26187" ph="{&quot;description&quot;: &quot;The type of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="26209:26338" ph="{&quot;description&quot;: &quot;The credit code of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="26362:26489" ph="{&quot;description&quot;: &quot;The license approved date.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="26514:26650" ph="{&quot;description&quot;: &quot;The establish date pf the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="26670:26791" ph="{&quot;description&quot;: &quot;The business start date.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="26809:26926" ph="{&quot;description&quot;: &quot;The business end date.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="26945:27307" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="26967:27276" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="26985:27118" ph="{&quot;description&quot;: &quot;The company industry code.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="27137:27268" ph="{&quot;description&quot;: &quot;The company description.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="27330:27461" ph="{&quot;description&quot;: &quot;The legal person of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="27482:27611" ph="{&quot;description&quot;: &quot;The organization of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="27633:27745" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="27767:27927" ph="{&quot;default&quot;: 0.00...}" />
+                  <marker date="1506143762290" expanded="true" signature="27954:28085" ph="{&quot;description&quot;: &quot;The registered captial type.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="28109:28249" ph="{&quot;description&quot;: &quot;The registered institute of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="28270:28406" ph="{&quot;description&quot;: &quot;The registration status of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="28926:29050" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="28972:29048" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="28982:29042" ph="{&quot;name&quot;: &quot;张三&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="29091:29935" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_staff-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="29268:29912" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="29288:29445" ph="{&quot;default&quot;: &quot;000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="29461:29908" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="29478:29878" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="29502:29843" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="29522:29667" ph="{&quot;description&quot;: &quot;The staff name of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="29688:29833" ph="{&quot;description&quot;: &quot;The staff type of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="30429:30647" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="30476:30645" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="30486:30639" ph="{&quot;change_itme&quot;: &quot;地址变更&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="30688:31865" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_change-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="30866:31842" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="30882:31691" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="30899:31661" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="30923:31626" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="30951:31101" ph="{&quot;description&quot;: &quot;The situation after change.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="31131:31283" ph="{&quot;description&quot;: &quot;The situation before change.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="31311:31449" ph="{&quot;description&quot;: &quot;The change item.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="31477:31616" ph="{&quot;description&quot;: &quot;The change time.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="31712:31838" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="32357:32575" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="32404:32573" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="32414:32567" ph="{&quot;change_itme&quot;: &quot;地址变更&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="32616:33791" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_tree-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="32792:33768" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="32808:33617" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="32825:33587" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="32849:33552" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="32877:33027" ph="{&quot;description&quot;: &quot;The situation after change.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="33057:33209" ph="{&quot;description&quot;: &quot;The situation before change.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="33237:33375" ph="{&quot;description&quot;: &quot;The change item.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="33403:33542" ph="{&quot;description&quot;: &quot;The change time.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="33638:33764" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="34295:34410" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="34347:34408" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="34357:34402" ph="{&quot;investor_name&quot;: &quot;张三&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="34451:35131" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_shareholder-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="34634:35108" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="34654:34780" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="34802:35104" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="34819:35074" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="34843:35039" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="34872:35029" ph="{&quot;description&quot;: &quot;The investor name of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="35633:35756" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="35684:35754" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="35694:35748" ph="{&quot;outcompany_name&quot;: &quot;Company A&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="35797:36458" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_id-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="35971:36435" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="35991:36117" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="36138:36431" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="36155:36401" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="36179:36366" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="36210:36356" ph="{&quot;description&quot;: &quot;The outcompany name.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="36853:36909" ph="{&quot;agency_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="36950:37294" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/angency_id-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="37124:37271" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="37143:37267" ph="{&quot;description&quot;: &quot;The unique id of the agency.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="37823:38062" ph="{&quot;agency_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="37978:37997" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="38103:39455" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/angency-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="38274:39432" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="38298:38449" ph="{&quot;description&quot;: &quot;An explanation about the purpose of this instance.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="38475:38646" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="38492:38616" ph="{&quot;description&quot;: &quot;The directors of the agency.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="38666:38790" ph="{&quot;description&quot;: &quot;The unique id of the agency.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="38812:38933" ph="{&quot;description&quot;: &quot;The name of the agency.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="38957:39082" ph="{&quot;description&quot;: &quot;The number of the agency.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="39106:39239" ph="{&quot;description&quot;: &quot;The current status of the agency.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="39267:39428" ph="{&quot;default&quot;: &quot;&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="39980:40133" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="39986:40131" ph="{&quot;agent_name&quot;: &quot;张三&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="40098:40125" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="40174:41084" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/agent-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="40338:41062" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="40358:41035" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="40380:40500" ph="{&quot;description&quot;: &quot;The agent name.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="40523:40653" ph="{&quot;description&quot;: &quot;The agent license number.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="40671:40851" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="40690:40817" ph="{&quot;description&quot;: &quot;The major of the agent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="40880:41029" ph="{&quot;description&quot;: &quot;The qualification number of the agent.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="41696:41849" ph="{&quot;offset&quot;: 0...}" />
+                  <marker date="1506143762290" expanded="true" signature="41712:41804" ph="[...]" />
+                  <marker date="1506143762290" expanded="true" signature="41890:42800" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/agency/patent-schema.json&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="42067:42777" ph="{...}" />
+                  <marker date="1506143762290" expanded="true" signature="42082:42263" ph="{&quot;default&quot;: 10...}" />
+                  <marker date="1506143762290" expanded="true" signature="42280:42440" ph="{&quot;default&quot;: 0...}" />
+                  <marker date="1506143762290" expanded="true" signature="42460:42630" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="42477:42600" ph="{&quot;description&quot;: &quot;A patent unique id.&quot;...}" />
+                  <marker date="1506143762290" expanded="true" signature="42646:42773" ph="{&quot;description&quot;: &quot;The total count of current requst.&quot;...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-08-The_Base64_algorithm_in_action.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-08-The_Base64_algorithm_in_action.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1067">
+                <caret line="71" column="46" lean-forward="false" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+                <folding>
+                  <marker date="1508206151858" expanded="true" signature="494:571" ph="/**...*/" />
+                  <marker date="1508206151858" expanded="true" signature="679:919" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-10-The_CMS_G1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-09-10-The_CMS_G1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1634">
+              <caret line="86" column="59" lean-forward="false" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-18-The_AWS_DynamoDB.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-09-18-The_AWS_DynamoDB.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="87" lean-forward="false" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/local</find>
+      <find>images</find>
+      <find>Your awesome title</find>
+      <find>CMS and G1</find>
+      <find>AWS_deelop_dynamoDB</find>
+      <find>/aws_develop_dynamodb</find>
+      <find>images/</find>
+      <find>aws_develop_dynamodb</find>
+      <find>{{ site.url }}/image</find>
+      <find>hash_key_res</find>
+      <find>Dax Design</find>
+      <find>grapql</find>
+      <find>SaaS</find>
+      <find>competitive advantage</find>
+      <find>eeping then reporting</find>
+      <find>remote</find>
+      <find>vcs1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>images</replace>
+      <replace>{{site.url}}/images/AWS_deelop_dynamoDB/1 (1).PNG</replace>
+      <replace>&lt;img src=&quot;{{site.url}}/images/AWS_deelop_dynamoDB/1 (1).PNG&quot; /&gt;</replace>
+      <replace>aws_develop_dynamodb</replace>
+      <replace>images/aws_develop_dynamodb/</replace>
+      <replace>aws_develop_s3</replace>
+      <replace>aws_develop_sqs</replace>
+      <replace>{{ site.url }}/images</replace>
+      <replace>{{ site.url }}/images/aws_dax/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.md" />
+        <option value="$PROJECT_DIR$/java/GC/The_CMS_G1.md" />
+        <option value="$PROJECT_DIR$/java/GC/The_CMS_G1.html" />
+        <option value="$PROJECT_DIR$/_site/jekyll/update/2017/09/10/The_CMS_G1.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-09-10-The_CMS_G1.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_DynamoDB_Development.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_DynamoDB.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_S3.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_SQS.html" />
+        <option value="$PROJECT_DIR$/_posts/Cloud Patent Design.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-09-23-Cloud_Patent_Design.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-08-The_Base64_algorithm_in_action.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-17-The_AWS_DAX.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-12-15-Thought_In_Deep_Work.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-12-23-Getting_Start_With_GraphQL_For_Java.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-02-21-Thought_In_Black_Box_Thinking.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-01-EnterpriseReady_&amp;_growth_hacker.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-12-Git Introduction.md" />
+        <option value="$PROJECT_DIR$/_posts/2021-01-03-Thougt_In_Drug_Discovery.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="692" />
+    <option name="y" value="100" />
+    <option name="width" value="3022" />
+    <option name="height" value="1976" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chrisye.gitbub.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chrisye.gitbub.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chrisye.gitbub.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chrisye.gitbub.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chrisye.gitbub.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chrisye.gitbub.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="life" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="science" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discovery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2021" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chrisye.gitbub.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chrisye.gitbub.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\IdeaProjects\chrisye.gitbub.io\_posts" />
+      <recent name="C:\development\IdeaProjects\chrisye.gitbub.io\images\git_introduction" />
+      <recent name="C:\development\IdeaProjects\chrisye.gitbub.io\images\enterprise_ready\reporting_analytics" />
+      <recent name="C:\development\IdeaProjects\chrisye.gitbub.io\images\enterprise_ready" />
+      <recent name="C:\development\IdeaProjects\chrisye.gitbub.io\images\enterprise_ready\sla" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\windows\system32\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chrisye.gitbub.io" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="chrisye.gitbub.io" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chrisye.gitbub.io" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chrisye.gitbub.io" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chrisye.gitbub.io" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="chrisye.gitbub.io" />
+      <method />
+    </configuration>
+    <configuration default="true" type="idea.plugin.jmeter.run.JmeterConfigurationType" factoryName="JMeter">
+      <setting name="testFile" value="" />
+      <setting name="propertyFile" value="" />
+      <setting name="jvmParameters" value="" />
+      <setting name="customParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <properties />
+      <method />
+    </configuration>
+    <configuration default="true" type="jmh-id" factoryName="Jmh">
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chrisye.gitbub.io" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chrisye.gitbub.io" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01ca0e05-2d64-4eb4-84c8-91082c65edcf" name="Default" comment="" />
+      <created>1501403297953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501403297953</updated>
+      <workItem from="1501403301259" duration="4093000" />
+      <workItem from="1503140213279" duration="1094000" />
+      <workItem from="1503668617912" duration="5072000" />
+      <workItem from="1503717096298" duration="4536000" />
+      <workItem from="1504056911182" duration="2686000" />
+      <workItem from="1505012548867" duration="1903000" />
+      <workItem from="1505016077229" duration="4275000" />
+      <workItem from="1505743408472" duration="5900000" />
+      <workItem from="1506143025091" duration="1372000" />
+      <workItem from="1507464203111" duration="2267000" />
+      <workItem from="1507534129623" duration="1445000" />
+      <workItem from="1507555752696" duration="4480000" />
+      <workItem from="1508206074786" duration="5259000" />
+      <workItem from="1508290046532" duration="1176000" />
+      <workItem from="1508381472156" duration="642000" />
+      <workItem from="1513300766770" duration="3297000" />
+      <workItem from="1513992995035" duration="5072000" />
+      <workItem from="1514122362043" duration="704000" />
+      <workItem from="1514190459765" duration="642000" />
+      <workItem from="1514273411152" duration="1277000" />
+      <workItem from="1514338078946" duration="2443000" />
+      <workItem from="1514423942110" duration="1225000" />
+      <workItem from="1515228824442" duration="8437000" />
+      <workItem from="1515294806500" duration="2217000" />
+      <workItem from="1519224055759" duration="320000" />
+      <workItem from="1519305247571" duration="656000" />
+      <workItem from="1519347784871" duration="787000" />
+      <workItem from="1519434336391" duration="1383000" />
+      <workItem from="1519528513918" duration="559000" />
+      <workItem from="1525184062489" duration="715000" />
+      <workItem from="1525247001442" duration="2443000" />
+      <workItem from="1525310736235" duration="8551000" />
+      <workItem from="1525397600251" duration="2300000" />
+      <workItem from="1525411213172" duration="2851000" />
+      <workItem from="1525520335784" duration="21188000" />
+      <workItem from="1525694742613" duration="5572000" />
+      <workItem from="1526128200132" duration="29192000" />
+      <workItem from="1526264813633" duration="792000" />
+      <workItem from="1526274751001" duration="18830000" />
+      <workItem from="1526348051581" duration="2934000" />
+      <workItem from="1526365009442" duration="2233000" />
+      <workItem from="1609677702301" duration="4595000" />
+    </task>
+    <task id="LOCAL-00007" summary="The CMS &amp; G1">
+      <created>1503669243626</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503669243626</updated>
+    </task>
+    <task id="LOCAL-00008" summary="The CMS &amp; G1">
+      <created>1503669897804</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1503669897804</updated>
+    </task>
+    <task id="LOCAL-00009" summary="The CMS &amp; G1">
+      <created>1503669935074</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1503669935074</updated>
+    </task>
+    <task id="LOCAL-00010" summary="The CMS &amp; G1">
+      <created>1503670246880</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1503670246880</updated>
+    </task>
+    <task id="LOCAL-00011" summary="The CMS &amp; G1">
+      <created>1503686979920</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1503686979920</updated>
+    </task>
+    <task id="LOCAL-00012" summary="The CMS &amp; G1">
+      <created>1503687315344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1503687315344</updated>
+    </task>
+    <task id="LOCAL-00013" summary="The CMS &amp; G1">
+      <created>1503687488057</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1503687488057</updated>
+    </task>
+    <task id="LOCAL-00014" summary="The CMS &amp; G1">
+      <created>1503687677008</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1503687677008</updated>
+    </task>
+    <task id="LOCAL-00015" summary="The CMS &amp; G1">
+      <created>1503687790504</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1503687790504</updated>
+    </task>
+    <task id="LOCAL-00016" summary="The CMS &amp; G1">
+      <created>1503717707560</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1503717707561</updated>
+    </task>
+    <task id="LOCAL-00017" summary="The CMS &amp; G1">
+      <created>1503718924495</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1503718924495</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Jekyll init submit">
+      <created>1505016877689</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1505016877689</updated>
+    </task>
+    <task id="LOCAL-00019" summary="CNAME commit">
+      <created>1505017577970</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1505017577970</updated>
+    </task>
+    <task id="LOCAL-00020" summary="CNAME commit">
+      <created>1505020271601</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1505020271601</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Transfer old article into jekyll">
+      <created>1505020541739</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1505020541739</updated>
+    </task>
+    <task id="LOCAL-00022" summary="CMS &amp; G1">
+      <created>1505021094621</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1505021094621</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Remove welcome page">
+      <created>1505021738285</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1505021738285</updated>
+    </task>
+    <task id="LOCAL-00024" summary="The AWS DynamoDB Development">
+      <created>1505745775342</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1505745775342</updated>
+    </task>
+    <task id="LOCAL-00025" summary="The AWS S3 Development&#10;The AWS SQS Development">
+      <created>1505746623037</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1505746623037</updated>
+    </task>
+    <task id="LOCAL-00026" summary="The AWS S3 Development&#10;The AWS SQS Development">
+      <created>1505747254943</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1505747254943</updated>
+    </task>
+    <task id="LOCAL-00027" summary="The Cloud Patent Design">
+      <created>1506143387070</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1506143387070</updated>
+    </task>
+    <task id="LOCAL-00028" summary="The Cloud Patent Design">
+      <created>1506143784549</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1506143784549</updated>
+    </task>
+    <task id="LOCAL-00029" summary="The base64 algorithm">
+      <created>1507534243544</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1507534243544</updated>
+    </task>
+    <task id="LOCAL-00030" summary="The base64 algorithm">
+      <created>1507555838704</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1507555838704</updated>
+    </task>
+    <task id="LOCAL-00031" summary="The base64 algorithm">
+      <created>1507556131411</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1507556131411</updated>
+    </task>
+    <task id="LOCAL-00032" summary="The aws dax">
+      <created>1508214183172</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1508214183172</updated>
+    </task>
+    <task id="LOCAL-00033" summary="The aws dax">
+      <created>1508214261019</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1508214261019</updated>
+    </task>
+    <task id="LOCAL-00034" summary="The aws dax">
+      <created>1508214655348</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1508214655348</updated>
+    </task>
+    <task id="LOCAL-00035" summary="The aws dax">
+      <created>1508214774181</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1508214774181</updated>
+    </task>
+    <task id="LOCAL-00036" summary="The aws dax">
+      <created>1508214797817</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1508214797817</updated>
+    </task>
+    <task id="LOCAL-00037" summary="The aws dax">
+      <created>1508218553006</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1508218553006</updated>
+    </task>
+    <task id="LOCAL-00038" summary="The aws dax">
+      <created>1508219219600</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1508219219600</updated>
+    </task>
+    <task id="LOCAL-00039" summary="The aws dax">
+      <created>1508219715629</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1508219715629</updated>
+    </task>
+    <task id="LOCAL-00040" summary="The aws dax">
+      <created>1508220089149</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1508220089149</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Deep Work">
+      <created>1513302568153</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1513302568153</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Deep Work">
+      <created>1513302629321</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1513302629321</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Getting start with GraphQL for java">
+      <created>1514007794545</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1514007794545</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Getting start with GraphQL for java">
+      <created>1514007857502</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1514007857502</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Getting start with GraphQL for java">
+      <created>1514122447854</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1514122447854</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Getting start with GraphQL for java">
+      <created>1514122487650</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1514122487650</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Getting start with GraphQL for java">
+      <created>1514122718587</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1514122718587</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Getting start with GraphQL for java">
+      <created>1515243442205</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1515243442205</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Getting start with GraphQL for java">
+      <created>1515296967355</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1515296967355</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Thought In Black Box Thinking">
+      <created>1519224232255</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1519224232256</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Thought In EnterpriseReady">
+      <created>1525579468050</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1525579468051</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Thought In EnterpriseReady">
+      <created>1525579892950</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1525579892950</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Thought In EnterpriseReady">
+      <created>1525580024476</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1525580024476</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Thought In EnterpriseReady">
+      <created>1525701576921</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1525701576922</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Git Introduction">
+      <created>1526308368493</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1526308368502</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="177421000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="692" y="100" width="3022" height="1976" extended-state="0" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901025" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991102" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36378646" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3028359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3321739" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Index.html" />
+    <MESSAGE value="The CMS &amp; G1" />
+    <MESSAGE value="Jekyll init submit" />
+    <MESSAGE value="CNAME commit" />
+    <MESSAGE value="Transfer old article into jekyll" />
+    <MESSAGE value="CMS &amp; G1" />
+    <MESSAGE value="Remove welcome page" />
+    <MESSAGE value="The AWS DynamoDB Development" />
+    <MESSAGE value="The AWS S3 Development&#10;The AWS SQS Development" />
+    <MESSAGE value="The Cloud Patent Design" />
+    <MESSAGE value="The base64 algorithm" />
+    <MESSAGE value="The aws dax" />
+    <MESSAGE value="Deep Work" />
+    <MESSAGE value="Getting start with GraphQL for java" />
+    <MESSAGE value="Thought In Black Box Thinking" />
+    <MESSAGE value="Thought In EnterpriseReady" />
+    <MESSAGE value="Git Introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git Introduction" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/java/GC/The_CMS_G1.html" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/java/GC/images/principle_of_gc.png" />
+    <entry file="file://$PROJECT_DIR$/java/GC/The_CMS_G1.html" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/jekyll/update/2017/09/10/The_CMS_G1.html" />
+    <entry file="file://$PROJECT_DIR$/_site/jekyll/update/2017/09/10/welcome-to-jekyll.html" />
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-10-welcome-to-jekyll.markdown" />
+    <entry file="file://$PROJECT_DIR$/_site/about/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/assets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="320">
+            <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/images/principle_of_gc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/aws_dax/batch_get_item_result3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/aws_dax/batch_get_item_result2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/aws_dax/batch_get_item_result1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-18-The_AWS_SQS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-18-The_AWS_S3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-15-Thought_In_Deep_Work.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="320">
+            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-21-Thought_In_Black_Box_Thinking.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/enterprise_ready/product_assortment/FF15-Royal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/enterprise_ready/sso/sso4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/git_introduction/vcs1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-01-EnterpriseReady_&amp;_growth_hacker.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4085">
+            <caret line="215" column="100" lean-forward="false" selection-start-line="215" selection-start-column="1" selection-end-line="215" selection-end-column="100" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-23-Getting_Start_With_GraphQL_For_Java.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="18" />
+            <folding>
+              <marker date="1515296732300" expanded="true" signature="3743:3764" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="4079:4090" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="4324:4365" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="4378:4402" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="4576:4675" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="4694:4747" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="4784:4899" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="4932:4971" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="4990:5011" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="5024:5095" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="5164:5192" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="6356:6386" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="6409:6439" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="6457:6538" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="6567:6591" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="6937:7290" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="7001:7218" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="7040:7058" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="7073:7214" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="7115:7208" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="7161:7200" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="7326:7339" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="8053:10212" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="8515:8649" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="8668:9251" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="8689:8860" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="8881:9036" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="9057:9231" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="9263:10201" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="9328:9896" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="9349:9877" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="9543:9855" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="9917:10187" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="9940:10166" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="10025:10097" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="10396:10592" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="10594:10679" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="10752:11484" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="13506:13527" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="14587:14686" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="14705:14758" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="14795:14910" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="14943:14982" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="15001:15022" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="15035:15106" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="15175:15203" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="15226:15256" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="15274:15355" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="15384:15408" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="15502:16528" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="16530:16571" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="16643:23224" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="17817:18011" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="18255:18346" ph="//..." />
+              <marker date="1515296732300" expanded="true" signature="18850:19223" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="19378:19739" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="19923:20458" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="23297:23338" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="23431:23442" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="23454:23460" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="23498:23509" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="23526:23532" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="23582:23623" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="23773:23783" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="23812:23819" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="23854:23865" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="23883:23889" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="23939:23950" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="23979:23985" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="24059:24100" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="24255:24266" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="24280:24286" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="24328:24339" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="24360:24366" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="24408:24419" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="24438:24444" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="24502:24513" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="24544:24550" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="24592:24603" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="24622:24628" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="24686:24697" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="24728:24734" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="24784:24825" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="24981:24992" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="25004:25010" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="25048:25059" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="25076:25082" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="25110:25121" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="25132:25138" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="25174:25185" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="25200:25206" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="25245:25256" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="25274:25280" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="25334:25345" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="25374:25380" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="25430:25471" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="25547:25558" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="25570:25576" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="25614:25625" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="25642:25648" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="25698:25739" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="25882:25893" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="25913:25919" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="25979:25990" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="26023:26029" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="26058:26069" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="26082:26088" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="26127:26138" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="26157:26163" ph=" }" />
+              <marker date="1515296732300" expanded="false" signature="27278:28038" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="28040:28081" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="28155:31652" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="28799:28890" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="29022:29445" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="29536:29903" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="30181:30604" ph="//..." />
+              <marker date="1515296732300" expanded="true" signature="31368:31642" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="31743:32272" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="31815:32036" ph="{...}" />
+              <marker date="1515296732300" expanded="false" signature="32107:32121" ph=" { " />
+              <marker date="1515296732300" expanded="false" signature="32133:32143" ph=" }" />
+              <marker date="1515296732300" expanded="false" signature="32202:32217" ph=" { " />
+              <marker date="1515296732300" expanded="false" signature="32256:32266" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="34461:35471" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="35473:35514" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="35583:43135" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="36940:37521" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="37033:37450" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="37576:38157" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="37670:38086" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="38177:39181" ph="//..." />
+              <marker date="1515296732300" expanded="true" signature="39289:39579" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="39666:40039" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="40126:40487" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="40588:41123" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="41419:41786" ph="//..." />
+              <marker date="1515296732300" expanded="true" signature="44107:45936" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="45938:45980" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="46050:52359" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="46420:46692" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="46742:46866" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="46924:47172" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="48772:49112" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="49884:50206" ph="//..." />
+              <marker date="1515296732300" expanded="true" signature="52448:52783" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="52847:52904" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="52975:53571" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="53045:53502" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="53632:53642" ph=" { " />
+              <marker date="1515296732300" expanded="true" signature="53653:53659" ph=" }" />
+              <marker date="1515296732300" expanded="true" signature="71841:72773" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="72775:72817" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="72888:75416" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="73077:73368" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="75504:75831" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="75894:75951" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="76021:76456" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="76092:76387" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="77967:78104" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="78173:78352" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="78354:78396" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="78442:78536" ph="@{...}" />
+              <marker date="1515296732300" expanded="true" signature="78570:78622" ph="@{...}" />
+              <marker date="1515296732300" expanded="true" signature="78710:78953" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="78955:78997" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="79072:79892" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="80583:84175" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="81041:81208" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="81225:81424" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="81443:83214" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="81464:81635" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="81656:81811" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="81832:81998" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="82019:82190" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="82211:82378" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="82399:82573" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="82594:82774" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="82795:82979" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="83000:83194" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="83226:84164" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="83291:83859" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="83312:83840" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="83506:83818" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="83880:84150" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="83903:84129" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="83988:84060" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="84212:84371" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="84385:84500" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="84514:84534" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="84606:85477" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="85479:85521" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="85636:87510" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="86013:86261" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="87598:87933" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="87998:88055" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="88127:88561" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="88197:88492" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="88634:89141" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="89143:89184" ph="/**...*/" />
+              <marker date="1515296732300" expanded="true" signature="89186:89236" ph="@{...}" />
+              <marker date="1515296732300" expanded="true" signature="89319:89457" ph="@{...}" />
+              <marker date="1515296732300" expanded="true" signature="89531:90424" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="91008:95211" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="91362:91529" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="91547:91746" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="91766:94298" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="91787:91958" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="91979:92134" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="92155:92324" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="92345:92511" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="92532:92703" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="92724:92891" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="92912:93086" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="93107:93287" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="93308:93492" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="93513:93707" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="93728:93900" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="93921:94094" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="94115:94278" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="94311:95200" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="94329:94897" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="94350:94878" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="94544:94856" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="94917:95187" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="94940:95166" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="95025:95097" ph="..." />
+              <marker date="1515296732300" expanded="true" signature="95462:95546" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="95560:95807" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="95826:95935" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="95998:96206" ph="{...}" />
+              <marker date="1515296732300" expanded="true" signature="96269:96471" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/work/productive/2017/12/15/Thought_In_Deep_Work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/java/jvm/gc/2017/09/10/The_CMS_G1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/aws/development/dax/2017/10/17/The_AWS_DAX.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-18-The_AWS_DynamoDB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="87" lean-forward="false" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-10-The_CMS_G1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" column="59" lean-forward="false" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-23-Cloud_Patent_Design.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-5624">
+            <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <folding>
+              <marker date="1506143762290" expanded="true" signature="3481:3634" ph="{&quot;offset&quot;: 0...}" />
+              <marker date="1506143762290" expanded="true" signature="3497:3589" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="3675:4581" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/patent_id-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="3848:4558" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="3863:4044" ph="{&quot;default&quot;: 10...}" />
+              <marker date="1506143762290" expanded="true" signature="4061:4221" ph="{&quot;default&quot;: 0...}" />
+              <marker date="1506143762290" expanded="true" signature="4241:4411" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="4258:4381" ph="{&quot;description&quot;: &quot;A patent unique id.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="4427:4554" ph="{&quot;description&quot;: &quot;The total count of current requst.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="5112:6130" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="5118:6128" ph="{&quot;patent_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="5291:5389" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="5305:5379" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="5405:5503" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="5419:5493" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="5519:5617" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="5533:5607" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="5878:6122" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="5892:6112" ph="{&quot;l007ep&quot;: 20000101...}" />
+              <marker date="1506143762290" expanded="true" signature="5960:6098" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="5982:6080" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="6171:9492" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/patent-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="6247:6712" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="6266:6707" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="6283:6677" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="6307:6642" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="6327:6467" ph="{&quot;description&quot;: &quot;The language of the text.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="6488:6632" ph="{&quot;description&quot;: &quot;The text of current language.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="6798:9490" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="6818:9463" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="6838:6961" ph="{&quot;description&quot;: &quot;The patent abstract.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="6975:7073" ph="{&quot;description&quot;: &quot;The assignee name.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="7089:7193" ph="{&quot;description&quot;: &quot;The standard assignee name&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="7210:7339" ph="{&quot;description&quot;: &quot;An apply date of the patent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="7356:7485" ph="{&quot;description&quot;: &quot;An apply number of the patent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="7510:7647" ph="{&quot;description&quot;: &quot;The source of current patent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="7662:7766" ph="{&quot;description&quot;: &quot;The inventor of the patent&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="7782:7907" ph="{&quot;description&quot;: &quot;The ipc code of the patent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="7924:8053" ph="{&quot;description&quot;: &quot;The issue date of the patent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="8071:8657" ph="{&quot;description&quot;: &quot;The description of the legal status.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="8153:8623" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="8179:8584" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="8203:8417" ph="{&quot;id&quot;: &quot;/properties/legal/items/properties/l007ep&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="8446:8572" ph="{&quot;description&quot;: &quot;The legal status description.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="8679:8811" ph="{&quot;description&quot;: &quot;The unique id of the patent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="8835:9009" ph="{&quot;description&quot;: &quot;The type of the patent, enum: Applications,Patents,Design, Utilites.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="9026:9156" ph="{&quot;description&quot;: &quot;The public date of the patent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="9171:9300" ph="{&quot;description&quot;: &quot;The public number of the patent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="9322:9457" ph="{&quot;description&quot;: &quot;The thumbnail download address.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="10032:10213" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="10036:10211" ph="{&quot;patent_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="10254:11650" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/patent_valuation-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="10429:11628" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="10449:11601" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="10469:10602" ph="{&quot;default&quot;: 0.0...}" />
+              <marker date="1506143762290" expanded="true" signature="10620:10768" ph="{&quot;default&quot;: 0.0...}" />
+              <marker date="1506143762290" expanded="true" signature="10802:10982" ph="{&quot;default&quot;: 0.0...}" />
+              <marker date="1506143762290" expanded="true" signature="11010:11178" ph="{&quot;default&quot;: 0.0...}" />
+              <marker date="1506143762290" expanded="true" signature="11200:11414" ph="{&quot;default&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="11437:11595" ph="{&quot;default&quot;: 0.0...}" />
+              <marker date="1506143762290" expanded="true" signature="12269:12819" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="12275:12817" ph="{&quot;ipc&quot;: &quot;A01&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="12345:12508" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="12359:12498" ph="{&quot;text&quot;: &quot;AGRICULTURE; FORESTRY; ANIMAL HUSBANDRY; HUNTING; TRAPPING; FISHING&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="12528:12811" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="12542:12801" ph="{&quot;ipc&quot;: &quot;A&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="12634:12787" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="12656:12769" ph="{&quot;text&quot;: &quot;HUMAN NECESSITIES&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="12860:14705" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/classification-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="13018:13638" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="13042:13634" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="13065:13595" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="13097:13547" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="13127:13311" ph="{&quot;description&quot;: &quot;The language of the text.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="13341:13529" ph="{&quot;description&quot;: &quot;The text of current language.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="13725:14683" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="13745:14656" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="13761:13812" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="13828:13939" ph="{&quot;description&quot;: &quot;The ipc code.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="13958:14505" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="13977:14471" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="14003:14432" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="14025:14088" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="14110:14245" ph="{&quot;description&quot;: &quot;The ipc code.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="14271:14420" ph="{&quot;description&quot;: &quot;The version of the ipc.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="14525:14650" ph="{&quot;description&quot;: &quot;The version of the ipc.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="15515:15671" ph="{&quot;offset&quot;: 0...}" />
+              <marker date="1506143762290" expanded="true" signature="15534:15626" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="15712:16630" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/trademark_id-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="15888:16607" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="15903:16084" ph="{&quot;default&quot;: 10...}" />
+              <marker date="1506143762290" expanded="true" signature="16101:16261" ph="{&quot;default&quot;: 0...}" />
+              <marker date="1506143762290" expanded="true" signature="16284:16460" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="16301:16430" ph="{&quot;description&quot;: &quot;A trademark unique id.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="16476:16603" ph="{&quot;description&quot;: &quot;The total count of current requst.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="17187:18431" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="17193:18429" ph="{&quot;trademark_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="17465:17735" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="17479:17725" ph="{&quot;code&quot;: &quot;0403&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="17536:17680" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="17558:17662" ph="{&quot;lang&quot;: &quot;EN&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="17753:17860" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="17767:17850" ph="{&quot;lang&quot;: &quot;EN&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="17885:17987" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="17899:17977" ph="{&quot;lang&quot;: &quot;EN&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="18062:18209" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="18076:18199" ph="{&quot;category_code&quot;: &quot;690&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="18294:18423" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="18308:18413" ph="{&quot;content&quot;: &quot;皮衣&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="18472:22636" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/trademark-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="18548:19096" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="18568:19092" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="18587:19061" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="18615:19021" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="18641:18809" ph="{&quot;description&quot;: &quot;The language of the text.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="18835:19007" ph="{&quot;description&quot;: &quot;The text of current language.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="19186:22614" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="19206:22587" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="19222:19353" ph="{&quot;description&quot;: &quot;The apply date of the trademark.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="19370:19503" ph="{&quot;description&quot;: &quot;The apply number of the trademark.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="19528:19652" ph="{&quot;description&quot;: &quot;The company name.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="19676:19813" ph="{&quot;description&quot;: &quot;The credit code of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="19840:19981" ph="{&quot;description&quot;: &quot;Current status of the trademark.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="20007:20645" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="20026:20611" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="20052:20572" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="20077:20228" ph="{&quot;description&quot;: &quot;The content of the goods.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="20251:20402" ph="{&quot;description&quot;: &quot;The language of the content.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="20424:20560" ph="{&quot;description&quot;: &quot;The nice code.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="20670:21198" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="20689:21164" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="20715:21125" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="20746:20909" ph="{&quot;description&quot;: &quot;The legal status category code.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="20944:21113" ph="{&quot;description&quot;: &quot;The legal status category content.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="21214:21779" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="21233:21745" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="21259:21706" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="21281:21435" ph="{&quot;description&quot;: &quot;The nice code of the trademark.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="21458:21607" ph="{&quot;description&quot;: &quot;The note of the trademark.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="21631:21694" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="21802:21946" ph="{&quot;description&quot;: &quot;The organization number of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="21971:22022" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="22039:22179" ph="{&quot;description&quot;: &quot;The registration number of the trademark.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="22201:22349" ph="{&quot;description&quot;: &quot;The thumbnail download url of the trademark.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="22367:22418" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="22443:22581" ph="{&quot;description&quot;: &quot;The unique id of the trademark.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="23270:23300" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="23341:23712" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_id-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="23515:23689" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="23535:23685" ph="{&quot;default&quot;: &quot;000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="24198:24831" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="24381:24447" ph="{&quot;code&quot;: &quot;703&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="24609:24688" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="24619:24682" ph="{&quot;lang&quot;: &quot;CN&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="24872:28433" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="24948:25496" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="24968:25492" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="24987:25461" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="25015:25421" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="25041:25209" ph="{&quot;description&quot;: &quot;The language of the text.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="25235:25407" ph="{&quot;description&quot;: &quot;The text of current language.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="25589:28410" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="25613:25748" ph="{&quot;description&quot;: &quot;The business scope of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="25769:25895" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="25918:26041" ph="{&quot;description&quot;: &quot;The name of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="26064:26187" ph="{&quot;description&quot;: &quot;The type of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="26209:26338" ph="{&quot;description&quot;: &quot;The credit code of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="26362:26489" ph="{&quot;description&quot;: &quot;The license approved date.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="26514:26650" ph="{&quot;description&quot;: &quot;The establish date pf the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="26670:26791" ph="{&quot;description&quot;: &quot;The business start date.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="26809:26926" ph="{&quot;description&quot;: &quot;The business end date.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="26945:27307" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="26967:27276" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="26985:27118" ph="{&quot;description&quot;: &quot;The company industry code.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="27137:27268" ph="{&quot;description&quot;: &quot;The company description.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="27330:27461" ph="{&quot;description&quot;: &quot;The legal person of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="27482:27611" ph="{&quot;description&quot;: &quot;The organization of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="27633:27745" ph="{&quot;$ref&quot;: &quot;##/definitions/lang_array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="27767:27927" ph="{&quot;default&quot;: 0.00...}" />
+              <marker date="1506143762290" expanded="true" signature="27954:28085" ph="{&quot;description&quot;: &quot;The registered captial type.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="28109:28249" ph="{&quot;description&quot;: &quot;The registered institute of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="28270:28406" ph="{&quot;description&quot;: &quot;The registration status of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="28926:29050" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="28972:29048" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="28982:29042" ph="{&quot;name&quot;: &quot;张三&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="29091:29935" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_staff-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="29268:29912" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="29288:29445" ph="{&quot;default&quot;: &quot;000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="29461:29908" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="29478:29878" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="29502:29843" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="29522:29667" ph="{&quot;description&quot;: &quot;The staff name of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="29688:29833" ph="{&quot;description&quot;: &quot;The staff type of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="30429:30647" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="30476:30645" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="30486:30639" ph="{&quot;change_itme&quot;: &quot;地址变更&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="30688:31865" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_change-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="30866:31842" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="30882:31691" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="30899:31661" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="30923:31626" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="30951:31101" ph="{&quot;description&quot;: &quot;The situation after change.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="31131:31283" ph="{&quot;description&quot;: &quot;The situation before change.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="31311:31449" ph="{&quot;description&quot;: &quot;The change item.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="31477:31616" ph="{&quot;description&quot;: &quot;The change time.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="31712:31838" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="32357:32575" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="32404:32573" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="32414:32567" ph="{&quot;change_itme&quot;: &quot;地址变更&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="32616:33791" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_tree-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="32792:33768" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="32808:33617" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="32825:33587" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="32849:33552" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="32877:33027" ph="{&quot;description&quot;: &quot;The situation after change.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="33057:33209" ph="{&quot;description&quot;: &quot;The situation before change.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="33237:33375" ph="{&quot;description&quot;: &quot;The change item.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="33403:33542" ph="{&quot;description&quot;: &quot;The change time.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="33638:33764" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="34295:34410" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="34347:34408" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="34357:34402" ph="{&quot;investor_name&quot;: &quot;张三&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="34451:35131" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_shareholder-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="34634:35108" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="34654:34780" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="34802:35104" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="34819:35074" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="34843:35039" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="34872:35029" ph="{&quot;description&quot;: &quot;The investor name of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="35633:35756" ph="{&quot;company_id&quot;: &quot;000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="35684:35754" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="35694:35748" ph="{&quot;outcompany_name&quot;: &quot;Company A&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="35797:36458" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/company_id-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="35971:36435" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="35991:36117" ph="{&quot;description&quot;: &quot;The unique id of the company.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="36138:36431" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="36155:36401" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="36179:36366" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="36210:36356" ph="{&quot;description&quot;: &quot;The outcompany name.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="36853:36909" ph="{&quot;agency_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="36950:37294" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/angency_id-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="37124:37271" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="37143:37267" ph="{&quot;description&quot;: &quot;The unique id of the agency.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="37823:38062" ph="{&quot;agency_id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="37978:37997" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="38103:39455" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/angency-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="38274:39432" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="38298:38449" ph="{&quot;description&quot;: &quot;An explanation about the purpose of this instance.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="38475:38646" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="38492:38616" ph="{&quot;description&quot;: &quot;The directors of the agency.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="38666:38790" ph="{&quot;description&quot;: &quot;The unique id of the agency.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="38812:38933" ph="{&quot;description&quot;: &quot;The name of the agency.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="38957:39082" ph="{&quot;description&quot;: &quot;The number of the agency.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="39106:39239" ph="{&quot;description&quot;: &quot;The current status of the agency.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="39267:39428" ph="{&quot;default&quot;: &quot;&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="39980:40133" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="39986:40131" ph="{&quot;agent_name&quot;: &quot;张三&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="40098:40125" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="40174:41084" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/agent-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="40338:41062" ph="{&quot;type&quot;: &quot;object&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="40358:41035" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="40380:40500" ph="{&quot;description&quot;: &quot;The agent name.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="40523:40653" ph="{&quot;description&quot;: &quot;The agent license number.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="40671:40851" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="40690:40817" ph="{&quot;description&quot;: &quot;The major of the agent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="40880:41029" ph="{&quot;description&quot;: &quot;The qualification number of the agent.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="41696:41849" ph="{&quot;offset&quot;: 0...}" />
+              <marker date="1506143762290" expanded="true" signature="41712:41804" ph="[...]" />
+              <marker date="1506143762290" expanded="true" signature="41890:42800" ph="{&quot;id&quot;: &quot;http://cloud-soi.patsnap.com/cloud_patent/agency/patent-schema.json&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="42067:42777" ph="{...}" />
+              <marker date="1506143762290" expanded="true" signature="42082:42263" ph="{&quot;default&quot;: 10...}" />
+              <marker date="1506143762290" expanded="true" signature="42280:42440" ph="{&quot;default&quot;: 0...}" />
+              <marker date="1506143762290" expanded="true" signature="42460:42630" ph="{&quot;type&quot;: &quot;array&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="42477:42600" ph="{&quot;description&quot;: &quot;A patent unique id.&quot;...}" />
+              <marker date="1506143762290" expanded="true" signature="42646:42773" ph="{&quot;description&quot;: &quot;The total count of current requst.&quot;...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-08-The_Base64_algorithm_in_action.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1067">
+            <caret line="71" column="46" lean-forward="false" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+            <folding>
+              <marker date="1508206151858" expanded="true" signature="494:571" ph="/**...*/" />
+              <marker date="1508206151858" expanded="true" signature="679:919" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-17-The_AWS_DAX.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="326">
+            <caret line="130" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
+            <folding>
+              <marker date="1508220056195" expanded="true" signature="2374:3402" ph="..." />
+              <marker date="1508220056195" expanded="true" signature="3404:3484" ph="/**...*/" />
+              <marker date="1508220056195" expanded="true" signature="3945:6444" ph="{...}" />
+              <marker date="1508220056195" expanded="true" signature="6475:6971" ph="{...}" />
+              <marker date="1508220056195" expanded="true" signature="6485:6586" ph="//..." />
+              <marker date="1508220056195" expanded="true" signature="7016:7110" ph="{...}" />
+              <marker date="1508220056195" expanded="true" signature="7184:8374" ph="{...}" />
+              <marker date="1508220056195" expanded="true" signature="7238:7313" ph="{...}" />
+              <marker date="1508220056195" expanded="true" signature="7383:7494" ph="{...}" />
+              <marker date="1508220056195" expanded="true" signature="7905:7920" ph=" { " />
+              <marker date="1508220056195" expanded="true" signature="7930:7940" ph=" }" />
+              <marker date="1508220056195" expanded="true" signature="7978:7993" ph=" { " />
+              <marker date="1508220056195" expanded="true" signature="8006:8016" ph=" }" />
+              <marker date="1508220056195" expanded="true" signature="8053:8068" ph=" { " />
+              <marker date="1508220056195" expanded="true" signature="8084:8094" ph=" }" />
+              <marker date="1508220056195" expanded="true" signature="8144:8159" ph=" { " />
+              <marker date="1508220056195" expanded="true" signature="8184:8194" ph=" }" />
+              <marker date="1508220056195" expanded="true" signature="8231:8246" ph=" { " />
+              <marker date="1508220056195" expanded="true" signature="8261:8271" ph=" }" />
+              <marker date="1508220056195" expanded="true" signature="8320:8335" ph=" { " />
+              <marker date="1508220056195" expanded="true" signature="8358:8368" ph=" }" />
+              <marker date="1508220056195" expanded="true" signature="9510:10615" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-12-Git Introduction.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="161" lean-forward="false" selection-start-line="8" selection-start-column="161" selection-end-line="8" selection-end-column="161" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-01-03-Thougt_In_Drug_Discovery.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6.2 (C:\development\Python\Python36\python.exe) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>chrisye.gitbub.io</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

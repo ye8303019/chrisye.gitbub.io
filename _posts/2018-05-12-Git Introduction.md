@@ -669,6 +669,10 @@ e0564dbd4473369cfd254f5bc7a8a57ee714a68b        refs/tags/v0.0.1^{}
 ```
 ![Git lab branch and tag]({{ site.url }}/images/git_introduction/Git lab branch and tag.png) 
 
+If we do not have any files and want to take a whole project from remote repository, we can input
+```bash
+$ git clone git@git.patsnap.com:yezhongkai/project-git-study.git
+```
 
 ### Rebase
 Rebase is a important concept, very like `merge`, but there are some differences.
