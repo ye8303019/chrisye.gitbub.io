@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01ca0e05-2d64-4eb4-84c8-91082c65edcf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/job_position_rank/ali_position_rank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/job_position_rank/frontend_tech_kg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/job_position_rank/jssh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/job_position_rank/tencent_position_rank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2021-01-28-Thought_In_Job_Position_Rank.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2021-01-28-Thought_In_Job_Position_Rank.md" afterPath="$PROJECT_DIR$/_posts/2021-01-28-Thought_In_Job_Position_Rank.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,8 +75,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2021-01-28-Thought_In_Job_Position_Rank.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-9852">
-                <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <first_editor relative-caret-position="762">
+                <caret line="352" column="5" lean-forward="true" selection-start-line="352" selection-start-column="5" selection-end-line="352" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -1341,7 +1337,7 @@
       <workItem from="1611833389213" duration="5473000" />
       <workItem from="1612004869407" duration="18599000" />
       <workItem from="1612102972922" duration="5360000" />
-      <workItem from="1612147687126" duration="52009000" />
+      <workItem from="1612147687126" duration="52130000" />
     </task>
     <task id="LOCAL-00007" summary="The CMS &amp; G1">
       <created>1503669243626</created>
@@ -1690,7 +1686,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275713000" />
+    <option name="totallyTimeSpent" value="275834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3022" height="1976" extended-state="6" />
@@ -2402,8 +2398,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2021-01-28-Thought_In_Job_Position_Rank.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-9852">
-            <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <first_editor relative-caret-position="762">
+            <caret line="352" column="5" lean-forward="true" selection-start-line="352" selection-start-column="5" selection-end-line="352" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
