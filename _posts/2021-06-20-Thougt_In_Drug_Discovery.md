@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thought In Drug Discovery"
-date:   2021-06-21 21:15:11 +0800
+date:   2021-06-20 21:15:11 +0800
 categories: Life Science Drug Discovery
 ---
 
