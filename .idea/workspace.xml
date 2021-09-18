@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01ca0e05-2d64-4eb4-84c8-91082c65edcf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-09-17-WeChat_Services.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wechat_services/weichat_services.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +264,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -632,7 +630,7 @@
       <workItem from="1628414066556" duration="44000" />
       <workItem from="1631866779087" duration="1162000" />
       <workItem from="1631868127552" duration="875000" />
-      <workItem from="1631869106993" duration="1675000" />
+      <workItem from="1631869106993" duration="2811000" />
     </task>
     <task id="LOCAL-00007" summary="The CMS &amp; G1">
       <created>1503669243626</created>
@@ -1090,6 +1088,10 @@
     <MESSAGE value="Thought In EnterpriseReady" />
     <MESSAGE value="Git Introduction" />
     <option name="LAST_COMMIT_MESSAGE" value="Git Introduction" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
