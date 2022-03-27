@@ -1,0 +1,1973 @@
+I"(�<h1 id="cloud-patent-design">Cloud Patent Design</h1>
+
+<ul>
+  <li><a href="#versioning">Versioning</a></li>
+  <li><a href="#patent">Patent</a>
+    <ul>
+      <li><a href="#get-cloud_patentcompany_id">GET /cloud_patent/patent_id</a></li>
+      <li><a href="#get-cloud_patentpatentpatent_id">GET /cloud_patent/patent/{patent_id}</a></li>
+      <li><a href="#get-cloud_patentpatent_valuationpatent_id">GET /cloud_patent/patent_valuation/{patent_id}</a></li>
+      <li><a href="#get-cloud_patentclassificationclassification_typeclassification_code">GET /cloud_patent/classification/{classification_type}/{classification_code}</a></li>
+    </ul>
+  </li>
+  <li><a href="#trademark">Trademark</a>
+    <ul>
+      <li><a href="#get-cloud_patenttrademark_id">GET /cloud_patent/trademark_id</a></li>
+      <li><a href="#get-cloud_patenttrademarktrademark_id">GET /cloud_patent/trademark/{trademark_id}</a></li>
+    </ul>
+  </li>
+  <li><a href="#company">Company</a>
+    <ul>
+      <li><a href="#get-cloud_patentcompany_id">GET /cloud_patent/company_id</a></li>
+      <li><a href="#get-cloud_patentcompanycompany_id">GET /cloud_patent/company/{company_id}</a></li>
+      <li><a href="#get-cloud_patentcompany_staffcompany_id">GET /cloud_patent/company_staff/{company_id}</a></li>
+      <li><a href="#get-cloud_patentcompany_changecompany_id">GET /cloud_patent/company_change/{company_id}</a></li>
+      <li><a href="#get-cloud_patentcompany_treecompany_id">GET /cloud_patent/company_tree/{company_id}</a></li>
+      <li><a href="#get-cloud_patentcompany_shareholdercompany_id">GET /cloud_patent/company_shareholder/{company_id}</a></li>
+      <li><a href="#get-cloud_patentcompany_investmentcompany_id">GET /cloud_patent/company_investment/{company_id}</a></li>
+    </ul>
+  </li>
+  <li><a href="#agency">Agency</a>
+    <ul>
+      <li><a href="#get-cloud_patentagency_id">GET /cloud_patent/agency_id</a></li>
+      <li><a href="#get-cloud_patentagencyagency_id">GET /cloud_patent/agency/{agency_id}</a></li>
+      <li><a href="#get-cloud_patentagencyagentagent_id">GET /cloud_patent/agency/agent/{agent_id}</a></li>
+      <li><a href="#get-cloud_patentagencyagency_idpatent">GET /cloud_patent/agency/{agency_id}/patent</a></li>
+    </ul>
+  </li>
+  <li><a href="#error-codes">Error Codes</a></li>
+</ul>
+
+<h2 id="versioning">Versioning</h2>
+
+<p>The service use <a href="http://json-schema.org/documentation.html">Json Schema</a> to versioning, the client could add the <code class="language-plaintext highlighter-rouge">Accept</code> header to request for specified version of response.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">Accept</code> header like the format below:</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nx">Accept</span><span class="p">:</span> <span class="nx">application</span><span class="o">/</span><span class="nx">json</span><span class="p">;</span> <span class="nx">profile</span><span class="o">=</span><span class="dl">"</span><span class="s2">http://mydomain.com/myservice/myresource-schema.json</span><span class="dl">"</span><span class="p">;</span> <span class="nx">version</span><span class="o">=</span><span class="mf">1.0</span><span class="p">.</span><span class="mi">0</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">profile</code> means the <a href="http://json-schema.org/documentation.html">Json Schema</a> id.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">version</code> means the version of the resource. If no version on the accept, it’s means the latest version.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">Accept</code> header Example:</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nx">Accept</span><span class="p">:</span> <span class="nx">application</span><span class="o">/</span><span class="nx">json</span><span class="p">;</span> <span class="nx">profile</span><span class="o">=</span><span class="dl">"</span><span class="s2">http://cloud-soi.patsnap.com/cloud-patent/patent_id-schema.json</span><span class="dl">"</span><span class="p">;</span> <span class="nx">version</span><span class="o">=</span><span class="mf">1.0</span><span class="p">.</span><span class="mi">0</span>
+</code></pre></div></div>
+
+<p>The response could use the <a href="http://json-schema.org/documentation.html">Json Schema</a> for validating.</p>
+
+<h2 id="patent">Patent</h2>
+
+<h3 id="get-cloud_patentpatent_id">GET /cloud_patent/patent_id</h3>
+
+<p><em><strong>Get related patent id by a comapny name or a organization number or a registration number</strong></em></p>
+
+<h4 id="request-parameters">Request Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>q</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>The query string  &lt;/br&gt;Support fields: &lt;/br&gt;    <strong>ANS</strong>&lt;/br&gt;    <strong>ORG_NUM</strong>&lt;/br&gt;    <strong>REG_NUM</strong></td>
+      <td>String length less equal 150</td>
+      <td>q=ANS:CompanyA&lt;/br&gt;q=ORG_NUM:000000000&lt;/br&gt;q=REG_NUM:000000000000000</td>
+    </tr>
+    <tr>
+      <td><strong>offset</strong></td>
+      <td>Integer</td>
+      <td>false</td>
+      <td>0</td>
+      <td>The offset of pagination</td>
+      <td>Number great equal 0</td>
+      <td>offset=1</td>
+    </tr>
+    <tr>
+      <td><strong>limit</strong></td>
+      <td>Integer</td>
+      <td>false</td>
+      <td>10</td>
+      <td>The limit of pagination</td>
+      <td>Number great equal 1 and less equal 100</td>
+      <td>limit=20</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"patent_id"</span><span class="p">:[</span><span class="w">
+    </span><span class="s2">"00000000-0000-0000-0000-000000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"11111111-1111-1111-1111-111111111111"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"offset"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"limit"</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"total"</span><span class="p">:</span><span class="mi">100</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/patent_id-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"limit"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The limit of pagination."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The limit schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"minimum"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"maximum"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"offset"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The offset of pagination."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The offset schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"minimum"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"patent_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A patent unique id."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The patent id schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"total"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The total count of current requst."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The total schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentpatentpatent_id">GET /cloud_patent/patent/{patent_id}</h3>
+
+<p><em><strong>Get patent basic information by a batch of patent id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>patent_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> patent id</td>
+      <td>Patent id should be legal&lt;/br&gt;&lt;/br&gt; The number of patent id should less equal 10</td>
+      <td>patent_id=00000000-0000-0000-0000-000000000000,11111111-1111-1111-1111-111111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-1">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-1">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"patent_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"00000000-0000-0000-0000-000000000000"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"pn"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CN102699XXXX"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"patent_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Applications"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"ipc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A01,A21"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"ans"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CN"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"张三"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"an"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CN"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"张三"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"in"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CN"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"李四"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"pbdt"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"apdt"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"isdt"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"apno"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CN201210101000.0"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"thumbnail"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://thumbnail.domain/example.png"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"abstract"</span><span class="p">:</span><span class="w"> </span><span class="s2">"某种类型的专利摘要"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"extenal_link"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PatSnap"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"legal"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"l007ep"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"legal_desc"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                    </span><span class="p">{</span><span class="w">
+                        </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CN"</span><span class="p">,</span><span class="w">
+                        </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"授权"</span><span class="w">
+                    </span><span class="p">}</span><span class="w">
+                </span><span class="p">]</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-1">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"lang_array"</span><span class="p">:{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The language of the text."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The lang schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The text of current language."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The text schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/patent-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"items"</span><span class="p">:{</span><span class="w">
+    </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"abstract"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The patent abstract."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The abstract schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"an"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The assignee name."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="p">,</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"ans"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="s2">"The standard assignee name"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="p">,</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"apdt"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"An apply date of the patent."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The apdt schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"apno"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"An apply number of the patent."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The apno schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"extenal_link"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The source of current patent."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The extenal_link schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"in"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The inventor of the patent"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"ipc"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The ipc code of the patent."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The ipc schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"isdt"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The issue date of the patent."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The isdt schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"legal"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The description of the legal status."</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"l007ep"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The legal status date."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/properties/legal/items/properties/l007ep"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The l007ep schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+            </span><span class="p">},</span><span class="w"> 
+            </span><span class="nl">"legal_desc"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The legal status description."</span><span class="p">,</span><span class="w">
+              </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"patent_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the patent."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The patent_id schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"patent_type"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The type of the patent, enum: Applications,Patents,Design, Utilites."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The patent_type schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"pbdt"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The public date of the patent."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The pbdt schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"pn"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The public number of the patent."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The pn schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"thumbnail"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The thumbnail download address."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The thumbnail schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentpatent_valuationpatent_id">GET /cloud_patent/patent_valuation/{patent_id}</h3>
+<p><em><strong>Get patent basic information by a batch of patent id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>patent_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> patent id</td>
+      <td>Patent id should be legal&lt;/br&gt;&lt;/br&gt; The number of patent id should less equal 10</td>
+      <td>patent_id=00000000-0000-0000-0000-000000000000,11111111-1111-1111-1111-111111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-2">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-2">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"patent_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"00000000-0000-0000-0000-000000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"legal"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"assignee"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"market_attractiveness"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"market_coverage"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"technology"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-2">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/patent_valuation-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"assignee"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The ."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The assignee schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"legal"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The valuation of legal."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The legal schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"market_attractiveness"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The valuation of market attractiveness."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The market_attractiveness schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"market_coverage"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The valuation of market coverage."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The market_coverage schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"patent_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="s2">"00000000-0000-0000-0000-000000000000"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"An explanation about the purpose of this instance."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The patent_id schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"technology"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The valuation of technology."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The technology schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentclassificationclassification_typeclassification_code">GET /cloud_patent/classification/{classification_type}/{classification_code}</h3>
+<p>|Query Param|Type|Required|Default|Description|Restriction|Example|
+|———–|—-|——–|——-|———–|———–|——-|
+|<strong>classification_type</strong>|String|true||Classification type, enum:&lt;/br&gt;     <strong>ipc</strong>|Classification type should be legal&lt;/br&gt;|classification_type=ipc|
+|<strong>classification_code</strong>|String|true||A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> IPC code|IPC code should be legal&lt;/br&gt;&lt;/br&gt; The number of IPC code should less equal 10|ipc_code=A01,A02|</p>
+
+<h4 id="version-3">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-3">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"ipc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A01"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016.01"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"desc"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"AGRICULTURE; FORESTRY; ANIMAL HUSBANDRY; HUNTING; TRAPPING; FISHING"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EN"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"parent"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"ipc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016.01"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"desc"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                    </span><span class="p">{</span><span class="w">
+                        </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"HUMAN NECESSITIES"</span><span class="p">,</span><span class="w">
+                        </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EN"</span><span class="w">
+                    </span><span class="p">}</span><span class="w">
+                </span><span class="p">]</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-3">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/classification-schema.json"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"lang_array"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The language of the text."</span><span class="p">,</span><span class="w">
+                        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The lang schema"</span><span class="p">,</span><span class="w">
+                        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+                    </span><span class="p">},</span><span class="w">
+                    </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The text of current language."</span><span class="p">,</span><span class="w">
+                        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The text schema"</span><span class="p">,</span><span class="w">
+                        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+                    </span><span class="p">}</span><span class="w">
+                </span><span class="p">},</span><span class="w">
+                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/classification.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"desc"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"ipc"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The ipc code."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The ipc schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"parent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"desc"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="w">
+            </span><span class="p">},</span><span class="w"> 
+            </span><span class="nl">"ipc"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The ipc code."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The ipc schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+            </span><span class="p">},</span><span class="w"> 
+            </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The version of the ipc."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The version schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The version of the ipc."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The version schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="trademark">Trademark</h2>
+
+<h3 id="get-cloud_patenttrademark_id">GET /cloud_patent/trademark_id</h3>
+
+<p><em><strong>Get related trademark id by a company name or a organization number or a registration number</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>q</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>The query string  &lt;/br&gt;Support fields: &lt;/br&gt;    <strong>ANS</strong>&lt;/br&gt;    <strong>ORG_NUM</strong>&lt;/br&gt;    <strong>REG_NUM</strong></td>
+      <td>String length less then 150</td>
+      <td>q=ANS:CompanyA&lt;/br&gt;q=ORG_NUM:000000000&lt;/br&gt;q=REG_NUM:000000000000000</td>
+    </tr>
+    <tr>
+      <td><strong>offset</strong></td>
+      <td>Integer</td>
+      <td>false</td>
+      <td>0</td>
+      <td>The offset of pagination</td>
+      <td>Number great equal 0</td>
+      <td>offset=1</td>
+    </tr>
+    <tr>
+      <td><strong>limit</strong></td>
+      <td>Integer</td>
+      <td>false</td>
+      <td>10</td>
+      <td>The limit of pagination</td>
+      <td>Number great equal 1 and less equal 100</td>
+      <td>limit=20</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-4">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-4">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"trademark_id"</span><span class="p">:[</span><span class="w">
+    </span><span class="s2">"00000000-0000-0000-0000-000000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"11111111-1111-1111-1111-111111111111"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"offset"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"limit"</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"total"</span><span class="p">:</span><span class="mi">100</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-4">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/trademark_id-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"limit"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The limit of pagination."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The limit schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"minimum"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"maximum"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"offset"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The offset of pagination."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The offset schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"minimum"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"trademark_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A trademark unique id."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The trademark id schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"total"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The total count of current requst."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The total schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patenttrademarktrademark_id">GET /cloud_patent/trademark/{trademark_id}</h3>
+<p><em><strong>Get trademark basic information by a batch of trademark id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>trademark_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> trademark id</td>
+      <td>Trademark id should be legal&lt;/br&gt;&lt;/br&gt; The number of trademark id should less equal 10</td>
+      <td>trademark_id=00000000-0000-0000-0000-000000000000,11111111-1111-1111-1111-111111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-5">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-5">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"trademark_id"</span><span class="p">:</span><span class="s2">"00000000-0000-0000-0000-000000000000"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"org_number"</span><span class="p">:</span><span class="s2">"000000000"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"credit_code"</span><span class="p">:</span><span class="s2">"000000000000000000"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"company_name"</span><span class="p">:</span><span class="s2">"CompanyA"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"apno"</span><span class="p">:</span><span class="s2">"0000000"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"apdt"</span><span class="p">:</span><span class="s2">"00000000"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"rgno"</span><span class="p">:</span><span class="s2">"00000000"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"ncl"</span><span class="p">:[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"code"</span><span class="p">:</span><span class="s2">"0403"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"title"</span><span class="p">:[</span><span class="w">
+                    </span><span class="p">{</span><span class="w">
+                        </span><span class="nl">"lang"</span><span class="p">:</span><span class="s2">"EN"</span><span class="p">,</span><span class="w">
+                        </span><span class="nl">"text"</span><span class="p">:</span><span class="s2">"solid fuel"</span><span class="w">
+                    </span><span class="p">}</span><span class="w">
+                </span><span class="p">],</span><span class="w">
+                </span><span class="nl">"note"</span><span class="p">:</span><span class="s2">"XXXX"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"lang"</span><span class="p">:</span><span class="s2">"EN"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"text"</span><span class="p">:</span><span class="s2">"FRANTIC JEANS"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"representive"</span><span class="p">:[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"lang"</span><span class="p">:</span><span class="s2">"EN"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"text"</span><span class="p">:</span><span class="s2">"CompanyA"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"current_status"</span><span class="p">:</span><span class="s2">"Removed - Not Renewed"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"legal_status"</span><span class="p">:[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"category_code"</span><span class="p">:</span><span class="s2">"690"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"category_content"</span><span class="p">:</span><span class="s2">"NOTICE OF ALLOWANCE - CANCELLED"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"thumbnail"</span><span class="p">:</span><span class="s2">"http://thumbnail.domain/example.png"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"goods_service"</span><span class="p">:[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"content"</span><span class="p">:</span><span class="s2">"皮衣"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"lang"</span><span class="p">:</span><span class="s2">"CN"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"ncl"</span><span class="p">:</span><span class="s2">"2501"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-5">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"lang_array"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The language of the text."</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The lang schema"</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+                </span><span class="p">},</span><span class="w">
+                </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The text of current language."</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The text schema"</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+                </span><span class="p">}</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/trademark-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"apdt"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The apply date of the trademark."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The apdt schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"apno"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The apply number of the trademark."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The apno schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"company_name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company name."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_name schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"credit_code"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The credit code of the company."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The credit_code schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"current_status"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Current status of the trademark."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The current_status schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"goods_service"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The content of the goods."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The content schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+            </span><span class="p">},</span><span class="w"> 
+            </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The language of the content."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The lang schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+            </span><span class="p">},</span><span class="w"> 
+            </span><span class="nl">"ncl"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The nice code."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The ncl schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"legal_status"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"category_code"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The legal status category code."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The category_code schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+            </span><span class="p">},</span><span class="w"> 
+            </span><span class="nl">"category_content"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The legal status category content."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The category_content schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"ncl"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The nice code of the trademark."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The code schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+            </span><span class="p">},</span><span class="w"> 
+            </span><span class="nl">"note"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The note of the trademark."</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The note schema"</span><span class="p">,</span><span class="w"> 
+              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+            </span><span class="p">},</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"org_number"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The organization number of the company."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The org_number schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"representive"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"rgno"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The registration number of the trademark."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The rgno schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"thumbnail"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The thumbnail download url of the trademark."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The thumbnail schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"trademark_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the trademark."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The trademark_id schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="company">Company</h2>
+
+<h3 id="get-cloud_patentcompany_id">GET /cloud_patent/company_id</h3>
+
+<p><em><strong>Get related company id by a company name or organization number</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>company_name</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>The company name  &lt;/br&gt;</td>
+      <td>String length less equal 100</td>
+      <td>company_name=CompanyA</td>
+    </tr>
+    <tr>
+      <td><strong>org_number</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>The company name  &lt;/br&gt;</td>
+      <td>String length less equal 20</td>
+      <td>org_number=000000000</td>
+    </tr>
+    <tr>
+      <td><strong>reg_number</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>The company name  &lt;/br&gt;</td>
+      <td>String length less equal 20</td>
+      <td>reg_number=000000000000000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-6">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-6">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"company_id"</span><span class="p">:</span><span class="s2">"000000000"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-6">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/company_id-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The id of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_id schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentcompanycompany_id">GET /cloud_patent/company/{company_id}</h3>
+
+<p><em><strong>Get company basic information by a batch of company id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>company_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> company id</td>
+      <td>Company id should be legal&lt;/br&gt;&lt;/br&gt; The number of company id should less equal 10</td>
+      <td>company_id=000000000,111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-7">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-7">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"company_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CompanyA"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"org_number"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"credit_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000000000000Y"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"company_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"个体工商户"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"industry"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"703"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"desc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"房地产业-房地产业-房地产中介服务"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"reg_capital"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.00</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"reg_capital_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"万元 人民币"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"legal_person"</span><span class="p">:</span><span class="w"> </span><span class="s2">"张三"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"date_establish"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"reg_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"在业"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"reg_address"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CN"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"XX路"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"business_scope"</span><span class="p">:</span><span class="w"> </span><span class="s2">"钢管租赁"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"reg_institute"</span><span class="p">:</span><span class="w"> </span><span class="s2">"XX局"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"date_approved"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"date_from"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"date_to"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-7">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"lang_array"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The language of the text."</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The lang schema"</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+                </span><span class="p">},</span><span class="w">
+                </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The text of current language."</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The text schema"</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+                </span><span class="p">}</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/company-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"business_scope"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The business scope of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The business_scope schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_id schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"company_name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The name of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_name schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"company_type"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The type of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_type schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"credit_code"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The credit code of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The credit_code schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"date_approved"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The license approved date."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The date_approved schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"date_establish"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The establish date pf the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The date_establish schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"date_from"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The business start date."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The date_from schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"date_to"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The business end date."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The date_to schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"industry"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company industry code."</span><span class="p">,</span><span class="w"> 
+          </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The code schema"</span><span class="p">,</span><span class="w"> 
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"desc"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company description."</span><span class="p">,</span><span class="w"> 
+          </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The desc schema"</span><span class="p">,</span><span class="w"> 
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"legal_person"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The legal person of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The legal_person schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"org_number"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The organization of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The org_number schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"reg_address"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"$ref"</span><span class="p">:</span><span class="s2">"#/definitions/lang_array"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The registered address of the company."</span><span class="p">,</span><span class="w"> 
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"reg_capital"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.00</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The registered captial of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The reg_capital schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"reg_capital_type"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The registered captial type."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The reg_capital_type schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"reg_institute"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The registered institute of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The reg_institute schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"reg_status"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The registration status of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The reg_status schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentcompany_staffcompany_id">GET /cloud_patent/company_staff/{company_id}</h3>
+
+<p><em><strong>Get company staff information by a batch of company id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>company_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> company id</td>
+      <td>Company id should be legal&lt;/br&gt;&lt;/br&gt; The number of company id should less equal 10</td>
+      <td>company_id=000000000,111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-8">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-8">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"staff"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"name"</span><span class="p">:</span><span class="s2">"张三"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"经理"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-8">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/company_staff-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_id schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"staff"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The staff name of the company."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The name schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The staff type of the company."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The type schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentcompany_changecompany_id">GET /cloud_patent/company_change/{company_id}</h3>
+
+<p><em><strong>Get company change information by a batch of company id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>company_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> company id</td>
+      <td>Company id should be legal&lt;/br&gt;&lt;/br&gt; The number of company id should less equal 10</td>
+      <td>company_id=000000000,111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-9">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-9">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"change"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"change_itme"</span><span class="p">:</span><span class="w"> </span><span class="s2">"地址变更"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"change_before"</span><span class="p">:</span><span class="s2">"地址 A"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"change_after"</span><span class="p">:</span><span class="s2">"地址 B"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"change_time"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-9">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/company_change-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"change"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"change_after"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The situation after change."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change_after schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"change_before"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The situation before change."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change_before schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"change_itme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change item."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change_itme schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"change_time"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change time."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change_time schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_id schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentcompany_treecompany_id">GET /cloud_patent/company_tree/{company_id}</h3>
+
+<p><em><strong>Get company branch information by a batch of company id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>company_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> company id</td>
+      <td>Company id should be legal&lt;/br&gt;&lt;/br&gt; The number of company id should less equal 10</td>
+      <td>company_id=000000000,111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-10">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-10">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"branch"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"change_itme"</span><span class="p">:</span><span class="w"> </span><span class="s2">"地址变更"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"change_before"</span><span class="p">:</span><span class="s2">"地址 A"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"change_after"</span><span class="p">:</span><span class="s2">"地址 B"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"change_time"</span><span class="p">:</span><span class="w"> </span><span class="mi">20000101</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-10">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/company_tree-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"change"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"change_after"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The situation after change."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change_after schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"change_before"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The situation before change."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change_before schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"change_itme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change item."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change_itme schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">},</span><span class="w"> 
+          </span><span class="nl">"change_time"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change time."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The change_time schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_id schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentcompany_shareholdercompany_id">GET /cloud_patent/company_shareholder/{company_id}</h3>
+
+<p><em><strong>Get company shareholder information by a batch of company id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>company_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> company id</td>
+      <td>Company id should be legal&lt;/br&gt;&lt;/br&gt; The number of company id should less equal 10</td>
+      <td>company_id=000000000,111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-11">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-11">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"shareholder"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"investor_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"张三"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-11">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/company_shareholder-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_id schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"shareholder"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"investor_name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The investor name of the company."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The investor_name schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentcompany_investmentcompany_id">GET /cloud_patent/company_investment/{company_id}</h3>
+
+<p><em><strong>Get company investment information by a batch of company id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>company_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> company id</td>
+      <td>Company id should be legal&lt;/br&gt;&lt;/br&gt; The number of company id should less equal 10</td>
+      <td>company_id=000000000,111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-12">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-12">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"investment"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"outcompany_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Company A"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-12">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/company_id-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the company."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The company_id schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"investment"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"outcompany_name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The outcompany name."</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The outcompany_name schema"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="agency">Agency</h2>
+
+<h3 id="get-cloud_patentagency_id">GET /cloud_patent/agency_id</h3>
+
+<p><em><strong>Get agency id by a agency number</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>agency_number</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>The agency number  &lt;/br&gt;</td>
+      <td>String length less equal 10</td>
+      <td>agency_number=00000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-13">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-13">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"agency_id"</span><span class="p">:</span><span class="s2">"00000000-0000-0000-0000-000000000000"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-13">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/angency_id-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"agency_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the agency."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The agency_id schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentagencyagency_id">GET /cloud_patent/agency/{agency_id}</h3>
+
+<p><em><strong>Get agency information by a batch of agency number</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>agency_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> agency id</td>
+      <td>Agency id should be legal&lt;/br&gt;&lt;/br&gt; The number of agency id should less equal 10</td>
+      <td>agency_id=00000000-0000-0000-0000-000000000000,11111111-1111-1111-1111-111111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-14">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-14">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"agency_id"</span><span class="p">:</span><span class="s2">"00000000-0000-0000-0000-000000000000"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"agency_number"</span><span class="p">:</span><span class="s2">"00000"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"agency_name"</span><span class="p">:</span><span class="s2">"Agency A"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"agency_status"</span><span class="p">:</span><span class="s2">"正常"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"agency_director"</span><span class="p">:[</span><span class="w">
+    </span><span class="s2">"张三"</span><span class="p">,</span><span class="s2">"李四"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"angency_telephone"</span><span class="p">:</span><span class="s2">"13900000000"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"agency_address"</span><span class="p">:</span><span class="s2">"地址A"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-14">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/angency-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"agency_address"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"An explanation about the purpose of this instance."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The agency_address schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"agency_director"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The directors of the agency."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The 0 schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"agency_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The unique id of the agency."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The agency_id schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"agency_name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The name of the agency."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The agency_name schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"agency_number"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The number of the agency."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The agency_number schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"agency_status"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The current status of the agency."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The agency_status schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"angency_telephone"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The telephone number of the agency."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The angency_telephone schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentagencyagentagent_id">GET /cloud_patent/agency/agent/{agent_id}</h3>
+
+<p><em><strong>Get agent information by a batch of agent id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>agent_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>A batch of <strong><code class="language-plaintext highlighter-rouge">comma separated</code></strong> agent id</td>
+      <td>Agency id should be legal&lt;/br&gt;&lt;/br&gt; The number of agent id should less equal 10</td>
+      <td>agent_id=00000000-0000-0000-0000-000000000000,11111111-1111-1111-1111-111111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-15">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-15">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"agent_name"</span><span class="p">:</span><span class="s2">"张三"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"qualification_no"</span><span class="p">:</span><span class="s2">"1115212"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"license_no"</span><span class="p">:</span><span class="s2">"1139115212.7"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"major"</span><span class="p">:[</span><span class="w">
+        </span><span class="s2">"电力"</span><span class="p">,</span><span class="s2">"电子"</span><span class="w">
+      </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-15">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/agent-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"agent_name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The agent name."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The agent_name schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"license_no"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The agent license number."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The license_no schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"major"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The major of the agent."</span><span class="p">,</span><span class="w"> 
+          </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The 0 schema"</span><span class="p">,</span><span class="w"> 
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"qualification_no"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The qualification number of the agent."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The qualification_no schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="get-cloud_patentagencyagency_idpatent">GET /cloud_patent/agency/{agency_id}/patent</h3>
+
+<p><em><strong>Get agent related patent number and patent id by a agency id</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Param</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+      <th>Restriction</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>agency_id</strong></td>
+      <td>String</td>
+      <td>true</td>
+      <td> </td>
+      <td>Agency id</td>
+      <td>Agency id should be legal&lt;/br&gt;</td>
+      <td>agency_id=00000000-0000-0000-0000-000000000000</td>
+    </tr>
+    <tr>
+      <td><strong>offset</strong></td>
+      <td>Integer</td>
+      <td>false</td>
+      <td>0</td>
+      <td>The offset of pagination</td>
+      <td>Number great equal 0</td>
+      <td>offset=1</td>
+    </tr>
+    <tr>
+      <td><strong>limit</strong></td>
+      <td>Integer</td>
+      <td>false</td>
+      <td>10</td>
+      <td>The limit of pagination</td>
+      <td>Number great equal 1 and less equal 100</td>
+      <td>limit=20</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="version-16">Version</h4>
+
+<p>1.0.0</p>
+
+<h4 id="response-body-16">Response body</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"patent_id"</span><span class="p">:[</span><span class="w">
+    </span><span class="s2">"00000000-0000-0000-0000-000000000000"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"11111111-1111-1111-1111-111111111111"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"offset"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"limit"</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"total"</span><span class="p">:</span><span class="mi">100</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="response-json-schema-16">Response json schema</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-04/schema#"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"definitions"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cloud-soi.patsnap.com/cloud_patent/agency/patent-schema.json"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"limit"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The limit of pagination."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The limit schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"minimum"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"maximum"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"offset"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"default"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The offset of pagination."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The offset schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"minimum"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"patent_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A patent unique id."</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The patent id schema"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w">
+      </span><span class="p">},</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nl">"total"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The total count of current requst."</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The total schema"</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integer"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w"> 
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="error-codes">Error Codes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>code number</th>
+      <th>HTTP status</th>
+      <th>decription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>100010</td>
+      <td>400</td>
+      <td>Bad request</td>
+    </tr>
+    <tr>
+      <td>100011</td>
+      <td>404</td>
+      <td>Empty result, data not found</td>
+    </tr>
+    <tr>
+      <td>100012</td>
+      <td>415</td>
+      <td>The json schema is unsupported</td>
+    </tr>
+  </tbody>
+</table>
+
+:ET

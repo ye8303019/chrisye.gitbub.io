@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thought In Competitive Intelligence System & Technology Intelligence"
+title:  "Thought In Competitive Intelligence System & Technology Intelligence (Draft)"
 date:   2021-02-19 18:44:11 +0800
 categories: Product
 ---

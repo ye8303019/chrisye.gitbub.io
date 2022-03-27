@@ -1,0 +1,829 @@
+I".�<h2 id="what-is-vcs">What is VCS?</h2>
+<p>I bet you’ve try to developed (V)ersion (C)ontrol (S)ystem prototype by yourself before. ie. you a product manager, you write a requirement document named v1.0, 
+the document need be reviewed by your boss, your client and your teammates. Then you collect all suggestions and modify the document, naming it 
+version v1.1. This operation makes everyone understand that the document is been upgraded when you send it to them, also lets you easily start revising from
+any version.</p>
+
+<p><img src="http://localhost:4000/images/git_introduction/vcs1.png" alt="vcs1" /></p>
+
+<p>Imagine that there are multiple product managers work together. You are one of them. You guys are preparing for one requirement document. Of course, you can
+notify others each time when you are about to start writing, and you guys can transfer the file to each other and merge them manually. In this case,
+the efficient way is leverage a vcs.<br />
+Here is a short description from Wikipedia</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The need for a logical way to organize and control revisions has existed for almost as long as  
+
+writing has existed, but revision control became much more important, and complicated when the  
+ 
+era of computing began. The numbering of book editions and of specification revisions are   
+
+examples that date back to the print-only era. Today, the most capable (as well as complex)   
+
+revision control systems are those used in software development, where a team of people may   
+
+change the same files.
+
+Version control systems (VCS) most commonly run as stand-alone applications, but revision 
+
+control is also embedded in various types of software such as word processors and 
+
+spreadsheets,  collaborative web docs[2] and in various content management systems, 
+
+e.g., Wikipedia's page history. Revision control allows for the ability to revert a document 
+
+to a previous revision, which is critical for allowing editors to track each other's edits, 
+
+correct mistakes, and defend against vandalism and spamming.
+
+Software tools for version control are essential for the organization of multi-developer 
+
+projects.
+</code></pre></div></div>
+
+<p>In software domain, version control system used to provide source code management ability. There are several vocabularies we need to
+ understand, ie. <code class="language-plaintext highlighter-rouge">commit</code>, <code class="language-plaintext highlighter-rouge">branch</code>, <code class="language-plaintext highlighter-rouge">tag</code>, <code class="language-plaintext highlighter-rouge">checkout</code>, <code class="language-plaintext highlighter-rouge">conflict</code>, <code class="language-plaintext highlighter-rouge">merge</code>, <code class="language-plaintext highlighter-rouge">clone</code>, <code class="language-plaintext highlighter-rouge">pull</code>, <code class="language-plaintext highlighter-rouge">fetch</code>, <code class="language-plaintext highlighter-rouge">push</code> which will explain in the following content.</p>
+
+<h2 id="what-is-git">What is Git?</h2>
+
+<p><img src="http://localhost:4000/images/git_introduction/git.jpg" alt="git" /></p>
+
+<p>Let’s begin from the history of git. Here the great Linux will be mentioned. At very beginning, changes to Linux kernel were maintained by patches and archived files.
+The inconvenient lets the project start to use a vcs called BitKeep. Good time doesn’t last long, BitKeep free-charge access was revoked by BitKeep developer. So Linux 
+ kernel project community developers start to build their own vcs, then the Git was born in such a background.</p>
+
+<p>So what is Git? Here is the definition and slogan from git official website.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Git is a free and open source distributed version control system designed to handle everything
+
+from small to very large projects with speed and efficiency.
+</code></pre></div></div>
+
+<h2 id="why-we-need-git">Why we need Git?</h2>
+<p>After knowing the definition of Git, then we will figure out why we need Git? There is a key concept <code class="language-plaintext highlighter-rouge">Distribute Version Contrl System</code> we need to understand.</p>
+
+<h3 id="local-version-control-systems">Local Version Control Systems</h3>
+<p>Local version control system means that all versions of file are stored in the local hard disk. We checkout them locally. The most famous local vcs is <a href="https://www.gnu.org/software/rcs/"><strong>RCS</strong></a>
+RCS store the patches between each version of the file on the local disk, it can re-create the file by adding up all the patches at that point.
+<img src="http://localhost:4000/images/git_introduction/Local Version Control System.png" alt="Local Version Control System" /></p>
+
+<h3 id="centralized-version-control-systems">Centralized Version Control Systems</h3>
+<p>Doing versioning locally is inconvenient when multiple users want to maintain a same file. In this situation, people need a sever to maintain different versions of the file and people can communicate with
+this serve and checkout the file they want. Leverage a serve to do this is called (C)entralized (V)ersion (C)ontrl (S)ystem.
+There are several VCVS system that been used widely. ie. <code class="language-plaintext highlighter-rouge">SVN</code>, <code class="language-plaintext highlighter-rouge">CVS</code>, <code class="language-plaintext highlighter-rouge">Perforce</code> 
+<img src="http://localhost:4000/images/git_introduction/Centralized Version Control System.png" alt="Local Version Control System" /></p>
+
+<h3 id="distributed-version-control-systems">Distributed Version Control Systems</h3>
+<p>Centralized version control system have one weakness point is that it’s can’t allows you to commit your file when server is unavailable. Imagine that one night a great idea comes out from your mind, and you
+decide to start coding, but your house network can’t access to company’s VCS, in this situation, you can’t commit your code, can’t merge your branch, what you can do is write the code and commit them together
+when you get to your office tomorrow even the code contain many different features. That’s so bad. So we need a (D)istribution (V)ersion (C)ontrol (S)ystem.
+Then let’s re-recognize our new friend Git!
+<img src="http://localhost:4000/images/git_introduction/Distribution Version Control System.png" alt="Local Version Control System" /></p>
+
+<h2 id="key-concepts">Key Concepts</h2>
+<p>Before start doing the practice, we need to have a quick sync up on git’s key concepts. Check the illustration below:</p>
+
+<p><img src="http://localhost:4000/images/git_introduction/Git Diagram.png" alt="Git Diagram" /></p>
+
+<p>As the graphic shows, git will leverage a totally complete work flow on your local side. You can modify your files in the <code class="language-plaintext highlighter-rouge">Work Directory</code>, stage them in the <code class="language-plaintext highlighter-rouge">Stage</code> area and commit them to the local <code class="language-plaintext highlighter-rouge">Repository</code>.
+Once you finish your job on local side, you can communicate with the <code class="language-plaintext highlighter-rouge">Remote Repository</code> and push all the files and logs to the remote.</p>
+
+<p>The file in Git always have 3 status, they are <code class="language-plaintext highlighter-rouge">Modified</code>, <code class="language-plaintext highlighter-rouge">Staged</code> and <code class="language-plaintext highlighter-rouge">Commited</code> which will show in the following content.</p>
+
+<p>Multiple developers can maintain the source code on same <code class="language-plaintext highlighter-rouge">branch</code> or create their own <code class="language-plaintext highlighter-rouge">branch</code>. Usually, we will create a new <code class="language-plaintext highlighter-rouge">branch</code> for each feature, and merge it to release branch when ready.
+and <code class="language-plaintext highlighter-rouge">tag</code> always be used when the project reach some milestone, like ‘v0.0.1’.</p>
+
+<h2 id="installation">Installation</h2>
+<p>Install the Git before we start, for installation, please check the official website:
+<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a></p>
+
+<h2 id="practice">Practice</h2>
+<p>Finally! Ok, let’s begin. First step let’s set some configurations just like most software does. In Git, there are three level for config, <code class="language-plaintext highlighter-rouge">system</code> –&gt; <code class="language-plaintext highlighter-rouge">global</code> –&gt; <code class="language-plaintext highlighter-rouge">local</code>.
+<code class="language-plaintext highlighter-rouge">system</code> for all users and all their repositories, <code class="language-plaintext highlighter-rouge">system</code> for one user and related repositories,  <code class="language-plaintext highlighter-rouge">local</code> for current repository.</p>
+
+<h3 id="config">Config</h3>
+<p>Setting the <code class="language-plaintext highlighter-rouge">user.name</code> and <code class="language-plaintext highlighter-rouge">user.email</code> first. These two information used in each commit of Git.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git config <span class="nt">--global</span> user.name<span class="o">=</span>zhongkai.ye
+<span class="nv">$ </span>git config <span class="nt">--global</span> user.email<span class="o">=</span>yezhongkai@patsnap.com
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git config <span class="nt">--global</span> <span class="nt">-l</span>
+user.name<span class="o">=</span>zhongkai.ye
+user.email<span class="o">=</span>yezhongkai@patsnap.com
+</code></pre></div></div>
+
+<h3 id="initial">Initial</h3>
+<p>Let’s initial our repository.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git init
+Initialized empty Git repository <span class="k">in </span>C:/development/IdeaProjects/project-git-study/.git/
+</code></pre></div></div>
+<p>Folder <code class="language-plaintext highlighter-rouge">.git/</code> be created after the initialization. In this blog, let’s keep focus on the operations, if you are curious about it, you can check here
+<a href="https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config">https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config</a> and
+<a href="https://medium.freecodecamp.org/understanding-git-for-real-by-exploring-the-git-directory-1e079c15b807">https://medium.freecodecamp.org/understanding-git-for-real-by-exploring-the-git-directory-1e079c15b807</a></p>
+
+<p>Create <code class="language-plaintext highlighter-rouge">README.md</code> for this repository</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>vi README.md
+</code></pre></div></div>
+<p>Write a sentence</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This project is used <span class="k">for </span>git <span class="nb">test</span><span class="o">!</span>
+</code></pre></div></div>
+<h3 id="stageadd">Stage/Add</h3>
+<p><code class="language-plaintext highlighter-rouge">stage</code> is synonym of <code class="language-plaintext highlighter-rouge">add</code>, so it’s no different, i prefer to use <code class="language-plaintext highlighter-rouge">stage</code>, because it’s more close to it’s real meaning. Check current git status first</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  <span class="o">(</span>use <span class="s2">"git add &lt;file&gt;..."</span> to include <span class="k">in </span>what will be committed<span class="o">)</span>
+
+        README.md
+
+nothing added to commit but untracked files present <span class="o">(</span>use <span class="s2">"git add"</span> to track<span class="o">)</span>
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git stage README.md
+</code></pre></div></div>
+<p>if you want to stage all modified file, just type</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git stage <span class="nb">.</span>
+</code></pre></div></div>
+<p>Then check the status again:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  <span class="o">(</span>use <span class="s2">"git rm --cached &lt;file&gt;..."</span> to unstage<span class="o">)</span>
+
+        new file:   README.md
+
+</code></pre></div></div>
+<p>If i want to revoke the stage file, the message above shows us to using</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git <span class="nb">rm</span> <span class="nt">--cached</span> README.md
+<span class="nb">rm</span> <span class="s1">'README.md'</span>
+</code></pre></div></div>
+<h3 id="commit">Commit</h3>
+<p>Although we can use <code class="language-plaintext highlighter-rouge">git commit</code> for quick commit, but in order to develop good habit, i suggest that we using a completion common
+<code class="language-plaintext highlighter-rouge">-a</code> for all, means commit all staged file
+<code class="language-plaintext highlighter-rouge">-m</code> for message, means you put your commit message here, if you don’t write message here, a default editor will be open to let you write the message when you commit the file</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s1">'master branch commit 1'</span>
+<span class="o">[</span>master <span class="o">(</span>root-commit<span class="o">)</span> ddfd1dd] master branch commit 1
+ 1 file changed, 1 insertion<span class="o">(</span>+<span class="o">)</span>
+ create mode 100644 README.md
+</code></pre></div></div>
+<p>or you can just commit some specify files</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">touch </span>commit_test_1.md commit_test_2.md commit_test_3.md
+<span class="nv">$ </span>git stage <span class="nb">.</span>
+<span class="nv">$ </span>git commit commit_test_1.md commit_test_2.md <span class="nt">-m</span> <span class="s1">'master branch commit 2'</span>
+<span class="o">[</span>master c9af499] master branch commit 2
+ 2 files changed, 0 insertions<span class="o">(</span>+<span class="o">)</span>, 0 deletions<span class="o">(</span>-<span class="o">)</span>
+ create mode 100644 commit_test_1.md
+ create mode 100644 commit_test_2.md
+</code></pre></div></div>
+<h3 id="log">Log</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git log <span class="nt">--graph</span> <span class="nt">--color</span>
+<span class="k">*</span> commit c9af499d437bfe78fe435d8447ca54a58238ad00 <span class="o">(</span>HEAD -&gt; master<span class="o">)</span>
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Sun May 13 19:55:34 2018 +0800
+|
+|     master branch commit 2
+|
+<span class="k">*</span> commit ddfd1ddaff76435bfd371cc389cd20b7457a926a
+  Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+  Date:   Sun May 13 19:47:02 2018 +0800
+
+      master branch commit 1
+</code></pre></div></div>
+<p>From log, we can see that each commit have their own <code class="language-plaintext highlighter-rouge">commit id</code>, this id generated in SHA-1, author, commit date and message are also their.
+One important thing need to mention is that <code class="language-plaintext highlighter-rouge">HEAD</code>. What’s this? Let’s check a illustration</p>
+
+<p><img src="http://localhost:4000/images/git_introduction/Git HEAD.png" alt="Git HEAD" /></p>
+
+<p>So the <code class="language-plaintext highlighter-rouge">HEAD</code> means where you are. It’s a pointer of your current position. ie. you are on <code class="language-plaintext highlighter-rouge">master</code> branch, commit <code class="language-plaintext highlighter-rouge">E</code>, so the <code class="language-plaintext highlighter-rouge">HEAD</code> also point to
+this position.</p>
+
+<h3 id="reset-and-revert-for-commit-layer">Reset and Revert (For Commit Layer)</h3>
+<p>Oh! I make a mistake, i need to revoke my commit.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git reset <span class="nt">--hard</span> ddfd1ddaff76435bfd371cc389cd20b7457a926a
+HEAD is now at ddfd1dd master branch commit 1
+
+<span class="nv">$ </span>git log
+commit ddfd1ddaff76435bfd371cc389cd20b7457a926a <span class="o">(</span>HEAD -&gt; master<span class="o">)</span>
+Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+Date:   Sun May 13 19:47:02 2018 +0800
+
+    master branch commit 1
+</code></pre></div></div>
+<p>This command means i get the first time commit id and reset my work directory, my stage area and my repository to that point. But what’s <code class="language-plaintext highlighter-rouge">--hard</code> mean?</p>
+
+<p><img src="http://localhost:4000/images/git_introduction/Git Reset.png" alt="Git Reset" /></p>
+
+<p><code class="language-plaintext highlighter-rouge">hard</code> means reset your current work directory, stage area and repository<br />
+<code class="language-plaintext highlighter-rouge">mixed</code> means reset your current stage area and repository, but your work directory is not change, you can stage and commit your file later<br />
+<code class="language-plaintext highlighter-rouge">soft</code> means just reset your repository</p>
+
+<p>Different from <code class="language-plaintext highlighter-rouge">reset</code>, <code class="language-plaintext highlighter-rouge">revert</code> don’t change any commit history, ie.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">touch </span>commit_test_1.md commit_test_2.md commit_test_3.md
+git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s1">'master branch commit 2'</span>
+<span class="o">[</span>master 4f716ce] master branch commit 2
+ 3 files changed, 0 insertions<span class="o">(</span>+<span class="o">)</span>, 0 deletions<span class="o">(</span>-<span class="o">)</span>
+ create mode 100644 commit_test_1.md
+ create mode 100644 commit_test_2.md
+ create mode 100644 commit_test_3.md
+ 
+<span class="nv">$ </span>git revert HEAD
+<span class="o">[</span>master ed78f61] Revert <span class="s2">"master branch commit 2"</span>
+ 3 files changed, 0 insertions<span class="o">(</span>+<span class="o">)</span>, 0 deletions<span class="o">(</span>-<span class="o">)</span>
+ delete mode 100644 commit_test_1.md
+ delete mode 100644 commit_test_2.md
+ delete mode 100644 commit_test_3.md
+ 
+<span class="nv">$ </span>git log
+commit ed78f614426b85cbc6f0c85c0aad4a6ee39f4ee2 <span class="o">(</span>HEAD -&gt; master<span class="o">)</span>
+Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+Date:   Sun May 13 21:25:41 2018 +0800
+
+    Revert <span class="s2">"master branch commit 2"</span>
+
+    This reverts commit 4f716ce85ce06105349546da7d6f0e8253135128.
+
+commit 4f716ce85ce06105349546da7d6f0e8253135128
+Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+Date:   Sun May 13 21:25:24 2018 +0800
+
+    master branch commit 2
+
+commit ddfd1ddaff76435bfd371cc389cd20b7457a926a
+Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+Date:   Sun May 13 19:47:02 2018 +0800
+
+    master branch commit 1
+    
+<span class="nv">$ </span><span class="nb">ls
+</span>README.md
+</code></pre></div></div>
+<p>See, there is another revert commit log appeared, and also test file is gone only leave <code class="language-plaintext highlighter-rouge">README.md</code> in the folder.</p>
+
+<h3 id="checkout-and-branch">Checkout and Branch</h3>
+<p>It’s time for us to create our first branch now.First let’s check where we are.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git branch
+<span class="k">*</span> master
+</code></pre></div></div>
+<p>OK, current now, we are on <code class="language-plaintext highlighter-rouge">master</code> branch, then i want to create a new branch base on <code class="language-plaintext highlighter-rouge">master</code> and switch to that branch</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git checkout <span class="nt">-b</span> develop_wrong_words
+Switched to a new branch <span class="s1">'develop_wrong_words'</span>
+
+<span class="nv">$ </span>git checkout master
+Switched to branch <span class="s1">'master'</span>
+
+<span class="nv">$ </span>git branch <span class="nt">-d</span> develop_wrong_words
+Deleted branch develop_wrong_words <span class="o">(</span>was ed78f61<span class="o">)</span><span class="nb">.</span>
+
+<span class="nv">$ </span>git checkout <span class="nt">-b</span> develop
+Switched to a new branch <span class="s1">'develop'</span>
+
+<span class="nv">$ </span>git branch
+<span class="k">*</span> develop
+  master
+</code></pre></div></div>
+
+<h3 id="merge">Merge</h3>
+<p>In <code class="language-plaintext highlighter-rouge">develop</code> branch, i modified <code class="language-plaintext highlighter-rouge">README.md</code>, add a line for merge test</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>vi README.md
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This project is used <span class="k">for </span>git <span class="nb">test</span><span class="o">!</span>
+
+Add a new line <span class="k">for </span>merge <span class="nb">test </span>on develop branch.
+</code></pre></div></div>
+
+<p>Commit the change</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s1">'develop branch merge test commit 1'</span>
+<span class="o">[</span>develop 73e5020] develop branch merge <span class="nb">test </span>commit 1
+ 1 file changed, 2 insertions<span class="o">(</span>+<span class="o">)</span>
+</code></pre></div></div>
+
+<p>Now we switch back to <code class="language-plaintext highlighter-rouge">master</code> branch and also add a line for merge test.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git checkout master
+Switched to branch <span class="s1">'master'</span>
+
+<span class="nv">$ </span>vi README.md
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This project is used <span class="k">for </span>git <span class="nb">test</span><span class="o">!</span>
+
+Add a new line <span class="k">for </span>merge <span class="nb">test </span>on master branch.
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s1">'master branch merge test commit 1'</span>
+<span class="o">[</span>master 201346d] master branch merge <span class="nb">test </span>commit 1
+ 1 file changed, 2 insertions<span class="o">(</span>+<span class="o">)</span>
+</code></pre></div></div>
+
+<p>After modified <code class="language-plaintext highlighter-rouge">README.md</code> on both branches. Now we try to merge <code class="language-plaintext highlighter-rouge">develop</code> branch into <code class="language-plaintext highlighter-rouge">master</code></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git merge develop
+Auto-merging README.md
+CONFLICT <span class="o">(</span>content<span class="o">)</span>: Merge conflict <span class="k">in </span>README.md
+Automatic merge failed<span class="p">;</span> fix conflicts and <span class="k">then </span>commit the result.
+</code></pre></div></div>
+<p>Git tell us there is a conflict in README.md, and automatic merge is failed, we should fix it manually. Let’s see what happening in
+<code class="language-plaintext highlighter-rouge">README.md</code></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>vi README.md
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This project is used <span class="k">for </span>git <span class="nb">test</span><span class="o">!</span>
+
+<span class="o">&lt;&lt;&lt;&lt;&lt;&lt;</span>&lt; HEAD
+Add a new line <span class="k">for </span>merge <span class="nb">test </span>on master branch.
+<span class="o">=======</span>
+Add a new line <span class="k">for </span>merge <span class="nb">test </span>on develop branch.
+<span class="o">&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span> develop
+</code></pre></div></div>
+<p>This means current now, we have <code class="language-plaintext highlighter-rouge">Add a new line for merge test on master branch.</code>, but <code class="language-plaintext highlighter-rouge">README.md</code> in <code class="language-plaintext highlighter-rouge">develop</code> branch also have a line in same position.
+My purpose is put them together, so I delete <code class="language-plaintext highlighter-rouge">&lt;&lt;&lt;&lt;&lt;&lt;&lt;HEAD</code>, <code class="language-plaintext highlighter-rouge">=======</code> and <code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;&gt;&gt;&gt;&gt; develop</code>, save the file.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s1">'master branch merge test commit 2'</span>
+<span class="o">[</span>master 933a959] master branch merge <span class="nb">test </span>commit 2
+
+<span class="nv">$ </span>git merge develop
+Already up to date.
+</code></pre></div></div>
+<p>If we need a pretty display we can use merge tools.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git mergetool
+
+This message is displayed because <span class="s1">'merge.tool'</span> is not configured.
+See <span class="s1">'git mergetool --tool-help'</span> or <span class="s1">'git help config'</span> <span class="k">for </span>more details.
+<span class="s1">'git mergetool'</span> will now attempt to use one of the following tools:
+opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc codecompare emerge vimdiff
+Merging:
+README.md
+
+Normal merge conflict <span class="k">for</span> <span class="s1">'README.md'</span>:
+  <span class="o">{</span><span class="nb">local</span><span class="o">}</span>: modified file
+  <span class="o">{</span>remote<span class="o">}</span>: modified file
+Hit <span class="k">return </span>to start merge resolution tool <span class="o">(</span>vimdiff<span class="o">)</span>:
+4 files to edit
+
+<span class="nv">$ </span>git merge develop
+Already up to date.
+
+</code></pre></div></div>
+
+<p><img src="http://localhost:4000/images/git_introduction/Merge Tool.png" alt="Merge Tool" /></p>
+
+<h3 id="tag">Tag</h3>
+<p>We can switch from one branch to another, but <code class="language-plaintext highlighter-rouge">tag</code> can’t. Usually, we will make a tag when we reach some milestone, like ‘v1.0.0’, and this is convenient for us to checkout a new branch base on
+this tag when necessary.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git tag <span class="nt">-a</span> v0.0.1 <span class="nt">-m</span> <span class="s1">'git study tag version 0.0.1'</span>
+</code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">-a</code> means <code class="language-plaintext highlighter-rouge">annotation</code>, give tag a annotation<br />
+<code class="language-plaintext highlighter-rouge">-m</code> means <code class="language-plaintext highlighter-rouge">message</code>, give tag a description</p>
+
+<p>Use <code class="language-plaintext highlighter-rouge">git tag</code> and <code class="language-plaintext highlighter-rouge">git show v0.0.1</code> for detail checking</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git tag
+v0.0.1
+
+<span class="nv">$ </span>git show v0.0.1
+tag v0.0.1
+Tagger: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+Date:   Sun May 13 22:17:52 2018 +0800
+
+git study tag version 0.0.1
+
+commit e0564dbd4473369cfd254f5bc7a8a57ee714a68b <span class="o">(</span>HEAD -&gt; master, tag: v0.0.1<span class="o">)</span>
+Merge: f0de13f b2740e5
+Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+Date:   Sun May 13 22:11:26 2018 +0800
+
+    master branch merge tool <span class="nb">test </span>commit 2
+
+diff <span class="nt">--cc</span> README.md
+index 2ac4118,0953f6d..5fe5464
+<span class="nt">---</span> a/README.md
++++ b/README.md
+@@@ <span class="nt">-1</span>,6 <span class="nt">-1</span>,5 +1,6 @@@
+  This project is used <span class="k">for </span>git <span class="nb">test</span><span class="o">!</span>
+
+ +Add a new line <span class="k">for </span>merge <span class="nb">test </span>on master branch.
+  Add a new line <span class="k">for </span>merge <span class="nb">test </span>on develop branch.
+
+- Add a new line <span class="k">for </span>merge tool <span class="nb">test </span>on master branch.
+ <span class="nt">-Add</span> a new line <span class="k">for </span>merge tool <span class="nb">test </span>on develop branch.
+++Add a new line <span class="k">for </span>merge tool <span class="nb">test </span>on develop branch.
+
+</code></pre></div></div>
+<p>Also we can make a tag for previous commit.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git tag <span class="nt">-a</span> <span class="s1">'v0.0.0'</span> f0de13fcb8a016e4f925021b7bd85bac48f4a685 <span class="nt">-m</span> <span class="s1">'git study original tag version 0.0.0'</span>
+
+<span class="nv">$ </span>git log
+commit e0564dbd4473369cfd254f5bc7a8a57ee714a68b <span class="o">(</span>HEAD -&gt; master, tag: v0.0.1<span class="o">)</span>
+Merge: f0de13f b2740e5
+Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+Date:   Sun May 13 22:11:26 2018 +0800
+
+    master branch merge tool <span class="nb">test </span>commit 2
+
+commit b2740e5f8c1ae371b706473b63bae644571ff4f3 <span class="o">(</span>develop<span class="o">)</span>
+Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+Date:   Sun May 13 22:07:44 2018 +0800
+
+    develop branch merge tool <span class="nb">test </span>commit 1
+
+commit f0de13fcb8a016e4f925021b7bd85bac48f4a685 <span class="o">(</span>tag: v0.0.0<span class="o">)</span>
+Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+Date:   Sun May 13 22:07:15 2018 +0800
+
+    master branch merge tool <span class="nb">test </span>commit 1
+...
+</code></pre></div></div>
+
+<h3 id="ignore">Ignore</h3>
+<p>We find that there is an additional file been created named <code class="language-plaintext highlighter-rouge">README.md.orig</code>, it’s made by merge tool, we can set global configuration to 
+make it don’t produce such file. But now, what we need is a <code class="language-plaintext highlighter-rouge">.gitignore</code> file.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git status
+On branch master
+Changes to be committed:
+  <span class="o">(</span>use <span class="s2">"git reset HEAD &lt;file&gt;..."</span> to unstage<span class="o">)</span>
+
+        new file:   README.md.orig
+
+Changes not staged <span class="k">for </span>commit:
+  <span class="o">(</span>use <span class="s2">"git add &lt;file&gt;..."</span> to update what will be committed<span class="o">)</span>
+  <span class="o">(</span>use <span class="s2">"git checkout -- &lt;file&gt;..."</span> to discard changes <span class="k">in </span>working directory<span class="o">)</span>
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>vim .gitignore
+</code></pre></div></div>
+<p>Then add a line like below, this means all file which end with <code class="language-plaintext highlighter-rouge">orig</code> will be ignored from been tracking</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">*</span>.orig
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git status
+On branch master
+Changes to be committed:
+  <span class="o">(</span>use <span class="s2">"git reset HEAD &lt;file&gt;..."</span> to unstage<span class="o">)</span>
+
+        new file:   README.md.orig
+
+Untracked files:
+  <span class="o">(</span>use <span class="s2">"git add &lt;file&gt;..."</span> to include <span class="k">in </span>what will be committed<span class="o">)</span>
+
+        .gitignore
+        
+<span class="nv">$ </span>git stage .gitignore
+
+<span class="nv">$ </span>git commit .gitignore <span class="nt">-m</span> <span class="s1">'Add .gitignore'</span>
+<span class="o">[</span>master 7be24fc] Add .gitignore
+ 1 file changed, 1 insertion<span class="o">(</span>+<span class="o">)</span>
+ create mode 100644 .gitignore
+
+<span class="nv">$ </span>git status
+On branch master
+nothing to commit, working tree clean
+</code></pre></div></div>
+
+<h3 id="diff">Diff</h3>
+<p><code class="language-plaintext highlighter-rouge">diff</code> are used for display differences between work directory and stage, between work directory and repository and between stage and repository
+ie. i add a new line in <code class="language-plaintext highlighter-rouge">README.md</code></p>
+<pre><code class="language-base">This project is used for git test!
+
+Add a new line for merge test on master branch.
+Add a new line for merge test on develop branch.
+
+Add a new line for merge tool test on develop branch.
+
+Add a new line for diff test on master branch.
+</code></pre>
+<p>put the modify into stage, then add another line</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This project is used <span class="k">for </span>git <span class="nb">test</span><span class="o">!</span>
+
+Add a new line <span class="k">for </span>merge <span class="nb">test </span>on master branch.
+Add a new line <span class="k">for </span>merge <span class="nb">test </span>on develop branch.
+
+Add a new line <span class="k">for </span>merge tool <span class="nb">test </span>on develop branch.
+
+Add a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch.
+
+Add a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch 2.
+</code></pre></div></div>
+<p>Now let’s see the different.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git diff
+diff <span class="nt">--git</span> a/README.md b/README.md
+index 3180d40..a08847f 100644
+<span class="nt">---</span> a/README.md
++++ b/README.md
+@@ <span class="nt">-5</span>,4 +5,6 @@ Add a new line <span class="k">for </span>merge <span class="nb">test </span>on develop branch.
+
+ Add a new line <span class="k">for </span>merge tool <span class="nb">test </span>on develop branch.
+
+<span class="nt">-Add</span> a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch.
+<span class="se">\ </span>No newline at end of file
++Add a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch.
++
++Add a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch 2.
+<span class="se">\ </span>No newline at end of file
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>diff <span class="nt">--git</span> a/README.md b/README.md
+index 5fe5464..a08847f 100644
+<span class="nt">---</span> a/README.md
++++ b/README.md
+@@ <span class="nt">-4</span>,3 +4,7 @@ Add a new line <span class="k">for </span>merge <span class="nb">test </span>on master branch.
+ Add a new line <span class="k">for </span>merge <span class="nb">test </span>on develop branch.
+
+ Add a new line <span class="k">for </span>merge tool <span class="nb">test </span>on develop branch.
++
++Add a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch.
++
++Add a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch 2.
+<span class="se">\ </span>No newline at end of file
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git diff <span class="nt">--staged</span>
+diff <span class="nt">--git</span> a/README.md b/README.md
+index 5fe5464..3180d40 100644
+<span class="nt">---</span> a/README.md
++++ b/README.md
+@@ <span class="nt">-4</span>,3 +4,5 @@ Add a new line <span class="k">for </span>merge <span class="nb">test </span>on master branch.
+ Add a new line <span class="k">for </span>merge <span class="nb">test </span>on develop branch.
+
+ Add a new line <span class="k">for </span>merge tool <span class="nb">test </span>on develop branch.
++
++Add a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch.
+<span class="se">\ </span>No newline at end of file
+</code></pre></div></div>
+<p>From the result we could see that
+<code class="language-plaintext highlighter-rouge">git diff</code> means difference between work directory and stage area
+<code class="language-plaintext highlighter-rouge">git diff HEAD</code> means difference between work directory and HEAD
+<code class="language-plaintext highlighter-rouge">git diff --staged</code> means difference between staged area and HEAD</p>
+
+<h3 id="remote">Remote</h3>
+<p>Now it’s time to connect our local repository with remote repository. I create a project on company’s Gitlab, named <code class="language-plaintext highlighter-rouge">project-git-study</code>.
+PS: Don’t forget to add your RSA public key, please check <a href="https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key">https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key</a></p>
+
+<p><img src="http://localhost:4000/images/git_introduction/Git lab new project.png" alt="Git lab new project" /></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git remote add origin git@git.patsnap.com:yezhongkai/project-git-study.git
+
+<span class="nv">$ </span>git remote
+origin
+</code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">origin</code> is the alias name for upstream remote repository, we can add multiple remote repositories. Let’s push our local repository to remote.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git push origin master
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and <span class="nb">set </span>the remote as upstream, use
+    git push <span class="nt">--set-upstream</span> origin master
+</code></pre></div></div>
+<p>Git prompt that we should set upstream branch for master. If we use <code class="language-plaintext highlighter-rouge">$ git push origin master:master</code> that’s will be no problem, but there is a more efficient way, we can use <code class="language-plaintext highlighter-rouge">-u</code> in <code class="language-plaintext highlighter-rouge">push</code> command, <code class="language-plaintext highlighter-rouge">-u</code> equivalent to
+<code class="language-plaintext highlighter-rouge">--set-upstream</code>.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git push <span class="nt">-u</span> origin master
+Counting objects: 31, <span class="k">done</span><span class="nb">.</span>
+Delta compression using up to 4 threads.
+Compressing objects: 100% <span class="o">(</span>21/21<span class="o">)</span>, <span class="k">done</span><span class="nb">.</span>
+Writing objects: 100% <span class="o">(</span>31/31<span class="o">)</span>, 2.61 KiB | 205.00 KiB/s, <span class="k">done</span><span class="nb">.</span>
+Total 31 <span class="o">(</span>delta 8<span class="o">)</span>, reused 0 <span class="o">(</span>delta 0<span class="o">)</span>
+To git.patsnap.com:yezhongkai/project-git-study.git
+ <span class="k">*</span> <span class="o">[</span>new branch]      master -&gt; master
+Branch <span class="s1">'master'</span> <span class="nb">set </span>up to track remote branch <span class="s1">'master'</span> from <span class="s1">'origin'</span><span class="nb">.</span>
+</code></pre></div></div>
+<p>Then push our tags to remote</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git push origin <span class="nt">--tags</span>
+Counting objects: 2, <span class="k">done</span><span class="nb">.</span>
+Delta compression using up to 4 threads.
+Compressing objects: 100% <span class="o">(</span>2/2<span class="o">)</span>, <span class="k">done</span><span class="nb">.</span>
+Writing objects: 100% <span class="o">(</span>2/2<span class="o">)</span>, 317 bytes | 317.00 KiB/s, <span class="k">done</span><span class="nb">.</span>
+Total 2 <span class="o">(</span>delta 0<span class="o">)</span>, reused 0 <span class="o">(</span>delta 0<span class="o">)</span>
+To git.patsnap.com:yezhongkai/project-git-study.git
+ <span class="k">*</span> <span class="o">[</span>new tag]         v0.0.0 -&gt; v0.0.0
+ <span class="k">*</span> <span class="o">[</span>new tag]         v0.0.1 -&gt; v0.0.1
+</code></pre></div></div>
+
+<p>If we want to delete any remote branch or tag, we can input</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push origin <span class="nt">--delete</span> develop
+git push origin <span class="nt">--delete</span> tag v0.0.0
+</code></pre></div></div>
+
+<p>If we need to check all the branch and tags in remote repository, we can input</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git ls-remote
+From git@git.patsnap.com:yezhongkai/project-git-study.git
+3e03bac83a574cd4fc047595f620126ac19e1f28        HEAD
+b2740e5f8c1ae371b706473b63bae644571ff4f3        refs/heads/develop
+3e03bac83a574cd4fc047595f620126ac19e1f28        refs/heads/master
+5f2d7d62ef5347ec78faa3047a0424afd876196b        refs/tags/v0.0.0
+f0de13fcb8a016e4f925021b7bd85bac48f4a685        refs/tags/v0.0.0^<span class="o">{}</span>
+4127094bd475a7d7cfa9673d08abc501cd5a7b92        refs/tags/v0.0.1
+e0564dbd4473369cfd254f5bc7a8a57ee714a68b        refs/tags/v0.0.1^<span class="o">{}</span>
+</code></pre></div></div>
+<p><img src="http://localhost:4000/images/git_introduction/Git lab branch and tag.png" alt="Git lab branch and tag" /></p>
+
+<p>If we do not have any files and want to take a whole project from remote repository, we can input</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone git@git.patsnap.com:yezhongkai/project-git-study.git
+</code></pre></div></div>
+
+<h3 id="rebase">Rebase</h3>
+<p>Rebase is a important concept, very like <code class="language-plaintext highlighter-rouge">merge</code>, but there are some differences.</p>
+
+<p><img src="http://localhost:4000/images/git_introduction/Git Rebase.png" alt="Git Rebase" /></p>
+
+<p>The biggest different between them is the commit history, rebase will let your commit history looks like all changes happened there, but <code class="language-plaintext highlighter-rouge">merge</code> will have a independent commit.</p>
+
+<p>First, let’s switch to <code class="language-plaintext highlighter-rouge">develop</code> branch, and commit for 3 times. The <code class="language-plaintext highlighter-rouge">README.md</code> finally looks like</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This project is used <span class="k">for </span>git <span class="nb">test</span><span class="o">!</span>
+
+Add a new line <span class="k">for </span>merge <span class="nb">test </span>on develop branch.
+
+Add a new line <span class="k">for </span>merge tool <span class="nb">test </span>on develop branch.
+
+Add a new line <span class="k">for </span>rebase <span class="nb">test </span>1.
+
+Add a new line <span class="k">for </span>rebase <span class="nb">test </span>2.
+
+Add a new line <span class="k">for </span>rebase <span class="nb">test </span>3.
+</code></pre></div></div>
+<p>The commit log looks like</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git log <span class="nt">--graph</span> <span class="nt">--color</span>
+<span class="k">*</span> commit 35c6c48dc5639b3ea5b70eef2ec994032ee637bf
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 21:50:58 2018 +0800
+|
+|     develop branch rebase <span class="nb">test </span>commit 3
+|
+<span class="k">*</span> commit 3cb6ec4931bfb208ecc51d8869ccc8a384335acd
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 21:50:45 2018 +0800
+|
+|     develop branch rebase <span class="nb">test </span>commit 2
+|
+<span class="k">*</span> commit ebd3f2857814719ae651cb579fc57ff2f8c3e7d6
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 21:50:30 2018 +0800
+|
+|     develop branch rebase <span class="nb">test </span>commit 1
+|
+<span class="k">*</span> commit b2740e5f8c1ae371b706473b63bae644571ff4f3 <span class="o">(</span>origin/develop<span class="o">)</span>
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Sun May 13 22:07:44 2018 +0800
+|
+|     develop branch merge tool <span class="nb">test </span>commit 1
+|
+<span class="k">*</span> commit 73e502032551b22e4f0c76ec936fc62de6f1a7d6
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Sun May 13 21:54:14 2018 +0800
+|
+|     develop branch merge <span class="nb">test </span>commit 1
+...
+</code></pre></div></div>
+<p>then i rebase all commit to <code class="language-plaintext highlighter-rouge">master</code> branch</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git rebase master
+First, rewinding <span class="nb">head </span>to replay your work on top of it...
+Applying: develop branch rebase <span class="nb">test </span>commit 1
+error: Failed to merge <span class="k">in </span>the changes.
+Using index info to reconstruct a base tree...
+M       README.md
+Falling back to patching base and 3-way merge...
+Auto-merging README.md
+CONFLICT <span class="o">(</span>content<span class="o">)</span>: Merge conflict <span class="k">in </span>README.md
+Patch failed at 0001 develop branch rebase <span class="nb">test </span>commit 1
+The copy of the patch that failed is found <span class="k">in</span>: .git/rebase-apply/patch
+
+Resolve all conflicts manually, mark them as resolved with
+<span class="s2">"git add/rm &lt;conflicted_files&gt;"</span>, <span class="k">then </span>run <span class="s2">"git rebase --continue"</span><span class="nb">.</span>
+You can instead skip this commit: run <span class="s2">"git rebase --skip"</span><span class="nb">.</span>
+To abort and get back to the state before <span class="s2">"git rebase"</span>, run <span class="s2">"git rebase --abort"</span><span class="nb">.</span>
+</code></pre></div></div>
+<p>Modify the <code class="language-plaintext highlighter-rouge">README.md</code>,  resolve all conflicts.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git checkout master
+Switched to branch <span class="s1">'master'</span>
+Your branch is ahead of <span class="s1">'origin/master'</span> by 1 commit.
+  <span class="o">(</span>use <span class="s2">"git push"</span> to publish your <span class="nb">local </span>commits<span class="o">)</span>
+
+<span class="nv">$ </span>git merge develop
+Updating 5386ddb..81ba0f0
+Fast-forward
+ .gitignore | 4 ++++
+ README.md  | 8 +++++++-
+ 2 files changed, 11 insertions<span class="o">(</span>+<span class="o">)</span>, 1 deletion<span class="o">(</span>-<span class="o">)</span>
+
+
+<span class="nv">$ </span>git log <span class="nt">--graph</span> <span class="nt">--color</span>
+<span class="k">*</span> commit 5132ca001c8226f208424e34b41e8357bdb9c699
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 21:50:58 2018 +0800
+|
+|     develop branch rebase <span class="nb">test </span>commit 3
+|
+<span class="k">*</span> commit 2138aab2da566fd6a254a38502d52dcc7a27dc9e
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 21:50:45 2018 +0800
+|
+|     develop branch rebase <span class="nb">test </span>commit 2
+|
+<span class="k">*</span> commit 4ca6f7786de38d9e2723f0294a3b713d85c5537c
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 21:50:30 2018 +0800
+|
+|     develop branch rebase <span class="nb">test </span>commit 1
+|
+<span class="k">*</span> commit 26a98fa8193689a01fbdd8c7dd796ece1529bedb
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 22:01:34 2018 +0800
+|
+|     develop resolve rebase conflict
+|
+<span class="k">*</span> commit 5386ddbf8aee9015a4e6ba36b528ad840aaa61e3
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 21:13:58 2018 +0800
+|
+|     master branch rebase <span class="nb">test </span>commit 1
+|
+<span class="k">*</span> commit a06866a648e5b2dfe15d7124a1c2639f67deb29a <span class="o">(</span>origin/master<span class="o">)</span>
+| Author: ChrisYe &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 17:59:15 2018 +0800
+|
+|     Update README.md
+</code></pre></div></div>
+
+<p>It’s another scenario that we want to make the commit log looks more clean and readable when we pull the code from remote, at this moment, we need to use <code class="language-plaintext highlighter-rouge">pull --rebase</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">pull</code> = <code class="language-plaintext highlighter-rouge">fetch</code> + <code class="language-plaintext highlighter-rouge">merge</code><br />
+<code class="language-plaintext highlighter-rouge">pull --rebase</code> = <code class="language-plaintext highlighter-rouge">fetch</code> + <code class="language-plaintext highlighter-rouge">rebase</code></p>
+
+<p>I edit <code class="language-plaintext highlighter-rouge">README.md</code> in Git lab, add a new line for <code class="language-plaintext highlighter-rouge">pull</code> and <code class="language-plaintext highlighter-rouge">pull --rebase</code> comparision.</p>
+
+<p><img src="http://localhost:4000/images/git_introduction/Git lab pull rebase test.png" alt="Git lab pull rebase test" /></p>
+
+<p>and i modify <code class="language-plaintext highlighter-rouge">README.md</code> in local</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>vi README.md
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This project is used <span class="k">for </span>git <span class="nb">test</span><span class="o">!</span>
+
+Add a new line <span class="k">for </span>merge <span class="nb">test </span>on master branch. Add a word <span class="k">for </span>rebase test.
+Add a new line <span class="k">for </span>merge <span class="nb">test </span>on develop branch.
+
+Add a new line <span class="k">for </span>merge tool <span class="nb">test </span>on develop branch.
+
+Add a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch.
+
+Add a new line <span class="k">for </span>diff <span class="nb">test </span>on master branch 2.
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s2">"master branch rebase test commit 1"</span>
+<span class="o">[</span>master 5acd1d3] master branch rebase <span class="nb">test </span>commit 1
+ 1 file changed, 1 insertion<span class="o">(</span>+<span class="o">)</span>, 1 deletion<span class="o">(</span>-<span class="o">)</span>
+
+<span class="nv">$ </span>git pull <span class="nt">--rebase</span> origin master
+From git.patsnap.com:yezhongkai/project-git-study
+ <span class="k">*</span> branch            master     -&gt; FETCH_HEAD
+First, rewinding <span class="nb">head </span>to replay your work on top of it...
+Applying: master branch rebase <span class="nb">test </span>commit 1
+
+<span class="nv">$ </span>git log <span class="nt">--graph</span> <span class="nt">--color</span>
+<span class="k">*</span> commit 5386ddbf8aee9015a4e6ba36b528ad840aaa61e3 <span class="o">(</span>HEAD -&gt; master<span class="o">)</span>
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 21:13:58 2018 +0800
+|
+|     master branch rebase <span class="nb">test </span>commit 1
+|
+<span class="k">*</span> commit a06866a648e5b2dfe15d7124a1c2639f67deb29a <span class="o">(</span>origin/master<span class="o">)</span>
+| Author: ChrisYe &lt;yezhongkai@patsnap.com&gt;
+| Date:   Mon May 14 17:59:15 2018 +0800
+|
+|     Update README.md
+|
+<span class="k">*</span> commit 3e03bac83a574cd4fc047595f620126ac19e1f28
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Sun May 13 22:47:19 2018 +0800
+|
+|     master branch diff <span class="nb">test </span>commit 1
+|
+<span class="k">*</span> commit 7be24fc30874b665b72e686afb637b9fbc425d83
+| Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| Date:   Sun May 13 22:41:04 2018 +0800
+|
+|     Add .gitignore
+|
+<span class="k">*</span>   commit e0564dbd4473369cfd254f5bc7a8a57ee714a68b <span class="o">(</span>tag: v0.0.1<span class="o">)</span>
+|<span class="se">\ </span> Merge: f0de13f b2740e5
+| | Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| | Date:   Sun May 13 22:11:26 2018 +0800
+| |
+| |     master branch merge tool <span class="nb">test </span>commit 2
+| |
+| <span class="k">*</span> commit b2740e5f8c1ae371b706473b63bae644571ff4f3 <span class="o">(</span>origin/develop, develop<span class="o">)</span>
+| | Author: zhongkai.ye &lt;yezhongkai@patsnap.com&gt;
+| | Date:   Sun May 13 22:07:44 2018 +0800
+| |
+| |     develop branch merge tool <span class="nb">test </span>commit 1
+| |
+</code></pre></div></div>
+
+<p>Could see that there is no merge commit, but just a normal commit <code class="language-plaintext highlighter-rouge">Update README.md</code> in middle of the commit log.</p>
+
+<p>OK, that all for Git basic introduction, hope could helpful to you. :)</p>
+
+<p>Reference:<br />
+<a href="https://en.wikipedia.org/wiki/Version_control">https://en.wikipedia.org/wiki/Version_control</a>
+<a href="https://git-scm.com/book">https://git-scm.com/book</a>
+<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000</a></p>
+
+:ET

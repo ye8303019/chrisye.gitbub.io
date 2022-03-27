@@ -1,0 +1,63 @@
+I"‘<h1 id="the-base64-algorithm-in-action">The Base64 algorithm in action</h1>
+
+<p>First we have a base64 mapping table, like below:</p>
+
+<p><img src="http://localhost:4000/images/base64/Base64_table.png" alt="Maping  table" /></p>
+
+<p>This is used to get the character for the base64 encrytion.</p>
+
+<p>Now, we try to manually calculate the <code class="language-plaintext highlighter-rouge">java</code>.</p>
+
+<h3 id="get-utf-8-ascii-code">Get UTF-8 ASCII code</h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">package</span> <span class="nn">encryption</span><span class="o">;</span>
+
+<span class="kn">import</span> <span class="nn">java.io.UnsupportedEncodingException</span><span class="o">;</span>
+
+<span class="cm">/**
+ * encryption.Base64Test
+ * &lt;p&gt;
+ * Author: ChrisYe
+ * Date: 10/8/2017
+ */</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Base64Test</span> <span class="o">{</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">...</span> <span class="n">arg</span><span class="o">)</span> <span class="kd">throws</span> <span class="nc">UnsupportedEncodingException</span> <span class="o">{</span>
+        <span class="nc">String</span> <span class="n">testVal</span> <span class="o">=</span> <span class="s">"Java"</span><span class="o">;</span>
+
+        <span class="nc">StringBuilder</span> <span class="n">sb</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">StringBuilder</span><span class="o">();</span>
+        <span class="k">for</span><span class="o">(</span><span class="kt">byte</span> <span class="n">b</span> <span class="o">:</span> <span class="n">testVal</span><span class="o">.</span><span class="na">getBytes</span><span class="o">()){</span>
+            <span class="n">sb</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="nc">Integer</span><span class="o">.</span><span class="na">toString</span><span class="o">(</span><span class="n">b</span><span class="o">)).</span><span class="na">append</span><span class="o">(</span><span class="s">" "</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sb</span><span class="o">.</span><span class="na">toString</span><span class="o">());</span>
+    <span class="o">}</span>
+
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>So we get the code below:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">74</span> <span class="mi">97</span> <span class="mi">118</span> <span class="mi">97</span> 
+</code></pre></div></div>
+
+<h3 id="then-we-turn-the-decimal-system-to-binary-system">Then we turn the Decimal System to Binary system</h3>
+<p><img src="http://localhost:4000/images/base64/Decimal2Binary.png" alt="Decimal2Binary" /></p>
+
+<p>Calculate step by step, then we get:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mo">01001010</span> <span class="mo">01100001</span> <span class="mo">01110110</span> <span class="mo">01100001</span>
+</code></pre></div></div>
+<h3 id="turn-the-binary-system-to-base64-code">Turn the Binary system to Base64 code</h3>
+<p><img src="http://localhost:4000/images/base64/Binary2Base64.png" alt="Binary2Base64" /></p>
+
+<p>PS:</p>
+<ol>
+  <li>6 bit for one base64 code</li>
+  <li>Must end with 24 bit</li>
+  <li>Less then 6 bit, low fill with 0</li>
+  <li>Less then 24, low fill with =</li>
+</ol>
+
+<p>So the Final base64 encrption string is: <code class="language-plaintext highlighter-rouge">SmF2YQ==</code></p>
+
+:ET
