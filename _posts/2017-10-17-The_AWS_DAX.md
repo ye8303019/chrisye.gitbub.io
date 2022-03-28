@@ -2,7 +2,9 @@
 layout: post
 title:  "The AWS DAX"
 date:   2017-10-17 11:42:11 +0800
-categories: aws development dax
+author: Ye Zhongkai
+categories: Creative Article
+tags: aws development dax
 ---
 
 AWS DAX (DynamoDB Accelerator)

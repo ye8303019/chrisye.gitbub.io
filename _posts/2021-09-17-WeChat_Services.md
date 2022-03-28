@@ -2,7 +2,9 @@
 layout: post
 title:  "WeChat Services"
 date:   2021-09-17 22:15:11 +0800
-categories: WeChat
+author: Ye Zhongkai
+categories: Quick Notes
+tags: Wechat
 ---
 
 ## 前言

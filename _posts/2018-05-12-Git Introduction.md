@@ -2,7 +2,9 @@
 layout: post
 title:  "Git Introduction"
 date:   2018-05-12 9:00:11 +0800
-categories: Git GIT
+author: Ye Zhongkai
+categories: Creative Article
+tags: Git GIT
 ---
 
 ## What is VCS?

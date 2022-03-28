@@ -2,7 +2,9 @@
 layout: post
 title:  "Thought In Black Box Thinking"
 date:   2018-02-21 11:42:11 +0800
-categories: BlackBoxThinking
+author: Ye Zhongkai
+categories: Reading Notes
+tags: BlackBoxThinking BlackBox
 ---
 
 新年伊始，难得的7天假期，除了陪家人之外，也一直在想着如何在新的一年有更科学的工作方式。于是乎想到了之前买的3本关于工作效率的书。其中一本是黑匣子思维。一开始，我将黑匣子理解为了黑箱，以为这本书主要讲的会是工作中的取舍和目标为导向之类的。但当开始读之后，我发现黑匣子思维和我所想的完全不同。  

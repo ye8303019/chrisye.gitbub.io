@@ -2,7 +2,10 @@
 layout: post
 title:  "Thought In Deep Work"
 date:   2017-12-15 11:42:11 +0800
-categories: work productive
+author: Ye Zhongkai
+categories: Reading Notes
+tags: Deep work productive
+
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;宁静的夜晚，女儿在书房安稳的睡着了，老婆因为最近带小孩非常的辛苦，也早早入睡了。 关闭客厅所有的灯光，伴着键盘微微的白光，不由得思考的入了神。 我反思着最近的生活和工作，作为女儿的父亲，妻子的丈夫，团队的主管，电视游戏与篮球运动的爱好者，如何能在这些角色中寻找微妙的平衡，如何找到更好的方法让自己从纷杂而碎片的工作中抽离出来，提高效率呢？  
