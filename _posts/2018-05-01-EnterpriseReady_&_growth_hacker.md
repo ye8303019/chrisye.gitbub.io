@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thought In EnterpriseReady"
+title:  "Thoughts On EnterpriseReady"
 date:   2018-05-01 10:00:11 +0800
 author: Ye Zhongkai
 categories: Creative Article
