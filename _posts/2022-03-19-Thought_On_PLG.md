@@ -175,10 +175,77 @@ Now need you to make the decision on your growth strategy, questions to ask your
   * Or are you planning on using a hybrid strategy?    
 
 ## Red or Blue Ocean
-TBD
+[![blue-read-ocean]({{ site.url }}/images/PLG/blue-read-ocean.jpg)](https://www.launch-marketing.com/red-vs-blue-ocean-strategies/)
+Before we dive into how your ocean strategy will affect your PLG model, let's check the differences between <font color="red"><b>Red-ocean</b></font> and <font color="blue"><b>Blue-ocean</b></font>.    
+<font color="red"><b>Red-Ocean:</b></font>    
+Red-ocean companies try to outperform their rivals to grab a greater share of existing demand. (Harvest Demand)
+
+<font color="blue"><b>Blue-Ocean:</b></font>    
+Blue-ocean companies access untapped market space and create demand. (Create Demand)
+
+**PS**: One thing should be noted that even in the same market, depends on what market segment you are focus on, the strategy for red-ocean or blue-ocean could be different. For instance which the book tells us that, BI is a bloody red-ocean, but you could just focus on SMB which is a blue-ocean in 2019. 
+
+**Why dose this matter to PLG?**    
+Depends on what kind of business you are doing, the strategy for blue-ocean could be different. For most of the time, leverage SLG is a good choice for blue-ocean, because blue-ocean mean your idea or concept is quite new to the end-users, the market is not that mature. You need to educate user and deliver your value to specific customer at first. Like sales-force at very beginning. However, we can't deny, if your business is quick time-to-value, use PLG is also a great idea. For example your product is as simple as Spotify, everybody need it every day etc. SLG is the beginning but not the end, you need to ask "when" not "if" you're going to launch a PLG arm of business.    
+In a red-ocean, market share, CAC is everything. You need to grow as fast and profitably as possible. PLG help you widen your funnel,  decrease your CAC and help you expand globally in a fraction of time, also could convert "non-customers" - people who typically won't reach out to request pricing or sign up for a demo request. However, these non-customers are willing to try your product if it's in PLG model.
+
+**Questions to ask yourself when deciding between a blue or red ocean?**    
+1. Am I creating or capturing existing demand?
+2. Does the product have a quick time-to-value?
+3. Will a marketing, sales, or product-led GTM suit my business the best?
+
+No matter which you select, there are a few things to keep in mind. First of all, it is important to remember that value creation and innovation are critical success factors. Also, remain aware of the industry that you are competing against as well as new introductions to the market that may disrupt any market share that you have attained
 
 ## Top Down or Button Up
-TBD
+From audience prospective, to-down or button-up strategy are always be needed.
+[![bottom-up-top-down]({{ site.url }}/images/PLG/bottomup-topdown.png)](https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business)
+© Shutterstock.com | Micolas    
+When using a top-down selling strategy, your sales team targets key decision-markers and executives, and one reason the top-down sales strategy exists is that business want uniformity. Decision makers like to keep their business organized and allocate resources efficiently. For instance, SAP, Oracle, IBM, the business they are making need them to reach out the key decision makers at very beginning, then convince internal teams to use for software is step 2.
+Unlike the top-down selling strategy, where it may take months or years to close a sale, bottom-up selling strategies demand quick adoption and simplicity. A big reason to choose a PLG in bottom-up strategy is that if people can't see the value in using your product quickly, fiw will upgrade.   
+
+Pros and Cons of top-down and bottom-up selling strategies.
+* A top-down selling strategy pairs well with a sales-led go-to-market strategy    
+* A bottom-up selling strategy works almost exclusively with a product-led go-to-market strategy    
+
+**Top-Down Selling Strategy**    
+
+<font color="green"><b> Pros:  </b></font>
+* High ACV    
+* Additional Services    
+* Low Customer Churn
+
+<font color="red"><b> Cons:  </b></font>
+* Poor revenue distribution    
+* High CAC    
+* Long Sales Cycles    
+
+**Bottom-Up Selling Strategy**    
+
+<font color="green"><b> Pros:  </b></font>
+* Wider top-of-funnel
+* Lower CAC
+* Predictable sales figures
+* Revenue Diversity
+* Scale globally fast
+* Fast sales cycles
+
+<font color="red"><b> Cons:  </b></font>
+* Contract size    
+* Non-paying customers    
+* Significant investments    
+* Expertise shortage
+
+**What selling strategy is right for you?**    
+If your product has a freemium model and a top-down selling strategy, the two approaches will repel each other. However, if you align your product-led model with your selling strategy, you'll have unmatchable synergy.        
+![bottomup-topdown-matrix]({{ site.url }}/images/PLG/bottomup-topdown-matrix.png)
+
+**Two Important Takeaways**    
+In `Freemium and top-down selling`, the freemium model rarely works with a top-down selling strategy for a few reasons. First, you're expecting decision-makers and executives to understand how to use your product. Most decision-makers won't be everyday users of the product, so it doesn't make sense to onboard them in the first place. This is true and struck a chord with me as I am working in SaaS company for 6 years.    
+In `Free trial and top-down selling`, you should not be focus on short-term revenue at very beginning, keep the leads warm, well educate the decision-maker and end-user should be the first place otherwise failure comes.
+
+**Questions to ask yourself when deciding between a top-down or bottom-up selling strategy**   
+* Are you currently targeting people who can easily use your product and experience its value?    
+* What is your ACV for each customer? Is it high enough to justify a low- or high-touch sales model?   
 
 ## Showcase value as fast as possible
 TBD
@@ -228,6 +295,8 @@ Reference:
 [Discovery](https://discovery.patsnap.com/company-profile/3f42425756771203cd954c2386d8efdc/investment)
 [Techadvisor](https://www.techadvisor.com/buying-advice/entertainment/best-streaming-service-3668647/)
 [Canva](https://www.canva.com/)
+[blue-read-ocean](https://www.launch-marketing.com/red-vs-blue-ocean-strategies/)
+[bottom-up-top-down](https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business)  
 
 
 
