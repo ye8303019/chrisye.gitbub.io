@@ -22,9 +22,8 @@ For the company snapshot which been used in this blog, then I would love to prou
     * [Free Trial, Freemium, or Demo](#free-trial-freemium-or-demo)
     * [Red or Blue Ocean](#red-or-blue-ocean)
     * [Top Down or Button Up](#top-down-or-button-up)
-    * [Showcase value as fast as possible](#showcase-value-as-fast-as-possible)  
-    * [MOAT Framework](#moat-framework)
-
+    * [Showcase value as fast as possible](#showcase-value-as-fast-as-possible)
+  
   
 * [Build Your Foundation](#build-your-foundation)
     * [Build PLG Foundation](#build-plg-foundation)
@@ -43,9 +42,9 @@ For the company snapshot which been used in this blog, then I would love to prou
 
 * [Summary](#summary)
 
-# Design Your Strategy
+# Design Your Strategy    
 
-## Why PLG
+## Why PLG    
 Before we get into PLG, first, let's take a look into OpenView who coined PLG.
 [![openview]({{ site.url }}/images/PLG/openview.png)](https://discovery.patsnap.com/company-profile/3f42425756771203cd954c2386d8efdc/snapshot)
 
@@ -174,6 +173,17 @@ Now need you to make the decision on your growth strategy, questions to ask your
   * Do you want to offer the simplest product for the lowest price to our-served customers? (Disruptive strategy)
   * Or are you planning on using a hybrid strategy?    
 
+If you still hard to make your decision, here is an entrance for [Testing Which Growth Model You Should Choose](https://productled.com/quiz/), you can answer same question at different stage, then the result may different. Also, beside free-trial and freemium, consider whether a hybrid model might work too.    
+**Hybrid Model 1: Launch a new product**
+Launch a new product could let you experiment with PLG, build in-house expertise and vet if the model will work, but also, the most important thing is you could de-risk your business. 
+
+**Hybrid Model 2: Go freemium, with a trial**
+If you have a product with lots of features, this strategy can work well. Like HubSpot, you get immediate value from the product, but as you get more value from the free product, they tempt you with free-trial landing pages for blocked features. This allows the user to experience the new feature for a limited amount of time before upgrading.
+
+**Hybrid Model 3: Go free trial, follow with freemium**
+If user can't convert until 7 days or 30 days free-trial passed, this may due to several reasons, like user do not have enough budget this year, or they are waiting until your product became more completely. Then you could prompt them using your freemium version at least, and keep your solution at the top their mind.
+[![nudgeai]({{ site.url }}/images/PLG/nudgeai.png)](https://discovery.zhihuiya.com/company-profile/2ad6ca0d05d8f6752450b2085b36a0c5/snapshot)
+
 ## Red or Blue Ocean
 [![blue-read-ocean]({{ site.url }}/images/PLG/blue-read-ocean.jpg)](https://www.launch-marketing.com/red-vs-blue-ocean-strategies/)
 Before we dive into how your ocean strategy will affect your PLG model, let's check the differences between <font color="red"><b>Red-ocean</b></font> and <font color="blue"><b>Blue-ocean</b></font>.    
@@ -248,10 +258,33 @@ In `Free trial and top-down selling`, you should not be focus on short-term reve
 * What is your ACV for each customer? Is it high enough to justify a low- or high-touch sales model?   
 
 ## Showcase value as fast as possible
-TBD
+![showcase_fast]({{ site.url }}/images/PLG/showcase_fast.png)
+From the book, author show us the matrix as above, and back to the real world, the main principle for PLG is time-to-value as fast as possible. 40%-60% of users never come back after signing up. So, how do improve it?    
+Let's analyze your existing users in four types:    
+* Mission Impossible Users    
+Low motivation and also found your product really hard to use    
+  
 
-## MOAT Framework
-TBD
+* Rookie Users   
+High motivation and really want to try your product even if your product is hard to use
+  
+
+* Veteran Users    
+Low motivation, whatever how hard to use, they always could find the points but also they may flee at any time
+  
+
+* Spoiled Users    
+High motivation and also, found your product is perfect match their needs and easy to use
+  
+
+Now, ask yourself which user are you most familiar with? Also, try to think about the questions as below:    
+* How motivated are users when they sign up for your product?    
+  
+* Is your product easy for your target audience to use?
+
+* Can users experience the core value of your product without hand-holding?
+
+Last but not the least, always remember, <font color="green"><b> eliminate unnecessary steps in your onboarding </b></font>.
 
 # Build Your Foundation
 TBD

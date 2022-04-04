@@ -1,4 +1,4 @@
-I"BY<h2 id="preface">Preface</h2>
+I"�g<h2 id="preface">Preface</h2>
 <p>As the development of the life-science industry around China and global, more and more requirements from drug manufacturers, bio-techs, they really need a platform which could speedup their decision-making process. For some historical reason, until now, most of the platforms in the world are under the TOB model. Customers don’t even know what the platform looks like before they decide to book a demo from sales rep. Under this situation, PLG should be a great way for decision makers in the life-science industry. By mentioning PLG, then you can’t ignore a person, Wes Bush, the founder of PLG institute, and his book <code class="language-plaintext highlighter-rouge">PRODUCT - LED GROWTH</code> which was published in 2019, and here are some key takeaways from this book. <br />
 <img src="http://localhost:4000/images/PLG/PLG.jpg" alt="PLG" /></p>
 
@@ -15,7 +15,6 @@ For the company snapshot which been used in this blog, then I would love to prou
       <li><a href="#red-or-blue-ocean">Red or Blue Ocean</a></li>
       <li><a href="#top-down-or-button-up">Top Down or Button Up</a></li>
       <li><a href="#showcase-value-as-fast-as-possible">Showcase value as fast as possible</a></li>
-      <li><a href="#moat-framework">MOAT Framework</a></li>
     </ul>
   </li>
   <li><a href="#build-your-foundation">Build Your Foundation</a>
@@ -230,6 +229,17 @@ Now need you to make the decision on your growth strategy, questions to ask your
   <li>Or are you planning on using a hybrid strategy?</li>
 </ul>
 
+<p>If you still hard to make your decision, here is an entrance for <a href="https://productled.com/quiz/">Testing Which Growth Model You Should Choose</a>, you can answer same question at different stage, then the result may different. Also, beside free-trial and freemium, consider whether a hybrid model might work too.  <br />
+<strong>Hybrid Model 1: Launch a new product</strong>
+Launch a new product could let you experiment with PLG, build in-house expertise and vet if the model will work, but also, the most important thing is you could de-risk your business.</p>
+
+<p><strong>Hybrid Model 2: Go freemium, with a trial</strong>
+If you have a product with lots of features, this strategy can work well. Like HubSpot, you get immediate value from the product, but as you get more value from the free product, they tempt you with free-trial landing pages for blocked features. This allows the user to experience the new feature for a limited amount of time before upgrading.</p>
+
+<p><strong>Hybrid Model 3: Go free trial, follow with freemium</strong>
+If user can’t convert until 7 days or 30 days free-trial passed, this may due to several reasons, like user do not have enough budget this year, or they are waiting until your product became more completely. Then you could prompt them using your freemium version at least, and keep your solution at the top their mind.</p>
+
+<p>https://discovery.zhihuiya.com/company-profile/2ad6ca0d05d8f6752450b2085b36a0c5/snapshot</p>
 <h2 id="red-or-blue-ocean">Red or Blue Ocean</h2>
 <p><a href="https://www.launch-marketing.com/red-vs-blue-ocean-strategies/"><img src="http://localhost:4000/images/PLG/blue-read-ocean.jpg" alt="blue-read-ocean" /></a>
 Before we dive into how your ocean strategy will affect your PLG model, let’s check the differences between <font color="red"><b>Red-ocean</b></font> and <font color="blue"><b>Blue-ocean</b></font>.</p>
@@ -256,7 +266,7 @@ In a red-ocean, market share, CAC is everything. You need to grow as fast and pr
 
 <h2 id="top-down-or-button-up">Top Down or Button Up</h2>
 <p>From audience prospective, to-down or button-up strategy are always be needed.
-<a href="https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business"><img src="http://localhost:4000/images/PLG/buttonup-topdown.png" alt="button-up-top-down" /></a>  <br />
+<a href="https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business"><img src="http://localhost:4000/images/PLG/bottomup-topdown.png" alt="bottom-up-top-down" /></a>
 © Shutterstock.com | Micolas  <br />
 When using a top-down selling strategy, your sales team targets key decision-markers and executives, and one reason the top-down sales strategy exists is that business want uniformity. Decision makers like to keep their business organized and allocate resources efficiently. For instance, SAP, Oracle, IBM, the business they are making need them to reach out the key decision makers at very beginning, then convince internal teams to use for software is step 2.
 Unlike the top-down selling strategy, where it may take months or years to close a sale, bottom-up selling strategies demand quick adoption and simplicity. A big reason to choose a PLG in bottom-up strategy is that if people can’t see the value in using your product quickly, fiw will upgrade.</p>
@@ -303,25 +313,57 @@ Unlike the top-down selling strategy, where it may take months or years to close
   <li>Expertise shortage</li>
 </ul>
 
-<p><strong>What selling strategy is right for you?</strong>
-If your product has a freemium model and a top-down selling strategy, the two approaches will repel each other.
-<strong>Freemium and top-down selling</strong></p>
+<p><strong>What selling strategy is right for you?</strong>  <br />
+If your product has a freemium model and a top-down selling strategy, the two approaches will repel each other. However, if you align your product-led model with your selling strategy, you’ll have unmatchable synergy.      <br />
+<img src="http://localhost:4000/images/PLG/bottomup-topdown-matrix.png" alt="bottomup-topdown-matrix" /></p>
 
-<p><strong>Freemium or free trial and bottom-up selling</strong></p>
-
-<p><strong>Free trial and top-down selling</strong></p>
+<p><strong>Two Important Takeaways</strong>  <br />
+In <code class="language-plaintext highlighter-rouge">Freemium and top-down selling</code>, the freemium model rarely works with a top-down selling strategy for a few reasons. First, you’re expecting decision-makers and executives to understand how to use your product. Most decision-makers won’t be everyday users of the product, so it doesn’t make sense to onboard them in the first place. This is true and struck a chord with me as I am working in SaaS company for 6 years.  <br />
+In <code class="language-plaintext highlighter-rouge">Free trial and top-down selling</code>, you should not be focus on short-term revenue at very beginning, keep the leads warm, well educate the decision-maker and end-user should be the first place otherwise failure comes.</p>
 
 <p><strong>Questions to ask yourself when deciding between a top-down or bottom-up selling strategy</strong></p>
 <ul>
   <li>Are you currently targeting people who can easily use your product and experience its value?</li>
-  <li>What is your ACV for each customer? Is it high engough to justify a low- or high-touch sales model?</li>
+  <li>What is your ACV for each customer? Is it high enough to justify a low- or high-touch sales model?</li>
 </ul>
 
 <h2 id="showcase-value-as-fast-as-possible">Showcase value as fast as possible</h2>
-<p>TBD</p>
+<p><img src="http://localhost:4000/images/PLG/showcase_fast.png" alt="showcase_fast" />
+From the book, author show us the matrix as above, and back to the real world, the main principle for PLG is time-to-value as fast as possible. 40%-60% of users never come back after signing up. So, how do improve it?  <br />
+Let’s analyze your existing users in four types:</p>
+<ul>
+  <li>
+    <p>Mission Impossible Users  <br />
+Low motivation and also found your product really hard to use</p>
+  </li>
+  <li>
+    <p>Rookie Users <br />
+High motivation and really want to try your product even if your product is hard to use</p>
+  </li>
+  <li>
+    <p>Veteran Users  <br />
+Low motivation, whatever how hard to use, they always could find the points but also they may flee at any time</p>
+  </li>
+  <li>
+    <p>Spoiled Users  <br />
+High motivation and also, found your product is perfect match their needs and easy to use</p>
+  </li>
+</ul>
 
-<h2 id="moat-framework">MOAT Framework</h2>
-<p>TBD</p>
+<p>Now, ask yourself which user are you most familiar with? Also, try to think about the questions as below:</p>
+<ul>
+  <li>
+    <p>How motivated are users when they sign up for your product?</p>
+  </li>
+  <li>
+    <p>Is your product easy for your target audience to use?</p>
+  </li>
+  <li>
+    <p>Can users experience the core value of your product without hand-holding?</p>
+  </li>
+</ul>
+
+<p>Last but not the least, always remember, <font color="green"><b> eliminate unnecessary steps in your onboarding </b></font>.</p>
 
 <h1 id="build-your-foundation">Build Your Foundation</h1>
 <p>TBD</p>
@@ -366,6 +408,6 @@ If your product has a freemium model and a top-down selling strategy, the two ap
 <a href="https://www.techadvisor.com/buying-advice/entertainment/best-streaming-service-3668647/">Techadvisor</a>
 <a href="https://www.canva.com/">Canva</a>
 <a href="https://www.launch-marketing.com/red-vs-blue-ocean-strategies/">blue-read-ocean</a>
-<a href="https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business">button-up-top-down</a></p>
+<a href="https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business">bottom-up-top-down</a></p>
 
 :ET
