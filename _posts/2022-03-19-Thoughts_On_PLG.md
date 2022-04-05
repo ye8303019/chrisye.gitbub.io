@@ -327,8 +327,58 @@ Whatever you agree or not, we are selling an outcome to acquire customers better
 If you can understand the three main outcomes behind why people buy your product and execute on it, you're on the right track to building a strong product-led foundation. The challenge, however, is always in the execution. **For instance, if your product offers video hosting but people sign up thinking that you're a video marketing agency, they're doomed from the start**.    
 ![nickyoung]({{ site.url }}/images/PLG/nickyoung.jpg)
 
+So, what's the value metrics of your product? If you're selling shoes, then your value metrics is 'per pair of shoes', if you're running a video platform, the value metrics could be the number of videos uploaded and for communication application, the value metrics could be number of messages sent. **Your value metrics play a vital role in how you price your product, set up your product metrics, and build your team**.
+
+**What Makes a Good Value Metrics**
+1. It's easy for the customer to understand
+   1. When someone visits your pricing page, will they immediately understand what they're paying for and where they fit in your packaging? 
+2. It's align with the value that the customer receives in the product    
+   1. What core components lead someone to experience a meaningful outcomes?
+3. Grows with your customer's usage of the value (Check more on [OpenView website](https://openviewpartners.com/blog/why-do-saas-companies-still-charge-by-the-user/))
+   1. Get more, charge more.
+   2. User based or not? Think before you select per using pricing. The more of these conditions are true, the better per user pricing will work for your business.    
+      [![userbased]({{ site.url }}/images/PLG/userbased.png)](https://openviewpartners.com/blog/why-do-saas-companies-still-charge-by-the-user/)
+   3. Usage based value metric has a better shot at reflecting the unique value perceived by customers for your specific product. For example, charge by the number of space, the widgets or content in each space etc. 
+      [![usagebased]({{ site.url }}/images/PLG/usagebased.png)](https://openviewpartners.com/blog/why-do-saas-companies-still-charge-by-the-user/)
+
+When you are in an early stage of your growth, you have tremendous flexibility to experiment with different value metrics and pricing structures.
+
+**How to find your value metric**
+1. **Subjective Analysis**
+   ![subjective_analysis_metrics]({{ site.url }}/images/PLG/subjective_analysis_metrics.png)
+
+2. **Data-Driven Approach**    
+Classify user into `Churn Quickly`, `Barely Use`, `Power User` and `User with High Lifetime Value`, and ask yourself when analyzing your data:
+   1. **For best customers**
+      1. What do my best customers do regularly in the product?
+      2. What do my best customers not do in the product?
+      3. What features did my best users try first during onboarding?
+      4. What similarities among my best users that led to success? demographics? team structure or ability? 
+   2. **For churned customers**
+      1. What were some of the main differences between their user journey and that of your best customers?
+      2. Specifically, what activities were different? What outcomes did your churned users achieve and not achieve?
+      3. Were these churned customers in your target market?
+      4. Why did the majority of these customers churn?
+
+Once we know the answers and collect them together, abstract these into the value metrics, then you could know what kinds of users you could serve and what's the value metrics is well-fitted for them. This could be different value metrics for different users in different products.       
+
 ## Communicate Your Value
 
+<img src="{{ site.url }}/images/PLG/comminicate_the_value.jpg" width="300" height="300">
+
+For companies who are used to sales led growth, hid the price and sale the product by relationships is a norm. In contrast, PLG give prospects a clear plan and also incentive them to upgrade by provide them a good value guidance. In the book, Wes show us how to treat your pricing and customer acquisition model right.
+1. **Don't overcomplicate your pricing page**
+Follow the `five-second test`, to see if users could understand which plan is right for them almost immediately, otherwise your plan may be overcomplicated. About the best practice of how to make a price plan, [here](https://optinmonster.com/pricing-page-best-practices/) is a perfect article which the author elaborate in 20 aspects, like the `Simplify the Design`, `Make the Copy Easy to Understand`, `Address the FUDs(Fear, Uncertainty and Doubt.)` etc.
+
+2. **Don't create a free plan with no incentive to upgrade**    
+You are not running a charity, **where to draw the line, this could be a tough balance**. Offering a key feature for free makes your customer acquistion model more powerful, but you'll drain resources , too. Make your decision based on your key value metrics data monitoring. 
+
+3. **Don't make it a no-brainer for the majority of your customers to downgrade**
+There's no way to avoid this entirely, but you can minimize risk. Look at the number of customers who use only the tools and features you're about to give away for free:
+   1. How many of these paying customers would be a prime fit for your free plan?
+   2. What percentage of these paying customers are you willing to risk losing?
+   3. How many more users do you expect top generate by giving away this free feature?
+   4. Is it worth it for your business to give this feature away for free?
 
 ## Deliver On Your Value
 TBD
@@ -355,13 +405,17 @@ TBD
 TBD
 
 Reference:  
-[Product Led Growth](https://productled.com/book/)
-[Open View](https://openviewpartners.com/product-led-growth-index/)
-[Discovery](https://discovery.patsnap.com/company-profile/3f42425756771203cd954c2386d8efdc/investment)
-[Techadvisor](https://www.techadvisor.com/buying-advice/entertainment/best-streaming-service-3668647/)
-[Canva](https://www.canva.com/)
-[blue-read-ocean](https://www.launch-marketing.com/red-vs-blue-ocean-strategies/)
-[bottom-up-top-down](https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business)  
+[https://productled.com/book/](https://productled.com/book/)    
+[https://openviewpartners.com/product-led-growth-index/](https://openviewpartners.com/product-led-growth-index/)    
+[https://discovery.patsnap.com/company-profile/3f42425756771203cd954c2386d8efdc/investment](https://discovery.patsnap.com/company-profile/3f42425756771203cd954c2386d8efdc/investment)    
+[https://www.techadvisor.com/buying-advice/entertainment/best-streaming-service-3668647/](https://www.techadvisor.com/buying-advice/entertainment/best-streaming-service-3668647/)    
+[https://www.canva.com/](https://www.canva.com/)    
+[https://www.launch-marketing.com/red-vs-blue-ocean-strategies/](https://www.launch-marketing.com/red-vs-blue-ocean-strategies/)    
+[https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business](https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business)      
+[https://openviewpartners.com/blog/why-do-saas-companies-still-charge-by-the-user/](https://openviewpartners.com/blog/why-do-saas-companies-still-charge-by-the-user/)    
+[comminicate_the_value](https://courses.lumenlearning.com/waymakerintrobusinessxmasterfall2016/chapter/reading-defining-marketing/)
+[https://optinmonster.com/pricing-page-best-practices/](https://optinmonster.com/pricing-page-best-practices/)
+[https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html](https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html#:~:text=For%20years%2C%20companies%20have%20used,a%20decision%20on%20their%20own.)
 
 
 
