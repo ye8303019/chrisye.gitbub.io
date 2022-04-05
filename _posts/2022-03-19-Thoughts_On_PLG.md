@@ -379,6 +379,8 @@ There's no way to avoid this entirely, but you can minimize risk. Look at the nu
    2. What percentage of these paying customers are you willing to risk losing?
    3. How many more users do you expect top generate by giving away this free feature?
    4. Is it worth it for your business to give this feature away for free?
+   5. Does this free feature include a value metric?
+Still, ask yourself a key question before you make the decision about which part should give away for free, **Are you willing to take a short-term dip in revenue for a long-term gain?**
 
 ## Deliver On Your Value
 TBD
@@ -416,6 +418,7 @@ Reference:
 [comminicate_the_value](https://courses.lumenlearning.com/waymakerintrobusinessxmasterfall2016/chapter/reading-defining-marketing/)
 [https://optinmonster.com/pricing-page-best-practices/](https://optinmonster.com/pricing-page-best-practices/)
 [https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html](https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html#:~:text=For%20years%2C%20companies%20have%20used,a%20decision%20on%20their%20own.)
+[https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7](https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7)
 
 
 

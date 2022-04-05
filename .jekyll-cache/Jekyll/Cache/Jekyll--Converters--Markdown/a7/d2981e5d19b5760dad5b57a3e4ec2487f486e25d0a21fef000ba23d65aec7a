@@ -1,4 +1,4 @@
-I"��<h2 id="preface">Preface</h2>
+I"�<h2 id="preface">Preface</h2>
 <p>As the development of the life-science industry around China and global, more and more requirements from drug manufacturers, bio-techs, they really need a platform which could speedup their decision-making process. For some historical reason, until now, most of the platforms in the world are under the TOB model. Customers don’t even know what the platform looks like before they decide to book a demo from sales rep. Under this situation, PLG should be a great way for decision makers in the life-science industry. By mentioning PLG, then you can’t ignore a person, Wes Bush, the founder of PLG institute, and his book <code class="language-plaintext highlighter-rouge">PRODUCT - LED GROWTH</code> which was published in 2019, and here are some key takeaways from this book. <br />
 <img src="http://localhost:4000/images/PLG/PLG.jpg" alt="PLG" /></p>
 
@@ -483,11 +483,25 @@ Classify user into <code class="language-plaintext highlighter-rouge">Churn Quic
 <p>For companies who are used to sales led growth, hid the price and sale the product by relationships is a norm. In contrast, PLG give prospects a clear plan and also incentive them to upgrade by provide them a good value guidance. In the book, Wes show us how to treat your pricing and customer acquisition model right.</p>
 <ol>
   <li>
-    <p>Don’t overcomplicate your pricing page
-Follow the <code class="language-plaintext highlighter-rouge">five-second test</code>, to see if users could understand which plan is right for them almost immediately, otherwise your plan may be overcomplicated. About the best practice of how to make a price plan, <a href="https://optinmonster.com/pricing-page-best-practices/">here</a> is a good article, the author elaborate in 20 aspects, like</p>
+    <p><strong>Don’t overcomplicate your pricing page</strong>
+Follow the <code class="language-plaintext highlighter-rouge">five-second test</code>, to see if users could understand which plan is right for them almost immediately, otherwise your plan may be overcomplicated. About the best practice of how to make a price plan, <a href="https://optinmonster.com/pricing-page-best-practices/">here</a> is a perfect article which the author elaborate in 20 aspects, like the <code class="language-plaintext highlighter-rouge">Simplify the Design</code>, <code class="language-plaintext highlighter-rouge">Make the Copy Easy to Understand</code>, <code class="language-plaintext highlighter-rouge">Address the FUDs(Fear, Uncertainty and Doubt.)</code> etc.</p>
   </li>
-  <li>Don’t create a free plan with no incentive to upgrade</li>
-  <li>Don’t make it a no-brainer for the majority of your customers to downgrade</li>
+  <li>
+    <p><strong>Don’t create a free plan with no incentive to upgrade</strong>  <br />
+You are not running a charity, <strong>where to draw the line, this could be a tough balance</strong>. Offering a key feature for free makes your customer acquistion model more powerful, but you’ll drain resources , too. Make your decision based on your key value metrics data monitoring.</p>
+  </li>
+  <li>
+    <p><strong>Don’t make it a no-brainer for the majority of your customers to downgrade</strong>
+There’s no way to avoid this entirely, but you can minimize risk. Look at the number of customers who use only the tools and features you’re about to give away for free:</p>
+    <ol>
+      <li>How many of these paying customers would be a prime fit for your free plan?</li>
+      <li>What percentage of these paying customers are you willing to risk losing?</li>
+      <li>How many more users do you expect top generate by giving away this free feature?</li>
+      <li>Is it worth it for your business to give this feature away for free?</li>
+      <li>Does this free feature include a value metric?
+Still, ask yourself a key question before you make the decision about which part should give away for free, <strong>Are you willing to take a short-term dip in revenue for a long-term gain?</strong></li>
+    </ol>
+  </li>
 </ol>
 
 <h2 id="deliver-on-your-value">Deliver On Your Value</h2>
@@ -524,6 +538,8 @@ Follow the <code class="language-plaintext highlighter-rouge">five-second test</
 <a href="https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business">https://www.cleverism.com/top-vs-bottom-selling-strategies-best-business</a>    <br />
 <a href="https://openviewpartners.com/blog/why-do-saas-companies-still-charge-by-the-user/">https://openviewpartners.com/blog/why-do-saas-companies-still-charge-by-the-user/</a>  <br />
 <a href="https://courses.lumenlearning.com/waymakerintrobusinessxmasterfall2016/chapter/reading-defining-marketing/">comminicate_the_value</a>
-<a href="https://optinmonster.com/pricing-page-best-practices/">https://optinmonster.com/pricing-page-best-practices/</a></p>
+<a href="https://optinmonster.com/pricing-page-best-practices/">https://optinmonster.com/pricing-page-best-practices/</a>
+<a href="https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html#:~:text=For%20years%2C%20companies%20have%20used,a%20decision%20on%20their%20own.">https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html</a>
+<a href="https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7">https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7</a></p>
 
 :ET
