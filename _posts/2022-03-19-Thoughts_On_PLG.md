@@ -371,7 +371,7 @@ For companies who are used to sales led growth, hid the price and sale the produ
 Follow the `five-second test`, to see if users could understand which plan is right for them almost immediately, otherwise your plan may be overcomplicated. About the best practice of how to make a price plan, [here](https://optinmonster.com/pricing-page-best-practices/) is a perfect article which the author elaborate in 20 aspects, like the `Simplify the Design`, `Make the Copy Easy to Understand`, `Address the FUDs(Fear, Uncertainty and Doubt.)` etc.
 
 2. **Don't create a free plan with no incentive to upgrade**    
-You are not running a charity, **where to draw the line, this could be a tough balance**. Offering a key feature for free makes your customer acquistion model more powerful, but you'll drain resources , too. Make your decision based on your key value metrics data monitoring. 
+You are not running a charity, **where to draw the line, this could be a tough balance**. Offering a key feature for free makes your customer acquisition model more powerful, but you'll drain resources , too. Make your decision based on your key value metrics data monitoring. 
 
 3. **Don't make it a no-brainer for the majority of your customers to downgrade**
 There's no way to avoid this entirely, but you can minimize risk. Look at the number of customers who use only the tools and features you're about to give away for free:
@@ -381,6 +381,67 @@ There's no way to avoid this entirely, but you can minimize risk. Look at the nu
    4. Is it worth it for your business to give this feature away for free?
    5. Does this free feature include a value metric?
 Still, ask yourself a key question before you make the decision about which part should give away for free, **Are you willing to take a short-term dip in revenue for a long-term gain?**
+
+**Four Common Pricing Strategies**
+1. Best-Judgement Pricing
+You and your team decide your price based on what you think is reasonable. Best judgement pricing is the <font color="green"><b>least effective pricing strategy</b></font> because you rely on the collective experience of your team, and you make assumptions about what your buyer values and is willing to pay. But, on the other side, it's easy to <font color="red"><b>sell unprofitable products without knowing it</b></font>.
+
+
+2. Cost-Plus Pricing
+This is simple, calculate the cost of selling and delivering the product, then add a profit margin on top. But there is one point that everyone can't just simply ignore it that the margin cost for SaaS is low while you start to supporting a new customer. So, this means you probably <font color="red"><b>say goodbye to your profit potential if you use this strategy</b></font>.
+
+
+3. Competitor-Based Pricing
+Find your competitor's price and decide yours. This is simple too. Sometimes it's works especially when you <font color="green"><b>have no idea how to decide your price at very beginning</b></font> when you get into a new market. But is strategy also has limitation.
+   1. First, you're assuming that you sell to the <font color="red"><b>exact same customer</b></font> who has the <font color="red"><b>exact same problem</b></font> that you can solve with your <font color="red"><b>exact same product</b></font>. 
+   2. Second, you're assuming that your competitor do the pricing research, but unfortunately, <font color="red"><b>seven out of ten companies do not do their pricing research</b></font>, you are banking your livelihood on someone else's guessing game.   
+
+    
+4. Value-Based Pricing
+Value-based pricing bases your price on the value you provide. You determine this by taking into account how prospects value your product. A significant benefit of value-based pricing is that <font color="green"><b>you'll learn what to include in each package</b></font>.
+
+
+So, which pricing approach will you take? Let's listen what does Patrick Campbell said.
+
+    Each of these pricing strategies has its place in business. If you're running a gas station, 
+    you're probably cost-plus pricing. If you are in the ultra-competitive retail space, 
+    pricing in line with competitors will be close to the price the market can sustain. 
+    But in SaaS, the only viable option is value-based. You are not only give customers 
+    what they want, but you'll also be able to attract and retain these customers better.    
+                                                                    - CEO if ProfitWell
+
+
+**How to Determine Your Price**
+Most businesses whip up a new pricing model in a spreadsheet without talking to a single customer. To avoid bombing with your new pricing model, break down your customer's perceived value across the three core outcomes your product solves for functional, emotional, and social.
+1. **Option1: Pricing Economic Value Analysis**
+   1. **Functional Outcome**: 
+   The core tasks that customers want to get done. Usually can break down into factors such as incremental revenue, reduced cost, reduced risk or time saving. For example, your product could help your customer save 1 formal employees whose salary(Include Provident fund) is ＄8000/month, and also could reduce the time of generating the final report from 1 week to 1 day. Then your product price should not be less than ＄9600/year at least (**10X rules: Provide customer 10X value**).  
+   
+   2. **Emotional Outcome**: How customers want to feel, or avoid feeling - as a result of executing the core functional job, for example, you can tell your customer that you no longer need to hire a full time employee to crunch the number for almost a week to get the final report every quarter, what you just needed is get the report automatically in the product and use another day to refine the report, then everything done. What do you think how much would this customer pay for your product? I think maybe he could agree for ＄9600/year or ＄11000/year.  **Emotions play a key role in our decision-making process both online and offline and in order to truly grow your business you have to start understanding your customers and their decision-making process better**.  
+   
+   3. **Social Outcome**: How customers want to be perceived by others, maybe your product could make your customers feel like a "professional" during a presentation or make him or her promoted after using your product. Your customers like share the report with your logo, recommend it his colleagues or teammates. All of these are social outcome that your product could provide to your user.
+
+Basing your pricing on market and customer research is one of the best ways to understand how much your customer is willing to pay for your product or services. In the book, the author call it `Van Westendorp Price Sensitivity Meter`
+2. **Option2: Market and Customer Research**
+   1. Prepare Question to Ask
+      1. Too Expensive
+      2. Expensive
+      3. Bargain
+      4. Too Cheap
+   2. How to Ask
+   3. Crunch the Numbers
+   ![pricing_model]({{ site.url }}/images/PLG/pricing_model.jpg)
+      
+**What Should You Put on Your Pricing Page?**
+1. Value Metric
+2. Willingness to pay for all packages
+3. Valued features
+   1. Leaders
+   2. Fillers
+   3. Bundle killers
+4. Demographic Information
+   1. It allows your audience to self-segment quicker
+   2. It helps you prioritize the features and benefits that are most valuable to the target audience
 
 ## Deliver On Your Value
 TBD
@@ -419,6 +480,7 @@ Reference:
 [https://optinmonster.com/pricing-page-best-practices/](https://optinmonster.com/pricing-page-best-practices/)
 [https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html](https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html#:~:text=For%20years%2C%20companies%20have%20used,a%20decision%20on%20their%20own.)
 [https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7](https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7)
+[https://baremetrics.com/blog/marginal-cost-why-you-need-to-know-it](https://baremetrics.com/blog/marginal-cost-why-you-need-to-know-it)
 
 
 
