@@ -421,27 +421,44 @@ Most businesses whip up a new pricing model in a spreadsheet without talking to 
    
    3. **Social Outcome**: How customers want to be perceived by others, maybe your product could make your customers feel like a "professional" during a presentation or make him or her promoted after using your product. Your customers like share the report with your logo, recommend it his colleagues or teammates. All of these are social outcome that your product could provide to your user.
 
-Basing your pricing on market and customer research is one of the best ways to understand how much your customer is willing to pay for your product or services. In the book, the author call it `Van Westendorp Price Sensitivity Meter`
+Basing your pricing on market and customer research is one of the best ways to understand how much your customer is willing to pay for your product or services. In the book, the author call it `Van Westendorp Price Sensitivity Meter`. Finding an acceptable price range is especially important to avoid we set our price too high to lose the majority of sales or too low to lose out the majority of profits.
 2. **Option2: Market and Customer Research**
    1. Prepare Question to Ask
-      1. Too Expensive
-      2. Expensive
-      3. Bargain
-      4. Too Cheap
+      1. **Too Expensive**: At what price point would you consider our product tobe so expensive that you would not consider buying it?
+      2. **Expensive**: At what price point would you consider our product so expensive that you would give it some thought before buying?
+      3. **Bargain**: At what price point would you consider our product to be a great deal for the money?
+      4. **Too Cheap**: At what price point would you consider our product so inexpensive that you would feel the quality couldn't be excellent?
    2. How to Ask
+      1. Survey tools
+      2. Interviews    
+   ![survey_tool]({{ site.url }}/images/PLG/survey_tool.png)    
+   
+
    3. Crunch the Numbers
+   Once you know your **PMC(Point of Marginal Cheapness)** and **PME(Point of Marginal Expensiveness)**, you've found your acceptable price range: the space between bothy points.    
+   
    ![pricing_model]({{ site.url }}/images/PLG/pricing_model.jpg)
+   
+   **As the product evolves, you would better do the price research at a specific interval.**
       
 **What Should You Put on Your Pricing Page?**
-1. Value Metric
+1. Value Metric (Please refer to [Understand Your Value](#understand-your-value))
 2. Willingness to pay for all packages
 3. Valued features
-   1. Leaders
-   2. Fillers
-   3. Bundle killers
+   1. Leaders: "are the hamburger in your McDonald's value meal; they are what everyone wants and comes to you to buy. These must be included in all packages"
+   2. Fillers: "are the fries and coke. They are seen as nice-to-have and sweeten the deal. Customers will cherry-pick fillers when sold à la carte, and so a bundle helps drive uptake and a higher average revenue per user"
+   3. Bundle killers: "are the coffee of your value meal. Few people want a value meal with a burger, fries, coke and a coffee, and adding coffee to the value meal might even turn people off from buying entirely because they'd end up with more than they need."
 4. Demographic Information
    1. It allows your audience to self-segment quicker
    2. It helps you prioritize the features and benefits that are most valuable to the target audience
+
+**Some examples:**
+1. Canva
+[![camva_price]({{ site.url }}/images/PLG/camva_price.png)](https://www.canva.com/pricing/)
+2. Smartsheet
+[![smartsheet_price]({{ site.url }}/images/PLG/smartsheet_price.png)](https://www.smartsheet.com/pricing)
+3. Wrike
+[![wrike_price]({{ site.url }}/images/PLG/wrike_price.png)](https://www.wrike.com/price-vo/)
 
 ## Deliver On Your Value
 TBD
@@ -481,6 +498,7 @@ Reference:
 [https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html](https://www.inc.com/eric-holtzclaw/selling-fud-redefined.html#:~:text=For%20years%2C%20companies%20have%20used,a%20decision%20on%20their%20own.)
 [https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7](https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7)
 [https://baremetrics.com/blog/marginal-cost-why-you-need-to-know-it](https://baremetrics.com/blog/marginal-cost-why-you-need-to-know-it)
+[https://www.priceintelligently.com/blog/bid/195287/the-value-metric-optimize-your-pricing-strategy-for-high-growth](https://www.priceintelligently.com/blog/bid/195287/the-value-metric-optimize-your-pricing-strategy-for-high-growth)
 
 
 
