@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01ca0e05-2d64-4eb4-84c8-91082c65edcf" name="Default" comment="Git Introduction">
+      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/28/0c968e8601f85229aa872bd62901198ac8e285cb85e1c9faf4eb29128cd1c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/6e/f4efc7831ca92a7b77c035c8431abb729335d3c65732378c5406ec8ff2e1b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/9d/2e72430c72999ee90cfade237058ed715699a6904218e5ce482c6b417efeb2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/c6/11ea7006201acf4db43493dd18eff081c9f989bacf240db010ca5da29b15dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/d8/312136cc2b6da9484c579a54a7f2ba4d9177f16fb0c8bc87e9850b4dc68762" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/PLG/PharmSnap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/PLG/PharmSnap_pricing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2022-03-19-Thoughts_On_PLG.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2022-03-19-Thoughts_On_PLG.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

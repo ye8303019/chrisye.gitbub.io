@@ -459,6 +459,9 @@ Basing your pricing on market and customer research is one of the best ways to u
 [![smartsheet_price]({{ site.url }}/images/PLG/smartsheet_price.png)](https://www.smartsheet.com/pricing)
 3. Wrike
 [![wrike_price]({{ site.url }}/images/PLG/wrike_price.png)](https://www.wrike.com/price-vo/)
+4. PharmSnap
+[![PharmSnap_pricing]({{ site.url }}/images/PLG/PharmSnap_pricing.png)](https://pharmsnap.zhihuiya.com/drug-list?query_id=199c4711-3918-4389-9f58-f07bbd92c446)
+
 
 ## Deliver On Your Value
 What we promise in our marketing and sales is the perfeived value, What we deliver in our product ios the experienced value. Ideally, the perceived value align with the experienced value.But, most companies struggle with over-promising and under-delivering. The bigger your value gap, the leakier your funnel. **40%-60% of users who sign up for your product will use it once and never come back.**  
@@ -566,7 +569,7 @@ To optimize any business, you need to ask three questions:
           [![churn_and_revenue]({{ site.url }}/images/PLG/churn_and_revenue.png)](https://openviewpartners.com/wp-content/uploads/2018/04/ROrston_1.png)  
           Drew Sanocki, former CMO at [Teamwork](https://www.teamwork.com/), found that decreasing his churn rate by 30%, increasing ARPU by 30%, and increasing total customers by only 30% increased lifetime value (LTV) by over 100%. Breaking down your business by these three levers lets you quickly identify which ones will help your business grow fastest. **Unless you’re just starting out, reducing churn and increasing ARPU will almost always have the biggest impact. Once you nail your churn and ARPU, you can start multiplying your business with each additional customer**.  
           Take the example from my own, what we have done was just starting a brand-new product [pharmsnap.zhihuiya.com](https://pharmsnap.zhihuiya.com) in China (Which is [synapse.patsnap.com](https://synapse.patsnap.com) for global), the product is at very beginning, the macro metrics we always take to crunch is the number of sign up and the north star index for micro metrics.
-
+          [![PharmSnap]({{ site.url }}/images/PLG/PharmSnap.png)](https://pharmsnap.zhihuiya.com/drug-list?query_id=199c4711-3918-4389-9f58-f07bbd92c446)
 
    3. **Which inputs should we invest in?**  
       Follow the UCD framework, using ICE to keep improving your product. The `ICE` stand for:
