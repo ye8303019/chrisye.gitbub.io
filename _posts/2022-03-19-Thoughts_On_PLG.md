@@ -565,7 +565,7 @@ To optimize any business, you need to ask three questions:
        3. **Number of customers**  
           [![churn_and_revenue]({{ site.url }}/images/PLG/churn_and_revenue.png)](https://openviewpartners.com/wp-content/uploads/2018/04/ROrston_1.png)  
           Drew Sanocki, former CMO at [Teamwork](https://www.teamwork.com/), found that decreasing his churn rate by 30%, increasing ARPU by 30%, and increasing total customers by only 30% increased lifetime value (LTV) by over 100%. Breaking down your business by these three levers lets you quickly identify which ones will help your business grow fastest. **Unless you’re just starting out, reducing churn and increasing ARPU will almost always have the biggest impact. Once you nail your churn and ARPU, you can start multiplying your business with each additional customer**.  
-          Take the example from my own, what we have done was just starting a brand-new product [pharmsnap.zhihuiya.com](pharmsnap.zhihuiya.com) in China (Which is [synapse.patsnap.com](synapse.patsnap.com) for global), the product is at very beginning, the macro metrics we always take to crunch is the number of sign up and the north star index for micro metrics.
+          Take the example from my own, what we have done was just starting a brand-new product [pharmsnap.zhihuiya.com](https://pharmsnap.zhihuiya.com) in China (Which is [synapse.patsnap.com](https://synapse.patsnap.com) for global), the product is at very beginning, the macro metrics we always take to crunch is the number of sign up and the north star index for micro metrics.
 
 
    3. **Which inputs should we invest in?**  
