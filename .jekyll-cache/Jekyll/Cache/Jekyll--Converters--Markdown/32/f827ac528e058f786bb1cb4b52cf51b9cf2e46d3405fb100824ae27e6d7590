@@ -1,4 +1,4 @@
-I"��<h2 id="preface">Preface</h2>
+I"��<h2 id="preface">Preface</h2>
 <p>As the development of the life-science industry around China and global, more and more requirements from drug manufacturers, bio-techs, they really need a platform which could speedup their decision-making process. For some historical reason, until now, most of the platforms in the world are under the TOB model. Customers don’t even know what the platform looks like before they decide to book a demo from sales rep. Under this situation, PLG should be a great way for decision makers in the life-science industry. By mentioning PLG, then you can’t ignore a person, Wes Bush, the founder of PLG institute, and his book <code class="language-plaintext highlighter-rouge">PRODUCT - LED GROWTH</code> which was published in 2019, and here are some key takeaways from this book. <br />
 <img src="http://localhost:4000/images/PLG/PLG.jpg" alt="PLG" /></p>
 
@@ -671,21 +671,70 @@ There is another major point we can’t just ignore is that PLG is not just a pl
 <ol>
   <li>
     <p><strong>Trial and error</strong><br />
-This option can work if you’re self-funded, but it can take a long time to build a high-converting product-led model, and the likelihood of switching back to “the old way” of doing things is high - SLG only model.</p>
+This option can work if you’re self-funded, but it can take a long time to build a high-converting product-led model, and the likelihood of switching back to “the old way” of doing things (SLG only model) is high.</p>
   </li>
   <li>
-    <p><strong>Hire the dream team</strong></p>
+    <p><strong>Hire the dream team</strong><br />
+This option can work if the stakes are high and you don’t have enough time, however, it has downsides. You will spend lots of time recruiting, training, and getting your new team up to speed.  Finding people with relevant experience is hard.</p>
   </li>
   <li>
-    <p><strong>Train your team</strong></p>
+    <p><strong>Train your team</strong>  <br />
+This option is the fastest way to get your product-led model up and running. Your current employees are already familiar with your product, know the customers and want to see your customers succeed. This option is highly recommended. In your <code class="language-plaintext highlighter-rouge">tiger team</code>, you need these seven roles work together:</p>
+    <ol>
+      <li>Developer</li>
+      <li>User Experience Designer</li>
+      <li>Product Manager</li>
+      <li>Customer Success Rep</li>
+      <li>Digital Marketer/Inside Sales</li>
+      <li>CEO</li>
+      <li>CPO or CTO</li>
+    </ol>
   </li>
 </ol>
 
+<p>This <code class="language-plaintext highlighter-rouge">tiger team</code> is eventually responsible for building out their own mini-team within your company, so <strong>choose carefully</strong>.</p>
+
 <h1 id="speedup-your-business">Speedup Your Business</h1>
-<p>TBD</p>
 
 <h2 id="optimization-process">Optimization Process</h2>
-<p>TBD</p>
+<p><a href="https://www.business2community.com/strategy/saas-growth-the-triple-a-sprint-framework-that-gets-results-02215370"><img src="http://localhost:4000/images/PLG/triple_a.png" alt="triple_a" /></a></p>
+
+<p>By saying optimization process in PLG, what you need to do may follow the <code class="language-plaintext highlighter-rouge">Triple A</code> process:</p>
+<ol>
+  <li><strong>Analyze</strong>
+Arrange a recurring calendar notification for this part, involve your tiger team together, analyze the major input and outputs. The input and output could be macro and micro ways. For macro metrics it like follows:
+    <ol>
+      <li>Number of signups</li>
+      <li>Number of upgrades</li>
+      <li>ARPU (Average Revenue Per User)</li>
+      <li>Customer Churn</li>
+      <li>ARR (Annual Recurring Revenue)</li>
+      <li>MRR (Monthly Recurring Revenue)</li>
+    </ol>
+  </li>
+</ol>
+
+<p>For then other side, micro metrics could be your north star metrics, such as:</p>
+<ol>
+  <li>Number of searches</li>
+  <li>Number detail views</li>
+  <li>Number of video watch</li>
+  <li>Number of connection</li>
+  <li>
+    <p>etc. etc. etc.</p>
+  </li>
+  <li>
+    <p><strong>Ask</strong>
+To optimize any business, you need to ask three question:</p>
+  </li>
+  <li>Where do you want to go?
+    <ol>
+      <li>Which levers can you pull to get there?
+ 3.</li>
+    </ol>
+  </li>
+  <li><strong>Act</strong></li>
+</ol>
 
 <h2 id="bowling-alley-framework">Bowling Alley Framework</h2>
 <p>TBD</p>
@@ -716,6 +765,7 @@ This option can work if you’re self-funded, but it can take a long time to bui
 <a href="https://www.priceintelligently.com/blog/bid/195287/the-value-metric-optimize-your-pricing-strategy-for-high-growth">https://www.priceintelligently.com/blog/bid/195287/the-value-metric-optimize-your-pricing-strategy-for-high-growth</a>
 <a href="https://www.canva.com/pricing/">https://www.canva.com/pricing/</a>
 <a href="https://www.smartsheet.com/pricing">https://www.smartsheet.com/pricing</a>
-<a href="https://www.wrike.com/price-vo/">https://www.wrike.com/price-vo/</a></p>
+<a href="https://www.wrike.com/price-vo/">https://www.wrike.com/price-vo/</a>
+<a href="https://www.business2community.com/strategy/saas-growth-the-triple-a-sprint-framework-that-gets-results-02215370">https://www.business2community.com/strategy/saas-growth-the-triple-a-sprint-framework-that-gets-results-02215370</a></p>
 
 :ET

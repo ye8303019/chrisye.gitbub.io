@@ -9,11 +9,11 @@ tags: PLG Product Led Growth
 ---
 
 ## Preface
-As the development of the life-science industry around China and global, more and more requirements from drug manufacturers, bio-techs, they really need a platform which could speedup their decision-making process. For some historical reason, until now, most of the platforms in the world are under the TOB model. Customers don't even know what the platform looks like before they decide to book a demo from sales rep. Under this situation, PLG should be a great way for decision makers in the life-science industry. By mentioning PLG, then you can't ignore a person, Wes Bush, the founder of PLG institute, and his book `PRODUCT - LED GROWTH` which was published in 2019, and here are some key takeaways from this book.   
+As the development of the life-science industry around China and global, more and more requirements from drug manufacturers, bio-techs, they really need a platform which could speedup their decision-making process. For some historical reason, until now, most of the platforms in the world are under the TOB model. Customers don't even know what the platform looks like before they decide to book a demo from sales rep. Under this situation, PLG should be a great way for decision makers in the life-science industry. By mentioning PLG, then you can't ignore a person, Wes Bush, the founder of PLG institute, and his book `PRODUCT - LED GROWTH` which was published in 2019, and here are some key takeaways from this book.   
 ![PLG]({{ site.url }}/images/PLG/PLG.jpg)
 
 ## Disclaimer
-Most the concepts for PLG in this article are comes from book `PRODUCT-LED GROWTH`, and this blog won't be commercial used for any purpose, if you like PLG, please redirect to  [Product Led Growth](https://productled.com/book/)  or  [Wes Bush's Twitter](https://twitter.com/wes_bush?lang=en)  to check for more details.  
+This article is inspired by book `PRODUCT-LED GROWTH`, also, most of the concepts for PLG in this article comes from the book too, and this blog won't be commercial used for any purpose, if you like PLG, please redirect to  [Product Led Growth](https://productled.com/book/)  or  [Wes Bush's Twitter](https://twitter.com/wes_bush?lang=en)  to check for more details.  
 For the company snapshot which been used in this blog, then I would love to proudly introduce my product - `Discovery` to you which perfectly match the need of R&D decision makers. For more information, please refer to [Discovery](https://www.patsnap.com/solutions/rd-intelligence/)
 
 ## Outlines
@@ -530,10 +530,58 @@ This option is the fastest way to get your product-led model up and running. You
 This `tiger team` is eventually responsible for building out their own mini-team within your company, so **choose carefully**.
 
 # Speedup Your Business
-TBD
+
 
 ## Optimization Process
-TBD
+[![triple_a]({{ site.url }}/images/PLG/triple_a.png)](https://www.business2community.com/strategy/saas-growth-the-triple-a-sprint-framework-that-gets-results-02215370)  
+
+By saying optimization process in PLG, what you need to do may follow the `Triple A` process:    
+1. **Analyze**
+Arrange a recurring calendar notification for this part, involve your tiger team together, analyze the major input and outputs. The input and output could be macro and micro ways. For macro metrics it like follows:   
+   1. Number of signups
+   2. Number of upgrades
+   3. ARPU (Average Revenue Per User)
+   4. Customer Churn
+   5. ARR (Annual Recurring Revenue)
+   6. MRR (Monthly Recurring Revenue)
+
+For then other side, micro metrics could be your north star metrics, such as:
+   1. Number of searches
+   2. Number detail views
+   3. Number of video watch
+   4. Number of connection
+   5. etc. etc. etc.  
+
+2. **Ask**  
+To optimize any business, you need to ask three questions:  
+   1. **Where do you want to go?**
+   Ask yourself what's your clear goal, the goal could be $6 million ARR, or 100,000 sign up etc. Never stop asking you this question, you should adjust your goal once you hit it, and also, remember that get your business closer to your goal.
+   
+   2. Which levers can you pull to get there?
+   It’s the same when it comes to your business. According to Jay Abraham’s multiplier theory, there are three levers you can pull for SaaS growth:
+      1. Churn; 
+      2. ARPU; 
+      3. Number of customers.
+   
+   [![churn_and_revenue]({{ site.url }}/images/PLG/churn_and_revenue.png)](https://openviewpartners.com/wp-content/uploads/2018/04/ROrston_1.png)  
+   Drew Sanocki, former CMO at [Teamwork](https://www.teamwork.com/), found that decreasing his churn rate by 30%, increasing ARPU by 30%, and increasing total customers by only 30% increased lifetime value (LTV) by over 100%. Breaking down your business by these three levers lets you quickly identify which ones will help your business grow fastest. **Unless you’re just starting out, reducing churn and increasing ARPU will almost always have the biggest impact. Once you nail your churn and ARPU, you can start multiplying your business with each additional customer**.  
+   **Reduce Churn > Increase ARPU > Increase Number of Customers**
+   Take the example from my own, what we have done was just starting a brand-new product [pharmsnap.zhihuiya.com](pharmsnap.zhihuiya.com) in China (Which is [synapse.patsnap.com](synapse.patsnap.com) for global), the product is at very beginning, the macro metrics we always take to crunch is the number of sign up and the north star index for micro metrics.  
+   
+   
+   3. Which inputs should we invest in?  
+   Follow the UCD framework, using ICE to keep improving your product. The `ICE` stand for:    
+      1. **Impact**: How big of an impact could this input hav on an output I want to improve  
+      2. **Confidence**: How confident am I that this input will improve my output metrics?  
+      3. **Ease**: How easy is it to implement?  
+
+
+3. **Act**  
+From taking baby steps to take bigger swings that require more resources and time. Tracking the outcomes and quickly adjust your roadmap and actions. Here are high-level process that worked for author's growth team, it's also almost the same way our team is doing:   
+   1. Get wins on the board to build with leadership and other teams, such as product and engineering.
+   2. Prioritize growth experiments you can execute quickly to demonstrate results.  
+   3. Once you start to see a high-level of test failures oir non-results, move on to tackle more complex growth opportunities (take big swings)  
+   4. Eventually, tell your CEO you want to test pricing (take even bigger swings)
 
 ## Bowling Alley Framework
 TBD
@@ -565,6 +613,8 @@ Reference:
 [https://www.canva.com/pricing/](https://www.canva.com/pricing/)
 [https://www.smartsheet.com/pricing](https://www.smartsheet.com/pricing)
 [https://www.wrike.com/price-vo/](https://www.wrike.com/price-vo/)
+[https://www.business2community.com/strategy/saas-growth-the-triple-a-sprint-framework-that-gets-results-02215370](https://www.business2community.com/strategy/saas-growth-the-triple-a-sprint-framework-that-gets-results-02215370)
+[https://saasboomi.com/the-why-what-and-how-of-product-led-growth-strategy-a-cheat-sheet/](https://saasboomi.com/the-why-what-and-how-of-product-led-growth-strategy-a-cheat-sheet/)
 
 
 
