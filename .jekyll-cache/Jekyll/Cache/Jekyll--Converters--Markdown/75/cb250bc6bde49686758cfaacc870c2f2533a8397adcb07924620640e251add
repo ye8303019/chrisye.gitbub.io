@@ -1,4 +1,4 @@
-I"�<h2 id="preface">Preface</h2>
+I"�<h2 id="preface">Preface</h2>
 <p>As the development of the life-science industry around China and global, more and more requirements from drug manufacturers, bio-techs, they really need a platform which could speedup their decision-making process. For some historical reason, until now, most of the platforms in the world are under the TOB model. Customers don’t even know what the platform looks like before they decide to book a demo from sales rep. Under this situation, PLG should be a great way for decision makers in the life-science industry. By mentioning PLG, then you can’t ignore a person, Wes Bush, the founder of PLG institute, and his book <code class="language-plaintext highlighter-rouge">PRODUCT - LED GROWTH</code> which was published in 2019, and here are some key takeaways from this book. <br />
 <img src="http://localhost:4000/images/PLG/PLG.jpg" alt="PLG" /></p>
 
@@ -507,14 +507,14 @@ Still, ask yourself a key question before you make the decision about which part
 <p><strong>Four Common Pricing Strategies</strong></p>
 <ol>
   <li>
-    <p>Best-Judgement Pricing
+    <p><strong>Best-Judgement Pricing</strong><br />
 You and your team decide your price based on what you think is reasonable. Best judgement pricing is the <font color="green"><b>least effective pricing strategy</b></font> because you rely on the collective experience of your team, and you make assumptions about what your buyer values and is willing to pay. But, on the other side, it’s easy to <font color="red"><b>sell unprofitable products without knowing it</b></font>.</p>
   </li>
   <li>
-    <p>Cost-Plus Pricing
+    <p><strong>Cost-Plus Pricing</strong><br />
 This is simple, calculate the cost of selling and delivering the product, then add a profit margin on top. But there is one point that everyone can’t just simply ignore it that the margin cost for SaaS is low while you start to supporting a new customer. So, this means you probably <font color="red"><b>say goodbye to your profit potential if you use this strategy</b></font>.</p>
   </li>
-  <li>Competitor-Based Pricing
+  <li><strong>Competitor-Based Pricing</strong><br />
 Find your competitor’s price and decide yours. This is simple too. Sometimes it’s works especially when you <font color="green"><b>have no idea how to decide your price at very beginning</b></font> when you get into a new market. But is strategy also has limitation.
     <ol>
       <li>First, you’re assuming that you sell to the <font color="red"><b>exact same customer</b></font> who has the <font color="red"><b>exact same problem</b></font> that you can solve with your <font color="red"><b>exact same product</b></font>.</li>
@@ -636,7 +636,8 @@ Ask yourself the following questions,</p>
   <li>Should you reposition your product to adopt a new segment?</li>
 </ol>
 
-<p>Step 2: Fresh Users Vs. Power Users</p>
+<p>Step 2: Fresh Users Vs. Power Users
+A Fresh User has no experience with the product or has experienced it for a short time–under 10 minutes, A Power User is a user who has adopted and retained a product. The exact way a Power User uses your product will vary. For instance, some companies will have Power Users that adopt different uses for a product. Others may have extreme brand loyalty, use your products for their needs, and then use online platforms to comment about your products and connect with other users.</p>
 
 <p><a href="https://productled.com/blog/value-gap/"><img src="http://localhost:4000/images/PLG/value_gap.png" alt="value_gap" /></a></p>
 
@@ -653,14 +654,17 @@ When you first launch a free trial or freemium model, you will inevitably have s
       <li>Are all unnecessary points of friction and distraction removed from critical workflows?</li>
     </ol>
   </li>
-</ol>
-
-<p>2<strong>You don’t understand why your customers buy.</strong>  <br />
-If you don’t know where someone wants to go, you can’t help them get there. When it comes to onboarding, most businesses walk you through the entire product but bring you no closer to achieving a meaningful outcome in the product. That isn’t too different than inviting your friends over to your house for dinner and, when they show up, you show them around the house but forget to give them anything to eat. This may sound straightforward, but many businesses don’t know the main outcome that people want to achieve in their product. A Fresh User has no experience with the product or has experienced it for a short time–under 10 minutes, A Power User is a user who has adopted and retained a product. The exact way a Power User uses your product will vary. For instance, some companies will have Power Users that adopt different uses for a product. Others may have extreme brand loyalty, use your products for their needs, and then use online platforms to comment about your products and connect with other users.</p>
-
-<ol>
+  <li>
+    <p><strong>You don’t understand why your customers buy.</strong>  <br />
+If you don’t know where someone wants to go, you can’t help them get there. When it comes to onboarding, most businesses walk you through the entire product but bring you no closer to achieving a meaningful outcome in the product. That isn’t too different than inviting your friends over to your house for dinner and, when they show up, you show them around the house but forget to give them anything to eat. This may sound straightforward, but many businesses don’t know the main outcome that people want to achieve in their product.</p>
+  </li>
   <li><strong>You over-promise what the solution is capable of.</strong></li>
 </ol>
+
+<p><strong>Deliver the value need teamwork</strong>  <br />
+There is another major point we can’t just ignore is that PLG is not just a plan, it needs you to convince many key stack holders to make it happen. For instance, you wanted to optimize company’s free-trial sign-up page by reducing the number of required form fields, but the sales team demanded that they keep all ten fields, It took you three months to convience the sales director to reduce the number of fields. There’s nothing more disappointing than this, right? Also, launching a free trial or freemium model requires development time, and not finish yet, you still need to sell your product and sales team on why a free trial will help them grow.</p>
+
+<p>Last but not least, even if you do a terrible job understanding and communicating your value , there’s one thing you can do that will keep your business running smoothly: <strong>Deliver on your value</strong>.</p>
 
 <h2 id="common-mistakes-for-plg">Common Mistakes For PLG</h2>
 <p>TBD</p>

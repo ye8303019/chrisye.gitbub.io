@@ -1,4 +1,4 @@
-I"'�<h2 id="preface">Preface</h2>
+I"k�<h2 id="preface">Preface</h2>
 <p>As the development of the life-science industry around China and global, more and more requirements from drug manufacturers, bio-techs, they really need a platform which could speedup their decision-making process. For some historical reason, until now, most of the platforms in the world are under the TOB model. Customers don’t even know what the platform looks like before they decide to book a demo from sales rep. Under this situation, PLG should be a great way for decision makers in the life-science industry. By mentioning PLG, then you can’t ignore a person, Wes Bush, the founder of PLG institute, and his book <code class="language-plaintext highlighter-rouge">PRODUCT - LED GROWTH</code> which was published in 2019, and here are some key takeaways from this book. <br />
 <img src="http://localhost:4000/images/PLG/PLG.jpg" alt="PLG" /></p>
 
@@ -507,21 +507,21 @@ Still, ask yourself a key question before you make the decision about which part
 <p><strong>Four Common Pricing Strategies</strong></p>
 <ol>
   <li>
-    <p>Best-Judgement Pricing
+    <p><strong>Best-Judgement Pricing</strong><br />
 You and your team decide your price based on what you think is reasonable. Best judgement pricing is the <font color="green"><b>least effective pricing strategy</b></font> because you rely on the collective experience of your team, and you make assumptions about what your buyer values and is willing to pay. But, on the other side, it’s easy to <font color="red"><b>sell unprofitable products without knowing it</b></font>.</p>
   </li>
   <li>
-    <p>Cost-Plus Pricing
+    <p><strong>Cost-Plus Pricing</strong><br />
 This is simple, calculate the cost of selling and delivering the product, then add a profit margin on top. But there is one point that everyone can’t just simply ignore it that the margin cost for SaaS is low while you start to supporting a new customer. So, this means you probably <font color="red"><b>say goodbye to your profit potential if you use this strategy</b></font>.</p>
   </li>
-  <li>Competitor-Based Pricing
+  <li><strong>Competitor-Based Pricing</strong><br />
 Find your competitor’s price and decide yours. This is simple too. Sometimes it’s works especially when you <font color="green"><b>have no idea how to decide your price at very beginning</b></font> when you get into a new market. But is strategy also has limitation.
     <ol>
       <li>First, you’re assuming that you sell to the <font color="red"><b>exact same customer</b></font> who has the <font color="red"><b>exact same problem</b></font> that you can solve with your <font color="red"><b>exact same product</b></font>.</li>
       <li>Second, you’re assuming that your competitor do the pricing research, but unfortunately, <font color="red"><b>seven out of ten companies do not do their pricing research</b></font>, you are banking your livelihood on someone else’s guessing game.</li>
     </ol>
   </li>
-  <li>Value-Based Pricing
+  <li><strong>Value-Based Pricing</strong><br />
 Value-based pricing bases your price on the value you provide. You determine this by taking into account how prospects value your product. A significant benefit of value-based pricing is that <font color="green"><b>you'll learn what to include in each package</b></font>.</li>
 </ol>
 
@@ -535,7 +535,7 @@ what they want, but you'll also be able to attract and retain these customers be
                                                                 - CEO if ProfitWell
 </code></pre></div></div>
 
-<p><strong>How to Determine Your Price</strong>
+<p><strong>How to Determine Your Price</strong><br />
 Most businesses whip up a new pricing model in a spreadsheet without talking to a single customer. To avoid bombing with your new pricing model, break down your customer’s perceived value across the three core outcomes your product solves for functional, emotional, and social.</p>
 <ol>
   <li><strong>Option1: Pricing Economic Value Analysis</strong>
@@ -614,25 +614,85 @@ Once you know your <strong>PMC(Point of Marginal Cheapness)</strong> and <strong
 
 <h2 id="deliver-on-your-value">Deliver On Your Value</h2>
 <p>What we promise in our marketing and sales is the perfeived value, What we deliver in our product ios the experienced value. Ideally, the perceived value align with the experienced value.But, most companies struggle with over-promising and under-delivering. The bigger your value gap, the leakier your funnel. <strong>40%-60% of users who sign up for your product will use it once and never come back.</strong><br />
-From the blog <code class="language-plaintext highlighter-rouge">[]The Value Gap Problem Most Companies Have &amp; How to Fix It</code></p>
+From the blog <a href="https://productled.com/blog/value-gap/">The Value Gap Problem Most Companies Have &amp; How to Fix It</a>, the author give us a clear definition for value gap and also point out 4 major symptoms:</p>
+<ol>
+  <li>Campaigns are not performing or under-performing.</li>
+  <li>Conversion rates are low.</li>
+  <li>Churn rate is high.</li>
+  <li>Problems growing user base.</li>
+</ol>
+
+<p>Also, the author tell us about <strong>How to Identify a Company’s Value Gap Problem</strong></p>
+
+<p>Step 1: Step Back and Take a Look
+Ask yourself the following questions,</p>
+<ol>
+  <li>How is my positioning?</li>
+  <li>Does my positioning give the wrong expectations to my users?</li>
+  <li>Is my copy clear?</li>
+  <li>Am I underestimating my product?</li>
+  <li>Am I underselling my product?</li>
+  <li>Is my product now being used for something other than it was initially intended?</li>
+  <li>Should you reposition your product to adopt a new segment?</li>
+</ol>
+
+<p>Step 2: Fresh Users Vs. Power Users
+A Fresh User has no experience with the product or has experienced it for a short time–under 10 minutes, A Power User is a user who has adopted and retained a product. The exact way a Power User uses your product will vary. For instance, some companies will have Power Users that adopt different uses for a product. Others may have extreme brand loyalty, use your products for their needs, and then use online platforms to comment about your products and connect with other users.</p>
 
 <p><a href="https://productled.com/blog/value-gap/"><img src="http://localhost:4000/images/PLG/value_gap.png" alt="value_gap" /></a></p>
 
 <p>There are three main reasons why value gaps are so prominent in the SaaS industry:</p>
 <ol>
-  <li>
-    <p><strong>Your product has serious ability debt.</strong></p>
+  <li><strong>Your product has serious ability debt.</strong>  <br />
+Ability debt is the price you payu every time your user fails to accomplish a key outcome in your product. To chip away at your ability debt, you need to be ruthless about reducing friction, Even non-trivial steps like activation emails can crater your free-to-paid conversion rate. <strong>Try everything you could to let your fresh user accomplish the key outcome at least for 1 time.</strong>  <br />
+When you first launch a free trial or freemium model, you will inevitably have some serve ability debt. It’s expected, however, to improve your experience, you continuously need to look for ways to improve. Ask yourself these questions while going through your product experience:
+    <ol>
+      <li>Does the first product experience lead to a specific, relevant, meaningful “quick win”?</li>
+      <li>Do tooltips and hotspots spur meaningful action in the product, not just point at buttons?</li>
+      <li>Do social and directional cues indicate high-value behaviors?</li>
+      <li>Are key task completions indicated with a success state?</li>
+      <li>Are all unnecessary points of friction and distraction removed from critical workflows?</li>
+    </ol>
   </li>
   <li>
-    <p><strong>You don’t understand why your customers buy.</strong></p>
+    <p><strong>You don’t understand why your customers buy.</strong>  <br />
+If you don’t know where someone wants to go, you can’t help them get there. When it comes to onboarding, most businesses walk you through the entire product but bring you no closer to achieving a meaningful outcome in the product. That isn’t too different than inviting your friends over to your house for dinner and, when they show up, you show them around the house but forget to give them anything to eat. This may sound straightforward, but many businesses don’t know the main outcome that people want to achieve in their product.</p>
+  </li>
+  <li><strong>You over-promise what the solution is capable of.</strong></li>
+</ol>
+
+<p><strong>Deliver the value need teamwork</strong>  <br />
+There is another major point we can’t just ignore is that PLG is not just a plan, it needs you to convince many key stack holders to make it happen. For instance, you wanted to optimize company’s free-trial sign-up page by reducing the number of required form fields, but the sales team demanded that they keep all ten fields, It took you three months to convience the sales director to reduce the number of fields. There’s nothing more disappointing than this, right? Also, launching a free trial or freemium model requires development time, and not finish yet, you still need to sell your product and sales team on why a free trial will help them grow.</p>
+
+<p>Last but not least, even if you do a terrible job understanding and communicating your value , there’s one thing you can do that will keep your business running smoothly: <strong>Deliver on your value</strong>.</p>
+
+<h2 id="common-mistakes-for-plg">Common Mistakes For PLG</h2>
+<p>Most common mistakes for PLG is <strong>Nobody Take the Ownership</strong>  Note that the biggest bottlenecks to optimizing your product-led model have nothing to do with your product - it all comes down to having the right team and process in place. Before you start to build your <code class="language-plaintext highlighter-rouge">tiger team</code>, try to figure out where you can find the right person. There are three ways:</p>
+<ol>
+  <li>
+    <p><strong>Trial and error</strong><br />
+This option can work if you’re self-funded, but it can take a long time to build a high-converting product-led model, and the likelihood of switching back to “the old way” of doing things (SLG only model) is high.</p>
   </li>
   <li>
-    <p><strong>You over-promise what the solution is capable of.</strong></p>
+    <p><strong>Hire the dream team</strong><br />
+This option can work if the stakes are high and you don’t have enough time, however, it has downsides. You will spend lots of time recruiting, training, and getting your new team up to speed.  Finding people with relevant experience is hard.</p>
+  </li>
+  <li>
+    <p><strong>Train your team</strong>  <br />
+This option is the fastest way to get your product-led model up and running. Your current employees are already familiar with your product, know the customers and want to see your customers succeed. This option is highly recommended. In your <code class="language-plaintext highlighter-rouge">tiger team</code>, you need these seven roles work together:</p>
+    <ol>
+      <li>Developer</li>
+      <li>User Experience Designer</li>
+      <li>Product Manager</li>
+      <li>Customer Success Rep</li>
+      <li>Digital Marketer/Inside Sales</li>
+      <li>CEO</li>
+      <li>CPO or CTO</li>
+    </ol>
   </li>
 </ol>
 
-<h2 id="common-mistakes-for-plg">Common Mistakes For PLG</h2>
-<p>TBD</p>
+<p>This tiger team is eventually responsible for building out their own mini-team within your company, so <strong>choose carefully</strong>.</p>
 
 <h1 id="speedup-your-business">Speedup Your Business</h1>
 <p>TBD</p>

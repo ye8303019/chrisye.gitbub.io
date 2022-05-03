@@ -383,21 +383,21 @@ There's no way to avoid this entirely, but you can minimize risk. Look at the nu
 Still, ask yourself a key question before you make the decision about which part should give away for free, **Are you willing to take a short-term dip in revenue for a long-term gain?**
 
 **Four Common Pricing Strategies**
-1. Best-Judgement Pricing
+1. **Best-Judgement Pricing**  
 You and your team decide your price based on what you think is reasonable. Best judgement pricing is the <font color="green"><b>least effective pricing strategy</b></font> because you rely on the collective experience of your team, and you make assumptions about what your buyer values and is willing to pay. But, on the other side, it's easy to <font color="red"><b>sell unprofitable products without knowing it</b></font>.
 
 
-2. Cost-Plus Pricing
+2. **Cost-Plus Pricing**  
 This is simple, calculate the cost of selling and delivering the product, then add a profit margin on top. But there is one point that everyone can't just simply ignore it that the margin cost for SaaS is low while you start to supporting a new customer. So, this means you probably <font color="red"><b>say goodbye to your profit potential if you use this strategy</b></font>.
 
 
-3. Competitor-Based Pricing
+3. **Competitor-Based Pricing**  
 Find your competitor's price and decide yours. This is simple too. Sometimes it's works especially when you <font color="green"><b>have no idea how to decide your price at very beginning</b></font> when you get into a new market. But is strategy also has limitation.
    1. First, you're assuming that you sell to the <font color="red"><b>exact same customer</b></font> who has the <font color="red"><b>exact same problem</b></font> that you can solve with your <font color="red"><b>exact same product</b></font>. 
    2. Second, you're assuming that your competitor do the pricing research, but unfortunately, <font color="red"><b>seven out of ten companies do not do their pricing research</b></font>, you are banking your livelihood on someone else's guessing game.   
 
     
-4. Value-Based Pricing
+4. **Value-Based Pricing**  
 Value-based pricing bases your price on the value you provide. You determine this by taking into account how prospects value your product. A significant benefit of value-based pricing is that <font color="green"><b>you'll learn what to include in each package</b></font>.
 
 
@@ -411,7 +411,7 @@ So, which pricing approach will you take? Let's listen what does Patrick Campbel
                                                                     - CEO if ProfitWell
 
 
-**How to Determine Your Price**
+**How to Determine Your Price**  
 Most businesses whip up a new pricing model in a spreadsheet without talking to a single customer. To avoid bombing with your new pricing model, break down your customer's perceived value across the three core outcomes your product solves for functional, emotional, and social.
 1. **Option1: Pricing Economic Value Analysis**
    1. **Functional Outcome**: 
@@ -507,7 +507,27 @@ There is another major point we can't just ignore is that PLG is not just a plan
 Last but not least, even if you do a terrible job understanding and communicating your value , there's one thing you can do that will keep your business running smoothly: **Deliver on your value**.
 
 ## Common Mistakes For PLG
-TBD
+Most common mistakes for PLG is **Nobody Take the Ownership**  Note that the biggest bottlenecks to optimizing your product-led model have nothing to do with your product - it all comes down to having the right team and process in place. Before you start to build your `tiger team`, try to figure out where you can find the right person. There are three ways:    
+1. **Trial and error**  
+This option can work if you're self-funded, but it can take a long time to build a high-converting product-led model, and the likelihood of switching back to "the old way" of doing things (SLG only model) is high.  
+
+
+2. **Hire the dream team**  
+This option can work if the stakes are high and you don't have enough time, however, it has downsides. You will spend lots of time recruiting, training, and getting your new team up to speed.  Finding people with relevant experience is hard.  
+
+
+
+3. **Train your team**    
+This option is the fastest way to get your product-led model up and running. Your current employees are already familiar with your product, know the customers and want to see your customers succeed. This option is highly recommended. In your `tiger team`, you need these seven roles work together:    
+   1. Developer
+   2. User Experience Designer
+   3. Product Manager
+   4. Customer Success Rep
+   5. Digital Marketer/Inside Sales
+   6. CEO
+   7. CPO or CTO  
+
+This `tiger team` is eventually responsible for building out their own mini-team within your company, so **choose carefully**.
 
 # Speedup Your Business
 TBD
