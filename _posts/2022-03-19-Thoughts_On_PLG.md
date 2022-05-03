@@ -9,7 +9,7 @@ tags: PLG Product Led Growth
 ---
 
 ## Preface
-As the development of the life-science industry around China and global, more and more requirements from drug manufacturers, bio-techs, they really need a platform which could speedup their decision-making process. For some historical reason, until now, most of the platforms in the world are under the TOB model. Customers don't even know what the platform looks like before they decide to book a demo from sales rep. Under this situation, PLG should be a great way for decision makers in the life-science industry. By mentioning PLG, then you can't ignore a person, Wes Bush, the founder of PLG institute, and his book `PRODUCT - LED GROWTH` which was published in 2019, and here are some key takeaways from this book.   
+As the development of the life-science industry around China and global, more and more requirements from drug manufacturers, bio-techs, they really need a platform which could speed up their decision-making process. For some historical reason, until now, most of the platforms in the world are under the TOB model. Customers don't even know what the platform looks like before they decide to book a demo from sales rep. Under this situation, PLG should be a great way for decision makers in the life-science industry. By mentioning PLG, then you can't ignore a person, Wes Bush, the founder of PLG institute, and his book `PRODUCT - LED GROWTH` which was published in 2019, and here are some key takeaways from this book.   
 ![PLG]({{ site.url }}/images/PLG/PLG.jpg)
 
 ## Disclaimer
@@ -62,7 +62,7 @@ Here is an list from OpenView website, it reveal the top companies who are using
 From the book, Wes said `Product-Led Growth is a go-to-market strategy tha relies on using your product as the main vehicle to acquire, activate and retain customers.`   
 As the SaaS industry evolves, there will be two types of companies,    
 * Sales-led companies represent the old way. It's complex, unnecessary, expensive, and all about telling cinsumers how the product will benefit them. These companies want to take you from Point A to Point B in their sales cycle.   
-* Product-led companies flip the traditional sales model on its head. Instead of helping buyers go through a long, drawn-out sales cycle, they give the buyer the "keys" to their product. The company, in turn, focuses on helping the buyer improve their lif. Upgradeing to a paid plan becomes a no-brainer.
+* Product-led companies flip the traditional sales model on its head. Instead of helping buyers go through a long, drawn-out sales cycle, they give the buyer the "keys" to their product. The company, in turn, focuses on helping the buyer improve their lif. Upgrading to a paid plan becomes a no-brainer.
 
 Then we come to an important part which is there are three <font color="red"><b>  Tidal Waves </b></font> coming for subscription business.
 * Startups are more expensive to grow   
@@ -319,7 +319,7 @@ Whatever you agree or not, we are selling an outcome to acquire customers better
    This is the basic outcome that user need from your product. Like using Google Ads to acquire leads and using BI tool to understand the core KPI of the business.
 
 2. Emotional Outcome: how customers want to feel or avoid feeling as a result of executing the core functional outcome
-   Emotional outcome could be someone's feeling after they using the product. For example, user feel empowered when they using  Google Ads found a big leads etc.
+   Emotional outcome could be someone's feeling after they using the product. For example, user feel empowered when they use Google Ads found a big leads etc.
 
 3. Social Outcome: how customers want to be perceived by others by using your product
    For example you show a weekly leads report to your colleagues in fancy charts and structured data, and this makes you more professional in their eyes
@@ -586,7 +586,81 @@ To optimize any business, you need to ask three questions:
 
 
 ## Bowling Alley Framework
-TBD
+[![bowling_alley_framework]({{ site.url }}/images/PLG/bowling_alley_framework.png)](https://www.productled.org/blog/bowling-alley-framework)
+
+The `Bowling Alley Framework` is a powerful onboarding strategy. It's quite like the `Bumper Bowling` which has bumper on both side to prevent the ball from getting into the gutter. **When user get sidetracked or leave the product, it's our duty to bump them back in the right direction. To master the Bowling Alley Framework, you need to do three things:  
+1. **Develop your straight line**  
+A straight line is the shortest distance to get from Point A to Point B. Unlike a sales-led organization, in which the goal is to take people from Point A tro Point B in a sales cycle, we want to take people from PointA to Point B in their lives, THis is done byu letting users try before they buy and doing everything we can to help them experience the value of our product. There also three major things we could do: 
+   1. **Mapping out the path**  
+   In order to check your every step in your freemium or free-trial, you need to map your steps, then you can try to make the product easy to use and remove every unnecessary steps. In the book, the author give us an example, if you are established e-commerce business, and you have several Amazon and eBay stores. You need a product help you to manage all the stores, but after you start using this product, you found you need to integrate with your eBay and Amazon account and stores in around 50 steps. This isn't easy for customer. So, take a screenshot for every step, then star to label them.
+
+   2. **Labeling every checkpoint**
+      1. Green is absolutely necessary
+      2. Yellow is for advanced features that can be introduced later
+      3. Red can be removed completely
+
+   3. **Developing your straight line**  
+   Make the decision, try to simplify your path and make it straightforward. Take the example above, integrate with Amazon account is green, but setup customer signature could be an better to have option at very beginning, it could be yellow, then fulfill your nickname is absolutely red, it can be asked to complete while user make sharing or make some customization progress.
+
+2. **Create a product bumper**  
+Product bumper are mission critical, They help users adopt the product within the application itself. Common product bumpers:
+   1. **Welcome Messages**  
+      1. Welcome messages are your opportunity to greet new users and make them feel invited  
+      2. In addition to saying hello, use them as an opportunity to restate your value proposition  
+      3. Welcome message can also set expectations for what users will experience with your product  
+   2. **Product Tours**  
+      1. Product tours should as users what they're trying to accomplish in the product  
+      2. Product tours should cover important steps that set users up for success with the product  
+      3. High-performing product tours ofer use a focus mode that strips away unnecessary elements  
+      4. Product tours are typically between three and five steps  
+
+   3. **Progress Bars**  
+      1. Effective progress bars start with a substantial percentage of the bar already filled  
+      
+   4. **Checklists**  
+      1. Checklists can motivate new users to complete crucial set-up tasks
+      2. Checklists can turn complex, multi-step processes into simple, achievable tasks
+      3. Onboarding checklists employ the [Endowed Progress and Zeigarnik Effect](https://zapier.com/blog/endowed-progress-effect/)
+         1. **Endowed Progress**  
+         If you provide some type of artificial advancement toward a goal, a person will be more motivated to complete the goal
+         2. **Zeigarnik Effect**  
+         Basically, not finishing a task or tying up loose ends can be really bothersome, nagging at us until we complete it. Researchers call this task tension. It’s that nagging feeling that helps someone stay the course until they’ve achieved the goal and can relieve that tension
+   5. **Onboarding Tooltips**  
+      1. Use onboarding tooltips to guide users toward experiencing meaningful value in the product
+      2. People do not use software because they have tons of spare time and love to click buttons
+      
+   6. **Empty States**  
+      1. Empty states are useful for when a user first lands on a product's dashboard
+      2. Empty states should prompt users to take an action that will lead them closer to experiencing meaningful value in the product
+
+5. **Build a conversational bumper**  
+Conversational bumpers work to educate users, bring them back into the application, and eventually upgrade their account. Common product bumpers:
+   1. **User Onboarding Emails**  
+      1. **Welcome Emails**  
+      2. **Usage Tips**  
+         1. Usage-tip emails nudge users to take steps in the product that set them up for success  
+         2. The best usage tops are trigger-based and sent out once you do or don't complete an onboarding task  
+      3. **Sales Touches**  
+         1. The sweet spot for spending sales-touch emails is as soon as someone experiences meaningful value ion your product
+         2. Craft sales-touch emails to help users get more value out of the platform
+      4. **Case Study**  
+         1. Use cas-study emails to combat objections that users might have before they enter the buying phase  
+         2. Make sure that each case-study email answers "What's in it for me?" for users  
+      5. **Better Life**  
+         1. Better-life emails showcase the benefits of your product  
+         2. The call to action can ask users to upgrade or help users experience product benefits for themselves
+      6. **Post-Trail Survey**  
+         1. Too expensive -> Provide a one-time discount  
+         2. Went with another solution -> Send top-of-funnel lead-nurturing emails to stay top-of-mind if the other service doesn't work out  
+         3. Just doing research -> Add to nurture  
+         4. Missing product feature or integration -> See if it's in your product roadmap; if so, let them know whe it's alive  
+      7. **Expiry Warning/Trail Extension**  
+         1. You must send expiry emails if you have an opt-out free trial. If you don't, users will forget they signed up and get amd when they get charged for product they haven't been using
+         2. Restate your value proposition in each expiry email to create a compelling reason for users to upgrade
+         3. Make it incredibly easy for someone to upgrade in the expiry email
+   2. **Push Notifications**
+   3. **Explainer Videos**
+   4. **Direct Email**
 
 ## Increase ARPU
 TBD
@@ -617,6 +691,8 @@ Reference:
 [https://www.wrike.com/price-vo/](https://www.wrike.com/price-vo/)
 [https://www.business2community.com/strategy/saas-growth-the-triple-a-sprint-framework-that-gets-results-02215370](https://www.business2community.com/strategy/saas-growth-the-triple-a-sprint-framework-that-gets-results-02215370)
 [https://saasboomi.com/the-why-what-and-how-of-product-led-growth-strategy-a-cheat-sheet/](https://saasboomi.com/the-why-what-and-how-of-product-led-growth-strategy-a-cheat-sheet/)
+[https://www.productled.org/blog/bowling-alley-framework](https://www.productled.org/blog/bowling-alley-framework)
+[https://zapier.com/blog/endowed-progress-effect/](https://zapier.com/blog/endowed-progress-effect/)
 
 
 
