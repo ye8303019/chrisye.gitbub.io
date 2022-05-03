@@ -445,9 +445,9 @@ Basing your pricing on market and customer research is one of the best ways to u
 1. Value Metric (Please refer to [Understand Your Value](#understand-your-value))
 2. Willingness to pay for all packages
 3. Valued features
-   1. Leaders: "are the hamburger in your McDonald's value meal; they are what everyone wants and comes to you to buy. These must be included in all packages"
-   2. Fillers: "are the fries and coke. They are seen as nice-to-have and sweeten the deal. Customers will cherry-pick fillers when sold à la carte, and so a bundle helps drive uptake and a higher average revenue per user"
-   3. Bundle killers: "are the coffee of your value meal. Few people want a value meal with a burger, fries, coke and a coffee, and adding coffee to the value meal might even turn people off from buying entirely because they'd end up with more than they need."
+   1. **Leaders**: "are the hamburger in your McDonald's value meal; they are what everyone wants and comes to you to buy. These must be included in all packages"
+   2. **Fillers**: "are the fries and coke. They are seen as nice-to-have and sweeten the deal. Customers will cherry-pick fillers when sold à la carte, and so a bundle helps drive uptake and a higher average revenue per user"
+   3. **Bundle killers**: "are the coffee of your value meal. Few people want a value meal with a burger, fries, coke and a coffee, and adding coffee to the value meal might even turn people off from buying entirely because they'd end up with more than they need."
 4. Demographic Information
    1. It allows your audience to self-segment quicker
    2. It helps you prioritize the features and benefits that are most valuable to the target audience
@@ -461,7 +461,50 @@ Basing your pricing on market and customer research is one of the best ways to u
 [![wrike_price]({{ site.url }}/images/PLG/wrike_price.png)](https://www.wrike.com/price-vo/)
 
 ## Deliver On Your Value
-TBD
+What we promise in our marketing and sales is the perfeived value, What we deliver in our product ios the experienced value. Ideally, the perceived value align with the experienced value.But, most companies struggle with over-promising and under-delivering. The bigger your value gap, the leakier your funnel. **40%-60% of users who sign up for your product will use it once and never come back.**  
+From the blog [The Value Gap Problem Most Companies Have & How to Fix It](https://productled.com/blog/value-gap/), the author give us a clear definition for value gap and also point out 4 major symptoms:    
+1. Campaigns are not performing or under-performing.
+2. Conversion rates are low.
+3. Churn rate is high.
+4. Problems growing user base.
+
+Also, the author tell us about **How to Identify a Company's Value Gap Problem**    
+
+Step 1: Step Back and Take a Look
+Ask yourself the following questions,
+1. How is my positioning?
+2. Does my positioning give the wrong expectations to my users?
+3. Is my copy clear?
+4. Am I underestimating my product?
+5. Am I underselling my product?
+6. Is my product now being used for something other than it was initially intended?
+7. Should you reposition your product to adopt a new segment?
+
+Step 2: Fresh Users Vs. Power Users
+A Fresh User has no experience with the product or has experienced it for a short time–under 10 minutes, A Power User is a user who has adopted and retained a product. The exact way a Power User uses your product will vary. For instance, some companies will have Power Users that adopt different uses for a product. Others may have extreme brand loyalty, use your products for their needs, and then use online platforms to comment about your products and connect with other users.
+
+[![value_gap]({{ site.url }}/images/PLG/value_gap.png)](https://productled.com/blog/value-gap/)
+
+There are three main reasons why value gaps are so prominent in the SaaS industry:
+1. **Your product has serious ability debt.**    
+Ability debt is the price you payu every time your user fails to accomplish a key outcome in your product. To chip away at your ability debt, you need to be ruthless about reducing friction, Even non-trivial steps like activation emails can crater your free-to-paid conversion rate. **Try everything you could to let your fresh user accomplish the key outcome at least for 1 time.**    
+When you first launch a free trial or freemium model, you will inevitably have some serve ability debt. It's expected, however, to improve your experience, you continuously need to look for ways to improve. Ask yourself these questions while going through your product experience:
+   1. Does the first product experience lead to a specific, relevant, meaningful "quick win"?
+   2. Do tooltips and hotspots spur meaningful action in the product, not just point at buttons?
+   3. Do social and directional cues indicate high-value behaviors?
+   4. Are key task completions indicated with a success state?
+   5. Are all unnecessary points of friction and distraction removed from critical workflows?
+
+
+2. **You don't understand why your customers buy.**    
+If you don't know where someone wants to go, you can't help them get there. When it comes to onboarding, most businesses walk you through the entire product but bring you no closer to achieving a meaningful outcome in the product. That isn't too different than inviting your friends over to your house for dinner and, when they show up, you show them around the house but forget to give them anything to eat. This may sound straightforward, but many businesses don't know the main outcome that people want to achieve in their product.
+
+3. **You over-promise what the solution is capable of.**    
+
+**Deliver the value need teamwork**    
+There is another major point we can't just ignore is that PLG is not just a plan, it needs you to convince many key stack holders to make it happen. For instance, you wanted to optimize company's free-trial sign-up page by reducing the number of required form fields, but the sales team demanded that they keep all ten fields, It took you three months to convience the sales director to reduce the number of fields. There's nothing more disappointing than this, right? Also, launching a free trial or freemium model requires development time, and not finish yet, you still need to sell your product and sales team on why a free trial will help them grow.
+
+Last but not least, even if you do a terrible job understanding and communicating your value , there's one thing you can do that will keep your business running smoothly: **Deliver on your value**.
 
 ## Common Mistakes For PLG
 TBD
@@ -499,6 +542,9 @@ Reference:
 [https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7](https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=304158de55c7)
 [https://baremetrics.com/blog/marginal-cost-why-you-need-to-know-it](https://baremetrics.com/blog/marginal-cost-why-you-need-to-know-it)
 [https://www.priceintelligently.com/blog/bid/195287/the-value-metric-optimize-your-pricing-strategy-for-high-growth](https://www.priceintelligently.com/blog/bid/195287/the-value-metric-optimize-your-pricing-strategy-for-high-growth)
+[https://www.canva.com/pricing/](https://www.canva.com/pricing/)
+[https://www.smartsheet.com/pricing](https://www.smartsheet.com/pricing)
+[https://www.wrike.com/price-vo/](https://www.wrike.com/price-vo/)
 
 
 
