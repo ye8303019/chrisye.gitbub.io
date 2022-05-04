@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thoughts On PLG (Continuously Updated)"
+title:  "Thoughts On PLG"
 description:  "Some reading notes of Product Led Growth (PLG) book, put them in structure format and also with more explanation from personal perspective"
 date:   2022-03-19 22:15:11 +0800
 author: Ye Zhongkai
