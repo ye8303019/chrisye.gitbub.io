@@ -778,7 +778,7 @@ Here's a hypothetical situation:
 
 
 # Summary
-TBD
+PLG is not a silver bullet for sure. If you are running an SLG product and try to turn it into PLG + SLG model, or you are just running a brand-new product and try to acquire your first group of users, and may be keep finding your power users as well. PLG is a great idea for you. Whatever freemium, free-trial or demo, you need to take the actions by yourself and keep adjusting the goal, keep crunching the number, and most importantly is keep asking yourself if your product delivers the value to your customers?
 
 Reference:  
 [https://productled.com/book/](https://productled.com/book/)    
