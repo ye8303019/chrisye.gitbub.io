@@ -14,7 +14,7 @@ As the development of the life-science industry around China and global, more an
 
 ## Disclaimer
 This article is inspired by book `PRODUCT-LED GROWTH`, also, most of the concepts for PLG in this article comes from the book too, and this blog won't be commercial used for any purpose, if you like PLG, please redirect to  [Product Led Growth](https://productled.com/book/)  or  [Wes Bush's Twitter](https://twitter.com/wes_bush?lang=en)  to check for more details.  
-For the company snapshot which been used in this blog, then I would love to proudly introduce my product - `Discovery` to you which perfectly match the need of R&D decision makers. For more information, please refer to [Discovery](https://www.patsnap.com/solutions/rd-intelligence/)
+For the company snapshot which been used in this blog, then I would love to proudly introduce my product - `Discovery` to you which perfectly match the need of R&D decision makers. For more information, please refer to [Discovery](https://www.patsnap.com/solutions/rd-intelligence/)  
 
 ## Outlines
 * [Design Your Strategy](#design-your-strategy)
@@ -59,7 +59,7 @@ And from their investment industry distribution, it's not a surprise to get that
 Here is an list from OpenView website, it reveal the top companies who are using PLG to boost their business.
 [![openview.plg_list]({{ site.url }}/images/PLG/openview_plg_list.png)](https://openviewpartners.com/product-led-growth-index/)
 
-From the book, Wes said `Product-Led Growth is a go-to-market strategy tha relies on using your product as the main vehicle to acquire, activate and retain customers.`   
+From the book, Wes said `Product-Led Growth is a go-to-market strategy that relies on using your product as the main vehicle to acquire, activate and retain customers.`   
 As the SaaS industry evolves, there will be two types of companies,    
 * Sales-led companies represent the old way. It's complex, unnecessary, expensive, and all about telling cinsumers how the product will benefit them. These companies want to take you from Point A to Point B in their sales cycle.   
 * Product-led companies flip the traditional sales model on its head. Instead of helping buyers go through a long, drawn-out sales cycle, they give the buyer the "keys" to their product. The company, in turn, focuses on helping the buyer improve their lif. Upgrading to a paid plan becomes a no-brainer.
