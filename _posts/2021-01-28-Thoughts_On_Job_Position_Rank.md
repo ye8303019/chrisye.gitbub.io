@@ -3,7 +3,7 @@ layout: post
 title:  "Thoughts On Job Position Rank"
 date:   2021-01-28 21:15:11 +0800
 author: Ye Zhongkai
-categories: Creative Article
+categories: Original Article
 tags: Job Position Rank Carrier 
 ---
 

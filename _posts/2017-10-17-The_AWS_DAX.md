@@ -3,7 +3,7 @@ layout: post
 title:  "The AWS DAX"
 date:   2017-10-17 11:42:11 +0800
 author: Ye Zhongkai
-categories: Creative Article
+categories: Original Article
 tags: aws development dax
 ---
 

@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01ca0e05-2d64-4eb4-84c8-91082c65edcf" name="Default" comment="Git Introduction">
+    <list default="true" id="01ca0e05-2d64-4eb4-84c8-91082c65edcf" name="Default" comment="Feature [PDLS-XXX] - This is an new feature [已自测]&#10;Fix [PDLS-XXX] - This is a bug fix [已自测]&#10;Improvement [{IssueId}] - This is an improvement [已自测]&#10;Release [PBI-XXX] - This is to release an new version [已自测]">
+      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/18/fea441121dd6d5898a344b1756be3affdca0b5dfee100097383bf5c86f1475" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/67/b74afb59505573aacf41eb7c56aeaaafa876bca1e04d626aa1b945ad908bf4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/a8/b5c7831b9412c8cdc53c8a2a03204b4c909b1a007f1ea37f3e9484c1b4dbe8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/fc/084f2d82aa1e251a0780a09320b8b286b6fd9629b3272882eccf0b7bd85768" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2022-10-01-Thoughts_On_Software_Development_Productivity .md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/cover_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/software_productivity/image_9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/9c/7e2f038d035b90fe4a7503cbcc26ad2819b9df00f376347dbd79684f39491e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-09-10-The_CMS_G1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-09-10-The_CMS_G1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_DynamoDB.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_DynamoDB.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_S3.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_S3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_SQS.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-09-18-The_AWS_SQS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-10-17-The_AWS_DAX.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-10-17-The_AWS_DAX.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-12-23-Getting_Start_With_GraphQL_For_Java.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-12-23-Getting_Start_With_GraphQL_For_Java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-01-EnterpriseReady_&amp;_growth_hacker.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-01-EnterpriseReady_&amp;_growth_hacker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-12-Git Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-12-Git Introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-01-28-Thoughts_On_Job_Position_Rank.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-01-28-Thoughts_On_Job_Position_Rank.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +128,12 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/_posts/2017-09-18-The_AWS_SQS.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/_posts/2017-09-18-The_AWS_S3.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/_posts/2017-09-18-The_AWS_DynamoDB.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/_posts/2017-09-10-The_CMS_G1.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -274,7 +316,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/PLG" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/software_productivity" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -284,11 +326,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Work\work\PatSnap Projects\chrisye.gitbub.io\images\PLG" />
+      <recent name="C:\Work\work\PatSnap Projects\chrisye.gitbub.io\images\software_productivity" />
       <recent name="C:\Work\work\PatSnap Projects\chrisye.gitbub.io\_posts" />
+      <recent name="C:\Work\work\PatSnap Projects\chrisye.gitbub.io\images\PLG" />
       <recent name="C:\development\IdeaProjects\chrisye.gitbub.io\_posts" />
       <recent name="C:\development\IdeaProjects\chrisye.gitbub.io\images\wechat_services" />
-      <recent name="C:\development\IdeaProjects\chrisye.gitbub.io\images\drug_discovery" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Work\work\PatSnap Projects\chrisye.gitbub.io\_posts" />

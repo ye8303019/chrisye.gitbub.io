@@ -3,7 +3,7 @@ layout: post
 title:  "Thoughts On EnterpriseReady"
 date:   2018-05-01 10:00:11 +0800
 author: Ye Zhongkai
-categories: Creative Article
+categories: Original Article
 tags: EnterpriseReady SaaS TOB TOC
 ---
 

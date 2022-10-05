@@ -3,7 +3,7 @@ layout: post
 title:  "Getting Start With GraphQL for Java"
 date:   2017-12-22 11:42:11 +0800
 author: Ye Zhongkai
-categories: Creative Article
+categories: Original Article
 tags: GraphQL java
 ---
 

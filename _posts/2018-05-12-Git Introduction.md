@@ -3,7 +3,7 @@ layout: post
 title:  "Git Introduction"
 date:   2018-05-12 9:00:11 +0800
 author: Ye Zhongkai
-categories: Creative Article
+categories: Original Article
 tags: Git GIT
 ---
 
