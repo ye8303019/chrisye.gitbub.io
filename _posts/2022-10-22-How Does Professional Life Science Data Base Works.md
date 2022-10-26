@@ -13,30 +13,59 @@ tags: Life Science database
 
 ## 声明
 文章内容中的涉及的一些行业数据来源来自于中信银行，量子位等网络优质资源。本文章仅仅用于学习与分享，不用作任何商业用途。
+![slide1]({{ site.url }}/images/ls_database/Slide1.PNG)  
 
-![slide2]({{ site.url }}/images/ls_database/Slide2.PNG)
-![slide3]({{ site.url }}/images/ls_database/Slide3.PNG)
-![slide4]({{ site.url }}/images/ls_database/Slide4.PNG)
-![slide5]({{ site.url }}/images/ls_database/Slide5.PNG)
-![slide6]({{ site.url }}/images/ls_database/Slide6.PNG)
-![slide7]({{ site.url }}/images/ls_database/Slide7.PNG)
-![slide8]({{ site.url }}/images/ls_database/Slide8.PNG)
-![slide9]({{ site.url }}/images/ls_database/Slide9.PNG)
-![slide10]({{ site.url }}/images/ls_database/Slide10.PNG)
-![slide11]({{ site.url }}/images/ls_database/Slide11.PNG)
-![slide12]({{ site.url }}/images/ls_database/Slide12.PNG)
-![slide13]({{ site.url }}/images/ls_database/Slide13.PNG)
-![slide14]({{ site.url }}/images/ls_database/Slide14.PNG)
-![slide15]({{ site.url }}/images/ls_database/Slide15.PNG)
-![slide16]({{ site.url }}/images/ls_database/Slide16.PNG)
-![slide17]({{ site.url }}/images/ls_database/Slide17.PNG)
-![slide18]({{ site.url }}/images/ls_database/Slide18.PNG)
-![slide19]({{ site.url }}/images/ls_database/Slide19.PNG)
-![slide20]({{ site.url }}/images/ls_database/Slide20.PNG)
-![slide21]({{ site.url }}/images/ls_database/Slide21.PNG)
-![slide22]({{ site.url }}/images/ls_database/Slide22.PNG)
-![slide23]({{ site.url }}/images/ls_database/Slide23.PNG)
-![slide24]({{ site.url }}/images/ls_database/Slide24.PNG)
-![slide25]({{ site.url }}/images/ls_database/Slide25.PNG)
-![slide26]({{ site.url }}/images/ls_database/Slide26.PNG)
+![slide2]({{ site.url }}/images/ls_database/Slide2.PNG)  
+
+![slide3]({{ site.url }}/images/ls_database/Slide3.PNG)  
+
+![slide4]({{ site.url }}/images/ls_database/Slide4.PNG)  
+
+![slide5]({{ site.url }}/images/ls_database/Slide5.PNG)  
+
+![slide6]({{ site.url }}/images/ls_database/Slide6.PNG)  
+
+![slide7]({{ site.url }}/images/ls_database/Slide7.PNG)  
+
+![slide8]({{ site.url }}/images/ls_database/Slide8.PNG)  
+
+![slide9]({{ site.url }}/images/ls_database/Slide9.PNG)  
+
+![slide10]({{ site.url }}/images/ls_database/Slide10.PNG)  
+
+![slide11]({{ site.url }}/images/ls_database/Slide11.PNG)  
+
+![slide12]({{ site.url }}/images/ls_database/Slide12.PNG)  
+
+![slide13]({{ site.url }}/images/ls_database/Slide13.PNG)  
+
+![slide14]({{ site.url }}/images/ls_database/Slide14.PNG)  
+
+![slide15]({{ site.url }}/images/ls_database/Slide15.PNG)  
+
+![slide16]({{ site.url }}/images/ls_database/Slide16.PNG)  
+
+![slide17]({{ site.url }}/images/ls_database/Slide17.PNG)  
+
+![slide18]({{ site.url }}/images/ls_database/Slide18.PNG)  
+
+![slide19]({{ site.url }}/images/ls_database/Slide19.PNG)  
+
+![slide20]({{ site.url }}/images/ls_database/Slide20.PNG)  
+
+![slide21]({{ site.url }}/images/ls_database/Slide21.PNG)  
+
+![slide22]({{ site.url }}/images/ls_database/Slide22.PNG)  
+
+![slide23]({{ site.url }}/images/ls_database/Slide23.PNG)  
+
+![slide24]({{ site.url }}/images/ls_database/Slide24.PNG)  
+
+![slide25]({{ site.url }}/images/ls_database/Slide25.PNG)  
+
+![slide26]({{ site.url }}/images/ls_database/Slide26.PNG)  
+
+![slide27]({{ site.url }}/images/ls_database/Slide27.PNG)  
+
+![slide28]({{ site.url }}/images/ls_database/Slide28.PNG)
 
