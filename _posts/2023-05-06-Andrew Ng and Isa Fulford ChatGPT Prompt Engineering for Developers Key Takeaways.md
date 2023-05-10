@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Andrew Ng and Isa Fulford ChatGPT Prompt Engineering for Developers Key takeaways"
+title:  "Andrew Ng and Isa Fulford ChatGPT Prompt Engineering for Developers Key Takeaways"
 description:  "Andrew Ng and Isa Fulford ChatGPT Prompt Engineering for Developers Key takeaways"
 date:  2023-05-06 06:15:11 +0800
 author: Ye Zhongkai
