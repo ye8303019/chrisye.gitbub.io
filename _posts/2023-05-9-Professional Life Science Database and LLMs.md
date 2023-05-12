@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Professional Life Science Database & LLMs"
+title:  "Professional Life Science Database and LLMs"
 description:  "生物医药专业数据库是什么，解决什么问题，和大语言模型的结合有哪些场景"
 date:  2023-05-09 06:15:11 +0800
 author: Ye Zhongkai
