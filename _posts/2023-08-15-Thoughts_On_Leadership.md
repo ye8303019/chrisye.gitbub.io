@@ -7,7 +7,7 @@ author: Ye Zhongkai
 categories: Original Article
 tags: Leadership 
 ---
-![leadership]({{ site.url }}/images/leadership/leadership.PNG)
+![leadership]({{ site.url }}/images/leadership/leadership.png)
 
 #### PDF Version Download 
 <a href="{{ site.url }}/images/leadership/leadership.pdf" target="_blank">Thoughts On Leadership.pdf</a>
