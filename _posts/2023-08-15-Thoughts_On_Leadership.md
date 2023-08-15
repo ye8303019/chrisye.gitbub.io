@@ -9,4 +9,7 @@ tags: Leadership
 ---
 ![leadership]({{ site.url }}/images/leadership/leadership.PNG)
 
+#### PDF Version Download 
+<a href="{{ site.url }}/images/leadership/leadership.pdf" target="_blank">Thoughts On Leadership.pdf</a>
+
 
