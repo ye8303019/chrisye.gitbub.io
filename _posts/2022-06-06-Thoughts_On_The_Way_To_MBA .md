@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thoughts On the Way to MBA"
+title:  "Thoughts On the Way to MBA(Draft)"
 description:  "在5月份，收到了复旦 MBA 的拟录取通知，一年的努力总算有了结果，开心之余，也希望通过博客，能够记录下来备考这一年的经历和思考"
 date:   2022-06-06 22:15:11 +0800
 author: Ye Zhongkai
